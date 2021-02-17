@@ -1,0 +1,11 @@
+{
+  "itemName" : "rs_stone",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_stone.png",
+  "shortdescription" : "Red Sea Stone",
+  "description" : "It doesn't paint the way you think it will.",
+
+  "materialId" : 627
+}

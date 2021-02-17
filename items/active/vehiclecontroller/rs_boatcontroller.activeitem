@@ -1,0 +1,34 @@
+{
+  "itemName" : "rs_boatcontroller",
+  "level" : 1,
+  "price" : 50000,
+  "rarity" : "Legendary",
+  "category" : "vehicleController",
+  "description" : "Create a large boat from stored nanites.",
+  "shortdescription" : "Red Sea Boat Controller",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : ["vehiclecontroller"],
+
+  "animation" : "vehiclecontroller.animation",
+  "scripts" : ["vehiclecontroller.lua"],
+  "animationScripts" : ["vehiclecursor.lua"],
+  "filled" : true,
+  "tooltipKind" : "vehicle",
+  "largeImage" : "rsboat.png",
+
+  "respawnTime" : 1.0,
+
+  //=============Item specifc bits.
+  "vehicleType" : "rs_embarcacion",
+  "vehicleBoundingBox" : [-2.25, -2.25, 2.25, 2.25],
+  "vehicleImage" : "/vehicles/rs_embarcacion/rs_warp.png:warp.3",
+
+  "animationParts" : {
+    "casing" : "rs_boatcontroller.png"
+  },
+
+  "inventoryIcon" : "rs_boatcontroller.png:full",
+  "emptyInventoryIcon" : "/items/active/vehiclecontroller/rs_boatcontroller.png:empty",
+  "filledInventoryIcon" : "/items/active/vehiclecontroller/rs_boatcontroller.png:full"
+}

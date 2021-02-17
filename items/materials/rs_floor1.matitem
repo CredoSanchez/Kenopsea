@@ -1,0 +1,11 @@
+{
+  "itemName" : "rs_floor1",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_floor1.png",
+  "shortdescription" : "Red Sea Floor",
+  "description" : "Heavy stones cover this path.",
+
+  "materialId" : 638
+}

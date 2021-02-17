@@ -1,0 +1,15 @@
+{
+  "itemName" : "rs_slopedred",
+  "price" : 10,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_slopedred.png",
+  "shortdescription" : "Red Sea Metal Plating",
+  "description" : "Sturdy metal panelling that has been rusted with age.",
+  "glitchdescription" : "Eager. I am sure with some elbow grease, this metal panelling could be cleared up.",
+  "florandescription" : "Floran wantsss to make ssspears out of rusty metal.",
+  "novakiddescription" : "Some 'ol metal panels covered in rust.",
+
+  "materialId" : 636,
+  "learnBlueprintsOnPickup" : [ "rs_slopedred" ]
+}
