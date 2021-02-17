@@ -1,0 +1,20 @@
+{
+  "materialId" : 639,
+  "materialName" : "rs_platform",
+  "collisionKind" : "platform",
+  "itemDrop" : "rs_platform",
+  "shortdescription" : "Red Sea Platform",
+  "description" : "Strong platforms.",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_platform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "materialId" : 630,
+  "materialName" : "rs_cablehorizontal",
+  "particleColor" : [84, 82, 85, 255],
+  "itemDrop" : "rs_cablehorizontal", 
+  "shortdescription" : "Cable Horizontal",
+  
+  "description" : "Strong cable.",
+
+  "footstepSound" : "/sfx/blocks/footstep_metal.ogg",
+  "health" : 10,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_cablehorizontal.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 70
+  }
+}

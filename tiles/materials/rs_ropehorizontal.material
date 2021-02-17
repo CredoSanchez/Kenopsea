@@ -1,0 +1,23 @@
+{
+  "materialId" : 628,
+  "materialName" : "rs_ropehorizontal",
+  "particleColor" : [84, 82, 85, 255],
+  "itemDrop" : "rs_ropehorizontal", 
+  "shortdescription" : "Rope Horizontal",
+  
+  "description" : "Strong rope.",
+
+  "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
+  "health" : 8,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_ropehorizontal.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 70
+  }
+}

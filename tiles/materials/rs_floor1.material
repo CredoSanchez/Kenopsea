@@ -1,0 +1,23 @@
+{
+  "materialId" : 638,
+  "materialName" : "rs_floor1",
+  "particleColor" : [84, 82, 85, 255],
+  "itemDrop" : "rs_floor1", 
+  "shortdescription" : "Red Sea Floor",
+  
+  "description" : "Heavy stone tiles line this floor.",
+
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 8,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_floor1.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 90
+  }
+}

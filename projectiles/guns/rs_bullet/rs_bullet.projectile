@@ -1,0 +1,17 @@
+{
+  "projectileName" : "rs_bullet",
+  "image" : "rs_bullet.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletimpactexplosion/bulletimpactexplosion.config"
+    }
+  ],
+  "power" : 25.0,
+  "speed" : 150,
+  "damageKind" : "default"
+}

@@ -1,0 +1,30 @@
+{
+  "projectileName" : "impactexplosion",
+  "image" : "impactexplosion.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "speed" : 0,
+  "fullbright" : true,
+  "damagePoly" : [ [-18, 0], [-12, -12], [0, -18], [12, -12], [18, 0], [12, 12], [0, 18], [-12, 12] ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/fireexplosionknockback.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "fireexplosionknockback",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.1,
+      "angleAdjust" : 1
+    }
+  ],
+  "power" : 5.0,
+  "animationLoops" : false,
+  "orientationLocked" : true,
+  "piercing" : true,
+  "bounces" : -1,
+  "flippable" : true,
+    // "damageTeam" : { "type" : "indiscriminate" },
+  "damageKind" : "fire"
+}

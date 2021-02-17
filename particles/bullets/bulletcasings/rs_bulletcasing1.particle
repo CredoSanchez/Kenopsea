@@ -1,0 +1,19 @@
+{
+  "kind" : "rs_bulletcasing1",
+  "definition" : {
+    "type" : "animated",
+    "animation" : "/animations/bulletcasings/rs_bulletcasing1.animation",
+	"position" : [0, 0],
+	"size" : 1.0,
+    "fade" : 1.5,
+    "initialVelocity" : [-5, 2.0],
+    "finalVelocity" : [0, -40.0],
+    "approach" : [5, 20],
+    "timeToLive" : 2.5,
+    "layer" : "front",
+    "collidesForeground" : true,
+    "variance" : {
+      "initialVelocity" : [2, 2]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "materialId" : 624,
+  "materialName" : "rs_logvertical",
+  "particleColor" : [84, 82, 85, 255],
+  "itemDrop" : "rs_logvertical", 
+  "shortdescription" : "Log Vertical",
+  
+  "description" : "A strong wooden beam.",
+
+  "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
+  "health" : 8,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_logvertical.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 73
+  }
+}

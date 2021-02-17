@@ -1,0 +1,23 @@
+{
+  "materialId" : 631,
+  "materialName" : "rs_cablevertical",
+  "particleColor" : [84, 82, 85, 255],
+  "itemDrop" : "rs_cablevertical", 
+  "shortdescription" : "Cable Vertical",
+  
+  "description" : "Strong cable.",
+
+  "footstepSound" : "/sfx/blocks/footstep_metal.ogg",
+  "health" : 10,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_cablevertical.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 70
+  }
+}

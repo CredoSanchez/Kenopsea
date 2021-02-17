@@ -1,0 +1,23 @@
+{
+  "materialId" : 623,
+  "materialName" : "rs_loghorizontal",
+  "particleColor" : [84, 82, 85, 255],
+  "itemDrop" : "rs_loghorizontal", 
+  "shortdescription" : "Log Horizontal",
+  
+  "description" : "A strong wooden beam.",
+
+  "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
+  "health" : 8,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_loghorizontal.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 75
+  }
+}

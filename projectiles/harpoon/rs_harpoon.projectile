@@ -1,0 +1,41 @@
+{
+  "projectileName" : "rs_harpoon",
+  "physics" : "underwaterarrow",
+  "image" : "rs_harpoon.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "piercing" : false,
+  "timeToLive" : 5,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/arrowexplosion/arrowexplosion.config"
+    }
+  ],
+  "periodicActions" : [
+    {
+      "time" : 0.00001,
+      "repeat" : true,
+      "action" : "particle",
+      "size" : 0.1,
+      "rotate" : true,
+      "specification" : {
+        "type" : "animated",
+        "animation" : "/animations/harpoontrail/harpoontrail.animation",
+        "initialVelocity" : [0.0, 0.0],
+		"finalVelocity" : [0.0, -50.0],
+        "timeToLive" : 0.1,
+        "fullbright" : false,
+        "destructionTime" : 1.0,
+        "destructionAction" : "shrink",
+        "fade" : 0.01,
+        "layer" : "middle",
+        "position" : [-3.0, 0.0]
+      }
+    }
+  ],
+  "power" : 20,
+  "speed" : 75,
+  "knockback" : 5,
+  "damageKind" : "bow"
+}

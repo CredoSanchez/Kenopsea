@@ -1,0 +1,23 @@
+{
+  "materialId" : 626,
+  "materialName" : "rs_plankvertical",
+  "particleColor" : [84, 82, 85, 255],
+  "itemDrop" : "rs_plankvertical", 
+  "shortdescription" : "Log Vertical",
+  
+  "description" : "Solid wooden planks.",
+
+  "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
+  "health" : 4,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_plankvertical.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 70
+  }
+}

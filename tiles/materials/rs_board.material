@@ -1,0 +1,25 @@
+{
+  "materialId" : 640,
+  "materialName" : "rs_board",
+  "particleColor" : [89, 127, 52, 255],
+  "itemDrop" : "rs_board",
+  "description" : "Expertly treated wood.",
+  "shortdescription" : "Red Sea Wood",
+  "glitchDescription" : "Amazed. This wood was specially treated by a master craftsman.",
+  "floranDescription" : "Floran likess sspecial treated wood.",
+  "novakidDescription" : "This wood looks like it's been treated with somethin'.",
+  "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
+  "health" : 8,
+  "category" : "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_board.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 76
+  }
+}

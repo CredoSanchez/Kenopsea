@@ -1,0 +1,23 @@
+{
+  "materialId" : 633,
+  "materialName" : "rs_window2",
+  "particleColor" : [84, 82, 85, 255],
+  "itemDrop" : "rs_window2", 
+  "shortdescription" : "Metal Window",
+  
+  "description" : "Solid metal windows to gaze through.",
+
+  "footstepSound" : "/sfx/blocks/footstep_metal.ogg",
+  "health" : 10,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_window2.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 70
+  }
+}
