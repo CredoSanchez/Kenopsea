@@ -1,0 +1,106 @@
+{
+  "itemName" : "rs_shotgun",
+  "price" : 20000,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A brutal shotgun firing dual slugs.",
+  "shortdescription" : "sikloʊ",
+  "tooltipKind" : "gun",
+  "category" : "uniqueWeapon",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged"],
+  
+  "fixedLevel" : false,
+
+  "inventoryIcon" : [
+    { "image" : "rs_shotgunicon.png" }
+  ],
+
+  "animation" : "rs_shotgun.animation",
+  "animationParts" : {
+    "middle" : "rs_shotgun.png",
+	"middlefullbright" : "rs_shotgunlit.png",
+    "muzzleFlash" : "/animations/muzzleflash/tempmuzzle/rs_tempmuzzle.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/burstshot1.ogg" ]
+    },
+	"particleEmitters" : {
+      "muzzleFlash" : {
+	    "transformationGroups" : ["weapon"],
+		"offsetRegion" : [0.16, 0.25, 0.16, 0.25],
+        "particles" : [
+          { "particle" : "rs_bulletcasing2", "offset" : [0.75, 0.25] },
+		  { "particle" : "rs_breaksmoke", "offset" : [0, 0] },
+		  { "particle" : "rs_sparker", "offset" : [2.40, 0.85] },
+		  { "particle" : "fireember", "offset" : [2.40, 0.85] },
+		  { "particle" : "campfireflames", "offset" : [2.40, 0.85] },
+		  { "particle" : "burningdust", "offset" : [2.40, 0.85] },
+		  { "particle" : "firebackspark", "offset" : [2.40, 0.85] },
+		  { "particle" : "rocketbarrelpuff", "offset" : [2.40, 0.85] },
+          { "particle" : "rocketbarrelpuff", "offset" : [2.40, 0.85] }
+        ]
+	  }
+    }
+  },
+  "baseOffset" : [1.0, -0.55],
+  "muzzleOffset" : [2.40, 0.85],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 1.25,
+    "baseDps" : 12.5,
+    "energyUsage" : 75,
+    "projectileCount" : 10,
+    "inaccuracy" : 0.125,
+    "fireType" : "auto",
+
+    "projectileType" : "rs_shrapnel",
+    "projectileParameters" : {
+      "knockbackRange" : [10, 40]
+    },
+    "muzzleFlashVariants" : 3,
+
+    "stances": {
+	 "idle": {
+		"armRotation": 0,
+		"weaponRotation": 0,
+		"twoHanded": true,
+		"allowRotate": true,
+		"allowFlip": true
+		},
+	 "fire": {
+		"duration": 0.1,
+		"armRotation": 1,
+		"weaponRotation": 1,
+		"twoHanded": true,
+		"allowRotate": false,
+		"allowFlip": true
+		},
+	 "cooldown": {
+		"duration": 1.0,
+		"armRotation": -20,
+		"weaponRotation": 30,
+		"weaponOffset" : [-0.7, 0.125],
+		"twoHanded": true,
+		"animationStates": {
+			"body": "reload"
+		},
+		"frontArmFrame" : "rotation",
+        "backArmFrame" : "swim.4",
+		"allowRotate": true,
+		"allowFlip": true
+	  }
+    }
+  },
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

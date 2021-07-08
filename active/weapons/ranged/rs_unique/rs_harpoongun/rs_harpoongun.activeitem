@@ -1,0 +1,105 @@
+{
+  "itemName" : "rs_harpoongun",
+  "price" : 50000,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "description" : "Sail, my friend!",
+  "shortdescription" : "^orange;Ankerchir",
+  "tooltipKind" : "base",
+  "category" : "uniqueWeapon",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged"],
+  
+  "fixedLevel" : false,
+  
+  "inventoryIcon" : [
+    { "image" : "rs_harpoongunicon.png" }
+  ],
+  
+  "animation" : "rs_harpoongun.animation",
+  "animationParts" : {
+    "middle" : "rs_harpoongun.png",
+	"middlefullbright" : "rs_harpoongunlit.png"
+  },
+  "animationCustom" : {
+    "particleEmitters" : {
+      "muzzleFlash" : {
+        "particles" : [
+          { "particle" : "rocketbarrelpuff", "offset" : [-5.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [-5.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [-5.0, 0.0] }
+        ]
+	  }
+    },
+    "sounds" : {
+      "fire" : [ "/sfx/gun/rocket1.ogg" ]
+    }
+  },
+
+  "baseOffset" : [3.4, -0.65],
+  "muzzleOffset" : [2.0, -0.5],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 1.3,
+    "baseDps" : 25,
+    "energyUsage" : 200,
+    "projectileCount" : 1,
+    "inaccuracy" : 0.05,
+    "fireType" : "auto",
+
+    "projectileType" : "rs_harpoon",
+	"muzzleFlashVariants" : 3,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+        "allowRotate" : true,
+        "allowFlip" : true,
+		"frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation"
+      },
+      "fire" : {
+        "duration" : 0.1,
+        "armRotation" : 4,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+        "allowRotate" : false,
+        "allowFlip" : false,
+		"frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation"
+      },
+      "cooldown" : {
+        "duration" : 1.25,
+        "armRotation" : -25,
+        "weaponRotation" : 45,
+        "weaponOffset" : [-2.5, 0.125],
+        "twoHanded" : true,
+		"animationStates": {
+			"body": "reload"
+		},
+        "aimAngle" : 0,
+        "allowRotate" : false,
+        "allowFlip" : true,
+		"frontArmFrameSequence" : [
+		  [0.0, "rotation"],
+		  [0.2, "walk.2"],
+		  [0.5, "run.3"],
+		  [0.8, "rotation"]
+		],
+        "backArmFrame" : "rotation"
+      }
+	}
+  },
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
