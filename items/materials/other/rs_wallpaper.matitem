@@ -9,6 +9,7 @@
   "glitchdescription" : "Confused. The Glitch have never understood the concept of glued wall papering.",
   "florandescription" : "Sstrange paper covers wallss.",
   "novakiddescription" : "Wallpaper. Perfect for classin' up the place.",
+  "tooltipKind" : "rs_base",
 
   "materialId" : 645,
   "learnBlueprintsOnPickup" : [ "rs_wallpaper" ]

@@ -6,6 +6,7 @@
   "inventoryIcon" : "rs_floor1.png",
   "shortdescription" : "Kenopsea Floor",
   "description" : "Heavy stones cover this path.",
+  "tooltipKind" : "rs_base",
 
   "materialId" : 638
 }

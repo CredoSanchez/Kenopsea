@@ -6,6 +6,7 @@
   "inventoryIcon" : "rs_ropehorizontal.png",
   "shortdescription" : "Kenopsea Horizontal Rope",
   "description" : "Heavy rope used to keep things attatched to one another.",
+  "tooltipKind" : "rs_base",
 
   "materialId" : 628
 }

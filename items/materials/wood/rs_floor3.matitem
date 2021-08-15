@@ -6,6 +6,7 @@
   "inventoryIcon" : "rs_floor3.png",
   "shortdescription" : "Kenopsea Reinforced Floor",
   "description" : "A reinforced floor used primarily on railcars and ships.",
+  "tooltipKind" : "rs_base",
 
   "materialId" : 644
 }

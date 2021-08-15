@@ -6,6 +6,7 @@
   "inventoryIcon" : "rs_roofback.png",
   "shortdescription" : "Kenopsea Mid-ground Roof Tiles",
   "description" : "Tiles for putting a barrer between you and the rain.",
+  "tooltipKind" : "rs_base",
 
   "materialId" : 641
 }

@@ -6,6 +6,7 @@
   "inventoryIcon" : "rs_stone.png",
   "shortdescription" : "Kenopsea Stone",
   "description" : "It doesn't paint the way you think it will.",
+  "tooltipKind" : "rs_base",
 
   "materialId" : 627
 }

@@ -6,6 +6,7 @@
   "inventoryIcon" : "rs_ropevertical.png",
   "shortdescription" : "Kenopsea Vertical Rope",
   "description" : "Heavy rope used to keep things attatched to one another.",
+  "tooltipKind" : "rs_base",
 
   "materialId" : 629
 }

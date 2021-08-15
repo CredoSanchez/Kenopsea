@@ -6,6 +6,7 @@
   "inventoryIcon" : "rs_peark.png",
   "description" : "Sharp rocks, better watch my step.",
   "shortdescription" : "Kenopsea Rock",
+  "tooltipKind" : "rs_base",
 
   "materialId" : 646,
   "learnBlueprintsOnPickup" : [ "rs_peark" ]

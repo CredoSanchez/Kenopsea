@@ -9,6 +9,7 @@
   "glitchDescription" : "Impressed. This reinforced metal girder is very strong.",
   "floranDescription" : "Cold metal girderss.",
   "novakidDescription" : "A strong lookin' metal girder.",
+  "tooltipKind" : "rs_base",
 
   "materialId" : 637,
   "learnBlueprintsOnPickup" : [ "rs_girder" ]

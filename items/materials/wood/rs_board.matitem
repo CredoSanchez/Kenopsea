@@ -9,6 +9,7 @@
   "glitchdescription" : "Amazed. This wood was specially treated by a master craftsman.",
   "florandescription" : "Floran likess sspecial treated wood.",
   "novakiddescription" : "This wood looks like it's been treated with somethin'.",
+  "tooltipKind" : "rs_base",
 
   "materialId" : 640,
   "learnBlueprintsOnPickup" : [ "rs_board" ]

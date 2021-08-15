@@ -6,6 +6,7 @@
   "inventoryIcon" : "rs_pipe.png",
   "shortdescription" : "Kenopsea Pipe",
   "description" : "Aged metal pipe.",
+  "tooltipKind" : "rs_base",
 
   "materialId" : 653
 }

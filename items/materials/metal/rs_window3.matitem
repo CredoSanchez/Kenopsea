@@ -6,6 +6,7 @@
   "inventoryIcon" : "rs_window3.png",
   "shortdescription" : "Kenopsea Metal Window",
   "description" : "Frail glass frames in durable steel.",
+  "tooltipKind" : "rs_base",
 
   "materialId" : 634
 }

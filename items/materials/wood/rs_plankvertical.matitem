@@ -6,6 +6,7 @@
   "inventoryIcon" : "rs_plankvertical.png",
   "shortdescription" : "Kenopsea Vertical Planks",
   "description" : "Wooden planks for construction.",
+  "tooltipKind" : "rs_base",
 
   "materialId" : 626
 }

@@ -6,8 +6,8 @@
   "inventoryIcon" : "rs_piperight.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Kenopsea Pipe Right",
-  
   "description" : "Very old metal pipe.",
+  "tooltipKind" : "rs_base",
 
   "materialId" : 650
 }

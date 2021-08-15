@@ -9,6 +9,7 @@
   "glitchdescription" : "Eager. I am sure with some elbow grease, this metal panelling could be cleared up.",
   "florandescription" : "Floran wantsss to make ssspears out of rusty metal.",
   "novakiddescription" : "Some 'ol metal panels covered in rust.",
+  "tooltipKind" : "rs_base",
 
   "materialId" : 636,
   "learnBlueprintsOnPickup" : [ "rs_slopedred" ]

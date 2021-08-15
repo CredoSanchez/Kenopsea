@@ -6,6 +6,7 @@
   "inventoryIcon" : "rs_platform.png",
   "shortdescription" : "Kenopsea Platform",
   "description" : "Strong platforms.",
+  "tooltipKind" : "rs_base",
 
   "materialId" : 639,
   "learnBlueprintsOnPickup" : [ "rs_platform" ]

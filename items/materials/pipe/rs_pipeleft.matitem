@@ -6,8 +6,8 @@
   "inventoryIcon" : "rs_pipeleft.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "shortdescription" : "Kenopsea Pipe Left",
-  
   "description" : "Very old metal pipe.",
+  "tooltipKind" : "rs_base",
 
   "materialId" : 649
 }

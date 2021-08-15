@@ -6,6 +6,7 @@
   "inventoryIcon" : "rs_kenos.png",
   "description" : "Jagged rocks, better watch my step.",
   "shortdescription" : "Kenopsea Rock",
+  "tooltipKind" : "rs_base",
 
   "materialId" : 647,
   "learnBlueprintsOnPickup" : [ "rs_kenos" ]
