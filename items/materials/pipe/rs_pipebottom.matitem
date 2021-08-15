@@ -1,0 +1,13 @@
+{
+  "itemName" : "rs_pipebottom",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_pipebottom.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Kenopsea Pipe Bottom",
+  
+  "description" : "Very old metal pipe.",
+
+  "materialId" : 648
+}

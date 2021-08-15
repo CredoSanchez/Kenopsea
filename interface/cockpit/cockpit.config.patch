@@ -1,0 +1,23 @@
+[
+  [
+  // Planet
+  {
+    "op": "add",
+    "path": "/visitableTypeDescription/rs_sea"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeNames/rs_sea",
+    "value": "Kenopsea"
+  },
+  {
+    "op": "add",
+    "path": "/planetTypeColors/rs_sea",
+    "value": [
+      100,
+      100,
+      100
+    ]
+  }
+  ]
+]

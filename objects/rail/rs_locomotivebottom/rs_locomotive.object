@@ -1,0 +1,24 @@
+{
+  "objectName" : "rs_locomotivebottom",
+  "colonyTags" : ["commerce"],
+  "rarity" : "Common",
+  "description" : "An abandoned diesel locomotive, hasn't run in years by the looks of it.",
+  "shortdescription" : "Kenopsea Engine (bottom)",
+  "tooltipKind" : "rs_base",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 750,
+
+  "inventoryIcon" : "rs_locomotiveicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rs_locomotive.png:<color>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+	  
+    }
+  ]
+}

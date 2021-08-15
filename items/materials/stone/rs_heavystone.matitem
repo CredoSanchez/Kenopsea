@@ -1,0 +1,12 @@
+{
+  "itemName" : "rs_heavystone",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_heavystone.png",
+  "shortdescription" : "Kenopsea Heavy Stone",
+  "description" : "Large stone for support & foundation.",
+
+  "materialId" : 652,
+  "learnBlueprintsOnPickup" : [ "rs_heavystone" ]
+}

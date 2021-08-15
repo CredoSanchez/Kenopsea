@@ -1,0 +1,35 @@
+{
+  "objectName" : "rs_railingC",
+  "colonyTags" : ["generic"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+
+  "description" : "A fence fashioned out of heavy metal and wood.",
+  "shortdescription" : "Kenopsea Railing",
+  "tooltipKind" : "rs_base",
+  "race" : "human",
+
+  "apexDescription" : "A fence.",
+  "avianDescription" : "A fence. Cruel mockery for the grounded.",
+  "floranDescription" : "Floran is sssure Floran could jump this fence! But Floran won't try.",
+  "glitchDescription" : "Observant. A series of bars fashioned into a fence.",
+  "humanDescription" : "A heavy fence.",
+  "hylotlDescription" : "If this fence was under the ocean, I could just swim over it. Then again, why would it be?",
+  "novakidDescription" : "A fence.",
+
+  "inventoryIcon" : "rs_railingCicon.png",
+  "orientations" : [
+    {
+      "image" : "rs_railingC.png:<color>",
+	  "renderLayer" : "player+1",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "objectName" : "rs_locomotive",
+  "colonyTags" : ["decorative"],
+  "rarity" : "Common",
+  "description" : "An old diesel engine.",
+  "shortdescription" : "Kenopsea Engine",
+  "tooltipKind" : "rs_base",
+
+  "category" : "decorative",
+  "price" : 75,
+  "lightColor" : [179, 149, 107],
+  "pointLight" : true,
+  "pointBeam" : 20,
+  "beamAmbience" : 0.2,
+  
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.99,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.080,
+  "flickerIntensityVariance" : 0.020,
+
+  "inventoryIcon" : "rs_locomotiveicon.png",
+  "orientations" : [
+    {
+      "image" : "rs_locomotive.png:<color>.<frame>",
+      "imagePosition" : [0, -8],
+	  "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "lightPosition" : [2, 1.75],
+      "beamAngle" : 180
+    },
+	{
+      "image" : "rs_locomotive.png:<color>.<frame>",
+      "imagePosition" : [0, -8],
+	  "direction" : "right",
+      "flipImages" : false,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "lightPosition" : [44, 1.75],
+      "beamAngle" : 360
+    }
+  ],
+
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "rs_locomotive.png",
+    "fg" : "rs_locomotivelit.png"
+  },
+  "animationPosition" : [0, -8],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, -2] ]
+}

@@ -1,0 +1,26 @@
+{
+  "objectName" : "rs_tarp1",
+  "colonyTags" : ["commerce"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+
+  "description" : "Several rags strung up on a steel pipe, at least now there's some shade.",
+  "shortdescription" : "Kenopsea Tarp",
+  "tooltipKind" : "rs_base",
+  "race" : "generic",
+
+  "inventoryIcon" : "rs_tarp1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rs_tarp1.png:<color>",
+      "imagePosition" : [0, -8],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+
+    }
+  ]
+}

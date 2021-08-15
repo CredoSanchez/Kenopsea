@@ -1,0 +1,14 @@
+{
+  "background" : {
+    "type" : "background",
+    "fileHeader" : "/interface/tooltips/rs_akrheader.png",
+    "fileBody" : "/interface/tooltips/rs_akrbody.png",
+    "fileFooter" : "/interface/tooltips/rs_akrfooter.png"
+  },
+  "somethingelseidfk" : {
+    "type" : "image",
+    "position" : [0, 130],
+    "file" : "/interface/inventory/rs_akrportrait.png",
+    "zlevel" : 500
+  }
+}

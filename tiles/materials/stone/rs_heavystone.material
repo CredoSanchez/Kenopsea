@@ -1,0 +1,23 @@
+{
+  "materialId" : 652,
+  "materialName" : "rs_heavystone",
+  "particleColor" : [182, 182, 182, 255],
+  "itemDrop" : "rs_heavystone",
+
+  "description" : "Large stone for support & foundation.",
+
+  "shortdescription" : "Heavy Stone",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_heavystone.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 5000
+  }
+}

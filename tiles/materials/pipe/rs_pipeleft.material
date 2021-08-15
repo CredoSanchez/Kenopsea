@@ -1,0 +1,23 @@
+{
+  "materialId" : 649,
+  "materialName" : "rs_pipeleft",
+  "particleColor" : [97, 97, 97, 255],
+  "itemDrop" : "rs_pipeleft", 
+  "shortdescription" : "Red Pipe Left",
+  
+  "description" : "The left half of an old pipe.",
+
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
+  "health" : 8,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_pipeleft.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 200
+  }
+}

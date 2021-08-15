@@ -1,0 +1,11 @@
+{
+  "itemName" : "rs_cablehorizontal",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_cablehorizontal.png",
+  "shortdescription" : "Kenopsea Horizontal Cable",
+  "description" : "Heavy Cable used to keep things attatched to one another.",
+
+  "materialId" : 630
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "rs_loghorizontal",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_loghorizontal.png",
+  "shortdescription" : "Kenopsea Horizontal Log",
+  "description" : "A strong wood beam for holding together structures.",
+
+  "materialId" : 623
+}

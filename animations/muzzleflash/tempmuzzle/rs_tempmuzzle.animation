@@ -1,5 +1,5 @@
 {
-  "frames" : "cst_tempmuzzle.png",
+  "frames" : "rs_tempmuzzle.png",
   "variants" : 3,
   "frameNumber" : 2,
   "animationCycle" : 0.03,

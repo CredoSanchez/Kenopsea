@@ -1,0 +1,12 @@
+{
+  "itemName" : "rs_platform",
+  "price" : 0,
+  "category" : "platform",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_platform.png",
+  "shortdescription" : "Kenopsea Platform",
+  "description" : "Strong platforms.",
+
+  "materialId" : 639,
+  "learnBlueprintsOnPickup" : [ "rs_platform" ]
+}

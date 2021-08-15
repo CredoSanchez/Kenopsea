@@ -1,0 +1,40 @@
+{
+  "objectName" : "rs_patrolboat",
+  "colonyTags" : ["deocration"],
+  "rarity" : "Legendary",
+  "category" : "deocration",
+  "price" : 750,
+  
+  "description" : "A large boat that patrols the red sea for any threats.",
+  "shortdescription" : "Kenopsea Patrol Boat",
+  "tooltipKind" : "rs_base",
+  "race" : "generic",
+
+
+  "inventoryIcon" : "rs_patrolboaticon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "rs_patrolboat.png:<color>.<frame>", "fullbright" : true }, { "image" : "rs_patrolboatlit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "imagePosition" : [0, 0],
+      "frames" : 6,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : []
+    },
+    {
+      "imageLayers" : [ { "image" : "rs_patrolboat.png:<color>.<frame>", "fullbright" : true }, { "image" : "rs_patrolboatlit.png:<color>.<frame>" } ],
+      "direction" : "right",
+      
+      "imagePosition" : [0, 0],
+      "frames" : 6,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : []
+    }
+  ]
+}

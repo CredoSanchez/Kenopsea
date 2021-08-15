@@ -1,0 +1,10 @@
+{
+  "itemName" : "rs_18ksteelsheet",
+  "price" : 750,
+  "rarity" : "Essential",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "rs_18ksteelsheet.png",
+  "description" : "A machined piece of 18k steel, used only in the most promising of weapons.",
+  "shortdescription" : "18K Steel Sheet",
+  "itemTags" : [ "reagent" ]
+}

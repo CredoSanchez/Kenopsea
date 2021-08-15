@@ -1,0 +1,11 @@
+{
+  "itemName" : "rs_cablevertical",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_cablevertical.png",
+  "shortdescription" : "Kenopsea Vertical Cable",
+  "description" : "Heavy Cable used to keep things attatched to one another.",
+
+  "materialId" : 631
+}

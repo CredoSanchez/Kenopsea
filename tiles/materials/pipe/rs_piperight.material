@@ -1,0 +1,23 @@
+{
+  "materialId" : 650,
+  "materialName" : "rs_piperight",
+  "particleColor" : [97, 97, 97, 255],
+  "itemDrop" : "rs_piperight", 
+  "shortdescription" : "Red Pipe Right",
+  
+  "description" : "The right half of an old pipe.",
+
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
+  "health" : 8,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_piperight.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 200
+  }
+}

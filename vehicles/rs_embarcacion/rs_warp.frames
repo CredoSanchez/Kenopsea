@@ -1,0 +1,23 @@
+{
+  "frameGrid" : {
+    "size" : [184, 128],
+    "dimensions" : [3, 1],
+
+    "names" : [[
+                "warp.1",
+    			"warp.2",
+	   			"warp.3"
+    		]]
+	 },
+
+	"aliases" : {
+
+        "warpInPart1.1" : "warp.1",
+        "warpInPart1.2" : "warp.2",
+        "warpInPart1.3" : "warp.3",
+
+        "warpOutPart1.1" : "warp.3",
+        "warpOutPart1.2" : "warp.2",
+        "warpOutPart1.3" : "warp.1"
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "rs_plankvertical",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_plankvertical.png",
+  "shortdescription" : "Kenopsea Vertical Planks",
+  "description" : "Wooden planks for construction.",
+
+  "materialId" : 626
+}

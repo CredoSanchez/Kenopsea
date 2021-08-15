@@ -1,0 +1,60 @@
+{
+  "itemName" : "rs_flamethrower",
+  "level" : 6,
+  "price" : 20000,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Deny them by any means necessary.",
+  "shortdescription" : "Paersk",
+  "tooltipKind" : "gun",
+  "category" : "uniqueWeapon",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged"],
+
+  "inventoryIcon" : "rs_flamethrower.png",
+
+  "animation" : "rs_flamethrower.animation",
+  "animationParts" : {
+    "middle" : "rs_flamethrower.png",
+	"middlefullbright" : "rs_flamethrowerlit.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fireStart" : [ "/sfx/gun/flamethrower_start.ogg" ],
+      "fireLoop" : [ "/sfx/gun/flamethrower_loop.ogg" ],
+      "fireEnd" : [ "/sfx/gun/flamethrower_stop.ogg" ]
+    },
+	"particleEmitters" : {
+	 "sparker" : {
+		"active" : true,
+		"transformationGroups" : ["muzzle"],
+		"offsetRegion" : [-0.125, -0.1, -0.125, -0.1],
+		"emissionRate" : 12.5,
+		"fullbright" : true,
+		"particles" : [
+		  {"particle" : "rs_sparker"},
+		  {"particle" : "fireember"}
+		]
+	  }
+	}
+  },
+  "baseOffset" : [0.75, 0],
+  "muzzleOffset" : [2.5, 0.4],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbilityType" : "flamethrower",
+  "primaryAbility" : {
+    "projectileType" : "rs_flamethrower",
+    "baseDps" : 25,
+    "energyUsage" : 50
+  },
+
+  "altAbilityType" : "fuelairtrail",
+  "altAbility" : {},
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+
+}

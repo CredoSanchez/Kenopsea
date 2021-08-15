@@ -1,0 +1,10 @@
+{
+  "itemName" : "rs_steelsheet",
+  "price" : 250,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "rs_steelsheet.png",
+  "description" : "A well machined piece steel, quite useful.",
+  "shortdescription" : "Steel Sheet",
+  "itemTags" : [ "reagent" ]
+}

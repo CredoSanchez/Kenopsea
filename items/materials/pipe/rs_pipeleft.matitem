@@ -1,0 +1,13 @@
+{
+  "itemName" : "rs_pipeleft",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_pipeleft.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Kenopsea Pipe Left",
+  
+  "description" : "Very old metal pipe.",
+
+  "materialId" : 649
+}

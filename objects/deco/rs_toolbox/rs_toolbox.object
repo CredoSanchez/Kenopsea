@@ -1,0 +1,22 @@
+{
+  "objectName" : "rs_toolbox",
+  "colonyTags" : ["generic"],
+  "rarity" : "Common",
+  "description" : "An old toolbox, I wonder what's inside",
+  "shortdescription" : "Kenopsea Toolbox",
+  "tooltipKind" : "rs_base",
+  "race" : "generic",
+  "category" : "decoration",
+  "price" : 75,
+
+  "inventoryIcon" : "rs_toolboxicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rs_toolbox.png:<color>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

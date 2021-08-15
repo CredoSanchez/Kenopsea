@@ -1,0 +1,24 @@
+{
+  "objectName" : "rs_woodcar",
+  "colonyTags" : ["commerce"],
+  "rarity" : "Common",
+  "description" : "An old rail car.",
+  "shortdescription" : "Kenopsea Car",
+  "tooltipKind" : "rs_base",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 750,
+
+  "inventoryIcon" : "rs_woodcaricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rs_woodcar.png:<color>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+	  
+    }
+  ]
+}

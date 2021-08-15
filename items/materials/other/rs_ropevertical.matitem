@@ -1,0 +1,11 @@
+{
+  "itemName" : "rs_ropevertical",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_ropevertical.png",
+  "shortdescription" : "Kenopsea Vertical Rope",
+  "description" : "Heavy rope used to keep things attatched to one another.",
+
+  "materialId" : 629
+}

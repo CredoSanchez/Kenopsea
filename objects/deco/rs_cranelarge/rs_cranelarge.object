@@ -1,0 +1,40 @@
+{
+  "objectName" : "rs_cranelarge",
+  "colonyTags" : ["commerce"],
+  "rarity" : "Common",
+  "description" : "A large crane used to hoist freight.",
+  "shortdescription" : "Kenopsea Crane",
+  "tooltipKind" : "rs_base",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 150,
+
+  "inventoryIcon" : "rs_cranelargeicon.png",
+  "orientations" : [
+    {
+      "image" : "rs_cranelarge.png:<color>",
+
+      "imagePosition" : [-194, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "flipImages" : true,
+      "direction" : "left",
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "image" : "rs_cranelarge.png:<color>",
+
+      "imagePosition" : [-76, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "direction" : "right",
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

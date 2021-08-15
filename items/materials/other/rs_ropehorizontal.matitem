@@ -1,0 +1,11 @@
+{
+  "itemName" : "rs_ropehorizontal",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_ropehorizontal.png",
+  "shortdescription" : "Kenopsea Horizontal Rope",
+  "description" : "Heavy rope used to keep things attatched to one another.",
+
+  "materialId" : 628
+}

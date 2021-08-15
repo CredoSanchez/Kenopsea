@@ -1,0 +1,12 @@
+{
+  "itemName" : "rs_grass",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_grass.png",
+  "description" : "Soft grass & mosses.",
+  "shortdescription" : "Kenopsea Grass",
+  "tooltipKind" : "rs_base",
+
+  "materialId" : 655
+}

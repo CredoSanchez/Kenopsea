@@ -1,0 +1,12 @@
+{
+  "itemName" : "rs_peark",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_peark.png",
+  "description" : "Sharp rocks, better watch my step.",
+  "shortdescription" : "Kenopsea Rock",
+
+  "materialId" : 646,
+  "learnBlueprintsOnPickup" : [ "rs_peark" ]
+}

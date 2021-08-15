@@ -1,12 +1,12 @@
 {
   "itemName" : "rs_revolver",
   "price" : 20000,
-  "level" : 7,
+  "level" : 6,
   "maxStack" : 1,
-  "rarity" : "Essential",
+  "rarity" : "Legendary",
   "description" : "A captains revolver, whom previous owner took refuge in the taboo.",
-  "shortdescription" : "^orange;Capital Vices",
-  "tooltipKind" : "base",
+  "shortdescription" : "Ilke",
+  "tooltipKind" : "gun",
   "category" : "uniqueWeapon",
   "twoHanded" : false,
   "itemTags" : ["weapon","ranged"],
@@ -20,6 +20,7 @@
   "animation" : "rs_revolver.animation",
   "animationParts" : {
     "middle" : "rs_revolver.png",
+	"middlefullbright" : "rs_revolverlit.png",
     "muzzleFlash" : "/animations/muzzleflash/tempmuzzle/rs_tempmuzzle.png"
   },
   "animationCustom" : {
@@ -31,13 +32,17 @@
 	    "transformationGroups" : ["weapon"],
 		"offsetRegion" : [0.16, 0.25, 0.16, 0.25],
         "particles" : [
-          { "particle" : "rs_bulletcasing1", "offset" : [0.20, 0.20] }
+          { "particle" : "rs_bulletcasing1", "offset" : [0.20, 0.20] },
+		  { "particle" : "rs_sparker", "offset" : [1.8, 0.45] },
+		  { "particle" : "fireember", "offset" : [1.8, 0.45] },
+		  { "particle" : "campfireflames", "offset" : [1.8, 0.45] },
+		  { "particle" : "burningdust", "offset" : [1.8, 0.45] }
         ]
 	  }
     }
   },
   "baseOffset" : [0.75, 0.025],
-  "muzzleOffset" : [1.80, 0.45],
+  "muzzleOffset" : [1.8, 0.45],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
@@ -48,7 +53,7 @@
     "class" : "GunFire",
 
     "fireTime" : 0.45,
-    "baseDps" : 35,
+    "baseDps" : 10,
     "energyUsage" : 25,
     "projectileCount" : 1,
     "inaccuracy" : 0.025,
@@ -78,13 +83,13 @@
 		},
 	 "cooldown": {
 		"duration": 0.2,
-		"armRotation": -8,
+		"armRotation": 0,
 		"weaponRotation": 30,
 		"twoHanded": false,
 		"animationStates": {
 			"body": "reload"
 		},
-		"allowRotate": false,
+		"allowRotate": true,
 		"allowFlip": true
 	  }
     }

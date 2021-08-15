@@ -1,0 +1,25 @@
+{
+  "objectName" : "rs_mug1",
+  "colonyTags" : ["generic"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 80,
+
+  "description" : "It seems perpetually steaming hot.",
+  "shortdescription" : "Kenopsea Red Mug",
+  "tooltipKind" : "rs_base",
+  "race" : "generic",
+
+  "inventoryIcon" : "rs_mug1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rs_mug1.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 14,
+      "animationCycle" : 1.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

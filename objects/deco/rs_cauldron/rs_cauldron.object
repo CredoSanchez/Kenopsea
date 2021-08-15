@@ -1,0 +1,39 @@
+{
+  "objectName" : "rs_cauldron",
+  "colonyTags" : ["generic"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 8000,
+
+  "description" : "A heavy cauldron full of the finest resources.",
+  "shortdescription" : "Kenopsea Cauldron",
+  "tooltipKind" : "rs_base",
+  "race" : "generic",
+
+  "inventoryIcon" : "rs_cauldronicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "rs_cauldron.png:<color>.<frame>", "fullbright" : true }, { "image" : "rs_cauldronlit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "imagePosition" : [0, 0],
+      "frames" : 16,
+      "animationCycle" : 1.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "rs_cauldron.png:<color>.<frame>", "fullbright" : true }, { "image" : "rs_cauldronlit.png:<color>.<frame>" } ],
+      "direction" : "right",
+      
+      "imagePosition" : [0, 0],
+      "frames" : 16,
+      "animationCycle" : 1.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

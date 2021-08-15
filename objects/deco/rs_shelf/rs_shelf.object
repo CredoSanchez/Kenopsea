@@ -1,0 +1,35 @@
+{
+  "objectName" : "rs_shelf",
+  "colonyTags" : ["hylotl","hylotloceancity","commerce","storage"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+
+  "description" : "A shelf used for displaying or storing objects.",
+  "shortdescription" : "Kenopsea Shelf",
+  "tooltipKind" : "rs_base",
+  "race" : "generic",
+
+  "apexDescription" : "It's a shelf.",
+  "avianDescription" : "A simple shelf.",
+  "floranDescription" : "Boring shelf.",
+  "glitchDescription" : "Bored. A shelf.",
+  "humanDescription" : "It's a shelf.",
+  "hylotlDescription" : "A shelf for displaying curios.",
+  "novakidDescription" : "A shelf.",
+
+  "inventoryIcon" : "rs_shelficon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rs_shelf.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

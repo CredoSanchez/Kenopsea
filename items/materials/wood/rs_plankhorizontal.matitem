@@ -1,0 +1,11 @@
+{
+  "itemName" : "rs_plankhorizontal",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_plankhorizontal.png",
+  "shortdescription" : "Kenopsea Horizontal Planks",
+  "description" : "Wooden planks for construction.",
+
+  "materialId" : 625
+}

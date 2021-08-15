@@ -1,0 +1,10 @@
+{
+  "itemName" : "rs_steelbasic",
+  "price" : 65,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "rs_steelbasic.png",
+  "description" : "High quality metal.",
+  "shortdescription" : "Steel",
+  "itemTags" : [ "reagent" ]
+}

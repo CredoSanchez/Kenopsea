@@ -1,0 +1,12 @@
+{
+  "itemName" : "rs_kenos",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_kenos.png",
+  "description" : "Jagged rocks, better watch my step.",
+  "shortdescription" : "Kenopsea Rock",
+
+  "materialId" : 647,
+  "learnBlueprintsOnPickup" : [ "rs_kenos" ]
+}

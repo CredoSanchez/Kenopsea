@@ -1,0 +1,22 @@
+{
+  "objectName" : "rs_tank",
+  "colonyTags" : ["commerce"],
+  "rarity" : "Common",
+  "description" : "A large fuild tank, long since emptied.",
+  "shortdescription" : "Kenopsea Tank",
+  "tooltipKind" : "rs_base",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 750,
+
+  "inventoryIcon" : "rs_tankicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rs_tank.png:<color>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "objectName" : "rs_papers",
+  "colonyTags" : ["office"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+  "tooltipKind" : "rs_base",
+
+  "shortdescription" : "Kenopsea Papers",
+  "description" : "Maybe a hit-list, maybe a grocery-list.",
+  "race" : "generic",
+
+  "inventoryIcon" : "rs_papersicon.png",
+  "orientations" : [
+    {
+      "image" : "rs_papers.png:<color>",
+      "imagePosition" : [-16, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

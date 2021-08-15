@@ -1,0 +1,23 @@
+{
+  "materialId" : 651,
+  "materialName" : "rs_pipetop",
+  "particleColor" : [97, 97, 97, 255],
+  "itemDrop" : "rs_pipetop", 
+  "shortdescription" : "Red Pipe Top",
+  
+  "description" : "The top half of an old pipe.",
+
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
+  "health" : 8,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_pipetop.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 200
+  }
+}

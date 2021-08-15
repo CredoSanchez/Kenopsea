@@ -1,12 +1,12 @@
 {
   "itemName" : "rs_sniper",
   "price" : 20000,
-  "level" : 7,
+  "level" : 6,
   "maxStack" : 1,
-  "rarity" : "Essential",
+  "rarity" : "Legendary",
   "description" : "This rifle has seen much use over the years, yet keeps its' perfect condition.",
-  "shortdescription" : "^orange;Ankerchir",
-  "tooltipKind" : "base",
+  "shortdescription" : "Keskuss",
+  "tooltipKind" : "gun",
   "category" : "uniqueWeapon",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged"],
@@ -20,6 +20,7 @@
   "animation" : "rs_sniper.animation",
   "animationParts" : {
     "middle" : "rs_sniper.png",
+	"middlefullbright" : "rs_sniperlit.png",
 	"muzzleFlash" : "/animations/muzzleflash/tempmuzzle/rs_tempmuzzle.png"
   },
   "animationCustom" : {
@@ -31,7 +32,11 @@
 	    "transformationGroups" : ["weapon"],
 		"offsetRegion" : [0.16, 0.30, 0.16, 0.30],
         "particles" : [
-          { "particle" : "rs_bulletcasing1" }
+          { "particle" : "rs_bulletcasing1" },
+		  { "particle" : "rs_sparker", "offset" : [3.2, 0.2] },
+		  { "particle" : "fireember", "offset" : [3.2, 0.2] },
+		  { "particle" : "campfireflames", "offset" : [3.2, 0.2] },
+		  { "particle" : "burningdust", "offset" : [3.2, 0.2] }
         ]
       }
 	}
@@ -49,7 +54,7 @@
     "class" : "GunFire",
 
     "fireTime" : 1.5,
-    "baseDps" : 25,
+    "baseDps" : 15,
     "energyUsage" : 100,
     "projectileCount" : 1,
     "inaccuracy" : 0,
@@ -87,8 +92,8 @@
 		},
 		"frontArmFrame" : "swim.4",
         "backArmFrame" : "rotation",
-        "allowRotate" : false,
-        "allowFlip" : false
+        "allowRotate" : true,
+        "allowFlip" : true
       }
     }
   },

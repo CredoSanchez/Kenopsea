@@ -1,0 +1,30 @@
+{
+  "kind" : "rs_flametrail",
+  "location" : "mouth",
+  "definition" : {
+    "duration" : 0.01,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ "sparks" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "fireember", "sparks", "campfireflames", "firestormflame" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ "burningdust", "burningdust2", "campfireflames", "firestormflame" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

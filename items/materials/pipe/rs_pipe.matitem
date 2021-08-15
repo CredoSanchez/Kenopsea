@@ -1,0 +1,11 @@
+{
+  "itemName" : "rs_pipe",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_pipe.png",
+  "shortdescription" : "Kenopsea Pipe",
+  "description" : "Aged metal pipe.",
+
+  "materialId" : 653
+}

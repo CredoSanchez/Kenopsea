@@ -1,0 +1,66 @@
+{
+  "projectileName" : "rs_heavybullet",
+  "image" : "rs_heavybullet.png",
+  "animationCycle" : 0.3,
+  "animationLoops" : false,
+  "windupFrames" : 2,
+  "timeToLive" : 10,
+  "frameNumber" : 3,
+  "emitters" : [ "rs_flametrail" ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletimpactexplosion/bulletimpactexplosion.config"
+    },
+	{
+      "action" : "projectile",
+      "inheritDamageFactor" : 0.05,
+      "type" : "rs_shrapnel",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 45
+    },
+	{
+      "action" : "projectile",
+      "inheritDamageFactor" : 0.05,
+      "type" : "rs_shrapnel",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 90
+    },
+	{
+      "action" : "projectile",
+      "inheritDamageFactor" : 0.05,
+      "type" : "rs_shrapnel",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 135
+    },
+	{
+     "action" : "explosion",
+     "foregroundRadius" : 1.5,
+     "backgroundRadius" : 1,
+     "explosiveDamageAmount" : 50.0
+    }
+  ],
+  "periodicActions" : [
+    {
+      "time" : 0.01,
+      "repeat" : true,
+      "action" : "particle",
+      "rotate" : true,
+      "specification" : {
+        "type" : "animated",
+        "image" : "/projectiles/guns/rs_heavybullet/trail.animation",
+        "position" : [-1.75, 0],
+        "layer" : "back",
+        "timeToLive" : 0.3,
+        "destructionTime" : 0.2,
+        "destructionAction" : "fade",
+        "fullbright" : true
+      }
+    }
+  ],
+  "power" : 2.0,
+  "speed" : 175,
+  "lightColor" : [179, 149, 107],
+  "fullbright" : true,
+  "damageKind" : "default"
+}

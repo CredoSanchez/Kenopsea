@@ -1,0 +1,197 @@
+{
+  "name" : "red_sea",
+  "friendlyName" : "Red Sea",
+
+  "spawnProfile" : {
+    "groups" : [
+        {
+        "select" : 1,
+        "pool" : [
+          [ 0.1429, "wisper" ],
+          [ 0.1429, "lilodon" ],
+          [ 0.1429, "capricoat" ],
+          [ 0.1429, "skimbus" ],
+          [ 0.1429, "pulpin" ],
+          [ 0.1429, "monopus" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.4, "polarmoth" ],
+          [ 0.3, "orphanfly" ],
+          [ 0.3, "snowskater" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : "generatedGroundAggroDay"
+      }, 
+      {
+        "select" : 3,
+        "pool" : "nightTerrors"
+      },      
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedFlying"
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 1, "frozenowlcritter" ],
+          [ 1, "sealcritter" ],
+          [ 1, "icescabcritter" ],
+          [ 1, "dancercritter" ],
+          [ 1, "snowbcritter" ]
+        ]
+      }
+    ],
+    "monsterParameters" : {
+      "colors" : "arctic"
+    }
+  },
+
+  "statusEffects" : [ "biomecold" ],
+
+  "hueShiftOptions" : [0],
+
+  "weather" : [
+    [0, [
+      "/weather.config:fog"
+    ]]
+  ],
+  "skyOptions" : [
+    {
+      "mainColor" : [255, 255, 255],
+
+      "morningColors" : [ [179, 162, 152], [173, 119, 87] ],
+      "dayColors" : [ [181, 181, 181], [255, 255, 255] ],
+      "eveningColors" : [ [71, 71, 71], [143, 143, 143] ],
+      "nightColors" : [ [28, 28, 28], [54, 54, 54] ],
+
+      "morningLightColor" : [140, 71, 0],
+      "dayLightColor" : [200, 200, 200],
+      "eveningLightColor" : [160, 120, 180],
+      "nightLightColor" : [40, 20, 60]
+    }
+  ],
+
+  "mainBlock" : "rs_peark",
+  "subBlocks" : [ "rs_kenos", "rs_dirt" ],
+  "ores" : "surface",
+
+  "parallax" : "/parallax/surface/rs_sea.parallax",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/arctic_day.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/arctic_night.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-exploration1.ogg", "/music/mercury.ogg", "/music/inviolate-loop.ogg", "/music/europa.ogg","/music/psyche.ogg", "/music/haiku.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg", "/music/error-0xbfaf000.ogg", "/music/large-magellanic-cloud.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/music/jupiter.ogg", "/music/the-deep.ogg", "/music/arctic-constellation2.ogg", "/music/arctic-exploration2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/tranquility-base.ogg", "/music/accretion-disc.ogg", "/music/horsehead-nebula.ogg", "/music/nomads.ogg", "/music/error-0xbfaf000.ogg", "/music/casiopeia.ogg" ]
+    }
+  },
+
+  "surfacePlaceables" : {
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:overgroundRareChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "terrainfeatures" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 0,
+        "treeStemHueShiftMax" : 0,
+        "treeStemList" : [ "rs_pine" ],
+        "treeFoliageList" : [ "rs_pinefoliage" ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "grass" ],
+    "grassModDensity" : 0.2,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      }
+    ]
+  }
+}

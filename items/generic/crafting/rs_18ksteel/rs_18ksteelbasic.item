@@ -1,0 +1,10 @@
+{
+  "itemName" : "rs_18ksteelbasic",
+  "price" : 250,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "rs_18ksteelbasic.png",
+  "description" : "A highly valuable alloy that's warm to the touch.",
+  "shortdescription" : "18K Composite Steel",
+  "itemTags" : [ "reagent" ]
+}

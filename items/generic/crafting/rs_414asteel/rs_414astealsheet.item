@@ -1,0 +1,10 @@
+{
+  "itemName" : "rs_414asteelsheet",
+  "price" : 500,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "rs_414asteelsheet.png",
+  "description" : "This metal is so well proven that ships hulls have been made out of it for decades.",
+  "shortdescription" : "414A Steel Sheet",
+  "itemTags" : [ "reagent" ]
+}

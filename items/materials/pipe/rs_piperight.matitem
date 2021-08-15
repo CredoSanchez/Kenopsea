@@ -1,0 +1,13 @@
+{
+  "itemName" : "rs_piperight",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_piperight.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Kenopsea Pipe Right",
+  
+  "description" : "Very old metal pipe.",
+
+  "materialId" : 650
+}

@@ -19,7 +19,7 @@
       "angleAdjust" : 1
     }
   ],
-  "power" : 5.0,
+  "power" : 1.0,
   "animationLoops" : false,
   "orientationLocked" : true,
   "piercing" : true,

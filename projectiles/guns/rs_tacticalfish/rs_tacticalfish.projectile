@@ -1,0 +1,16 @@
+{
+  "projectileName" : "rs_tacticalfish",
+  "image" : "rs_tacticalfish.png",
+  "physics" : "shrapnel",
+  "bounces" : 5,
+  "animationCycle" : 0.75,
+  "animationLoops" : true,
+  "windupFrames" : 0,
+  "timeToLive" : 5,
+  "frameNumber" : 4,
+  "emitters" : [ "rs_dripsource" ],
+  "power" : 1,
+  "speed" : 50,
+  "fullbright" : false,
+  "damageKind" : "default"
+}

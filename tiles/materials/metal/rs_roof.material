@@ -1,0 +1,23 @@
+{
+  "materialId" : 635,
+  "materialName" : "rs_roof",
+  "particleColor" : [84, 82, 85, 255],
+  "itemDrop" : "rs_roof", 
+  "shortdescription" : "Kenopsea Roof Tiles",
+  
+  "description" : "Tiles for putting a barrer between you and the rain.",
+
+  "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
+  "health" : 4,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_roof.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 101
+  }
+}

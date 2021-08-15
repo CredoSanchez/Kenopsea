@@ -1,0 +1,47 @@
+{
+  "background" : {
+    "type" : "background",
+    "fileHeader" : "/interface/tooltips/rs_baseheader.png",
+    "fileBody" : "/interface/tooltips/rs_basebodyobject.png",
+    "fileFooter" : "/interface/tooltips/rs_basefooterobject.png"
+  },
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [97, 10],
+    "file" : "/interface/money.png"
+  },
+  "priceLabel" : {
+    "type" : "label",
+    "position" : [110, 10],
+    "hAnchor" : "left",
+    "value" : "0"
+  },
+  "descriptionLabel" : {
+    "type" : "label",
+    "position" : [12, 64],
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+    "wrapWidth" : 123
+  },
+  "rarityLabel" : {
+    "type" : "label",
+    "position" : [10, 10],
+    "hAnchor" : "left",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "objectImage" : {
+    "type" : "image",
+    "position" : [70, 92],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [70, 45],
+    "minSize" : [70, 40]
+  },
+  "somethingelseidfk" : {
+    "type" : "image",
+    "position" : [0, 131],
+    "file" : "/interface/inventory/rs_portrait.png",
+    "zlevel" : 500
+  }
+}

@@ -1,11 +1,11 @@
 {
   "itemName" : "rs_avarice",
-  "price" : 5000,
+  "price" : 50000,
   "level" : 6,
   "inventoryIcon" : "rs_avariceicon.png",
   "maxStack" : 1,
   "rarity" : "Essential",
-  "tooltipKind" : "bow",
+  "tooltipKind" : "base",
   "category" : "uniqueWeapon",
   "description" : "Your rose is without a thorn.",
   "shortdescription" : "^orange;Avarice",
@@ -36,7 +36,7 @@
 
     "fireOffset" : [1.5, 0.5],
 
-    "energyPerShot" : 60,
+    "energyPerShot" : 50,
 
     "cooldownTime" : 0.25,
     "inaccuracy" : 0.0025,

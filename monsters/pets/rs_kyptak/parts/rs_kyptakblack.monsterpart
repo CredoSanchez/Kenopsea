@@ -1,0 +1,9 @@
+{
+  "name" : "rs_kyptakblack",
+  "category" : "rs_kyptak",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "rs_kyptakblack.png"
+  }
+}

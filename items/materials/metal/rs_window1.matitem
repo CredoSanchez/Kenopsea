@@ -1,0 +1,11 @@
+{
+  "itemName" : "rs_window1",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_window1.png",
+  "shortdescription" : "Kenopsea Metal Window",
+  "description" : "Frail glass frames in durable steel.",
+
+  "materialId" : 632
+}

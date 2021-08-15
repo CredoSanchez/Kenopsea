@@ -1,0 +1,10 @@
+{
+  "itemName" : "rs_18ksteelbar",
+  "price" : 500,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "rs_18ksteelbar.png",
+  "description" : "A heavy bar of high quality 18k steel, you can't help but notice it's warmth.",
+  "shortdescription" : "18K Steel Bar",
+  "itemTags" : [ "reagent" ]
+}

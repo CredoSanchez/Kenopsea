@@ -1,0 +1,10 @@
+{
+  "itemName" : "rs_414asteelbasic",
+  "price" : 125,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "rs_414asteelbasic.png",
+  "description" : "A highly resiliant steel alloy cabable of withstanding immense heat.",
+  "shortdescription" : "414A Composite Steel",
+  "itemTags" : [ "reagent" ]
+}

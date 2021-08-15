@@ -1,0 +1,13 @@
+{
+  "itemName" : "rs_pipetop",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_pipetop.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Kenopsea Pipe Top",
+  
+  "description" : "Very old metal pipe.",
+
+  "materialId" : 651
+}

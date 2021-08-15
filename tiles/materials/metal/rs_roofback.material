@@ -1,0 +1,23 @@
+{
+  "materialId" : 641,
+  "materialName" : "rs_roofback",
+  "particleColor" : [84, 82, 85, 255],
+  "itemDrop" : "rs_roofback", 
+  "shortdescription" : "Kenopsea Roof Mid-ground Tiles",
+  
+  "description" : "Tiles for putting a barrer between you and the rain.",
+
+  "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
+  "health" : 4,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_roofback.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 100
+  }
+}

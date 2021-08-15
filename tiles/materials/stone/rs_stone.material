@@ -1,0 +1,23 @@
+{
+  "materialId" : 627,
+  "materialName" : "rs_stone",
+  "particleColor" : [84, 82, 85, 255],
+  "itemDrop" : "rs_stone", 
+  "shortdescription" : "Variable Stone",
+  
+  "description" : "Old but sturdy brickwork and stones.",
+
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
+  "health" : 12,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_stone.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 74
+  }
+}

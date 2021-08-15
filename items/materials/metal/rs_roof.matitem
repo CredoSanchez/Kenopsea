@@ -1,0 +1,11 @@
+{
+  "itemName" : "rs_roof",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_roof.png",
+  "shortdescription" : "Kenopsea Roof Tiles",
+  "description" : "Tiles for putting a barrer between you and the rain.",
+
+  "materialId" : 635
+}

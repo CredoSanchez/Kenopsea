@@ -1,0 +1,57 @@
+{
+  "objectName" : "rs_lampsmall",
+  "colonyTags" : ["light"],
+  "rarity" : "Common",
+  "description" : "An old ceiling lamp.",
+  "shortdescription" : "Kenopsea Lamp",
+  "tooltipKind" : "rs_base",
+
+  "category" : "light",
+  "price" : 75,
+  "lightColor" : [179, 149, 107],
+  "pointLight" : true,
+  "pointBeam" : 20,
+  "beamAmbience" : 0.2,
+  
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.99,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.080,
+  "flickerIntensityVariance" : 0.020,
+
+  "apexDescription" : "A metallic ceiling light.",
+  "avianDescription" : "A ceiling light.",
+  "floranDescription" : "Hanging lamp.",
+  "glitchDescription" : "Bored. A light fixture.",
+  "humanDescription" : "A device you attach to your head, and... Wait, no, it's just a light.",
+  "hylotlDescription" : "An uninteresting ceiling light.",
+  "novakidDescription" : "A plain lookin' ceilin' light.",
+
+  "inventoryIcon" : "rs_lampsmallicon.png",
+  "orientations" : [
+    {
+      "image" : "rs_lampsmall.png:<color>.<frame>",
+      "imagePosition" : [0, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+	  "lightPosition" : [0, -0.5],
+      "beamAngle" : 270
+    }
+  ],
+
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "rs_lampsmall.png",
+    "fg" : "rs_lampsmalllit.png"
+  },
+  "animationPosition" : [0, -8],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, -2] ]
+}

@@ -1,0 +1,42 @@
+{
+	"objectName" : "rs_workbench",
+	"colongTags" : ["misc"],
+	"rarity" : "Essential",
+	"category" : "crafting",
+	"price" : 5000,
+	"printable" : false,
+	"description" : "A well supplied work station for assembly of many different machines.",
+	"shortdescription" : "Kenopsea Workbench",
+	"tooltipKind" : "rs_base",
+	"race" : "generic",
+	
+	"interactAction" : "OpenCraftingInterface",
+	"interactData" : {
+		"config" : "/interface/windowconfig/rs_workbench.config",
+		"paneLayoutOverride" : {
+			"windowtitle" : {
+				"title" : "  ",
+				"subtitle" : "  ",
+				"icon" : {
+					"file" : "/interface/crafting/rs_workbench.png"
+				}
+			}
+		},
+		"filter" : [ "rs_workbench" ]
+		},
+	"inventoryIcon" : "rs_workbenchicon.png",
+	
+	"orientations" : [
+    {
+      "dualImage" : "rs_workbench.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+ }

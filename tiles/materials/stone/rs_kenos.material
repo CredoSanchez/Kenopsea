@@ -1,0 +1,23 @@
+{
+  "materialId" : 647,
+  "materialName" : "rs_kenos",
+  "particleColor" : [84, 82, 85, 255],
+  "itemDrop" : "rs_kenos", 
+  "shortdescription" : "Red Sea Rock",
+  
+  "description" : "Jagged rocks, better watch my step.",
+
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 10,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_kenos.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 100
+  }
+}

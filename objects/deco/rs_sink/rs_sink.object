@@ -1,0 +1,65 @@
+{
+  "objectName" : "rs_sink",
+  "colonyTags" : ["outpost"],
+  "rarity" : "Common",
+  "description" : "A bathroom sink. Wash your hands!",
+  "shortdescription" : "Kenopsea Sink",
+  "tooltipKind" : "rs_base",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 55,
+
+  "apexDescription" : "A basic sink.",
+  "avianDescription" : "A sink.",
+  "floranDescription" : "Splashy sssink.",
+  "glitchDescription" : "Neutral. A sink.",
+  "humanDescription" : "A sink. Maybe I should wash my hands...",
+  "hylotlDescription" : "Too small to swim in.",
+  "novakidDescription" : "A plain ol' sink.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rs_sink.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 8,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "scripts" : [
+    "/objects/wired/switch/switch.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switch3.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/console_generic_switchon.ogg" ],
+      "off" : [ "/sfx/objects/console_generic_switchoff.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "switch" : "rs_sink.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "outputNodes" : [ [0, 0] ],
+  
+  "npcToy" : {
+    "ownerOnly" : true,
+    "influence" : [
+      "console"
+    ],
+    "defaultReactions" : {},
+    "preciseStandPositionLeft" : [-1.0, 0.0],
+    "preciseStandPositionRight" : [1.0, 0.0],
+    "maxNpcs" : 1
+  }
+}

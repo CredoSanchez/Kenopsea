@@ -1,0 +1,10 @@
+{
+  "name" : "rs_palisette",
+  "category" : "rs_palisette",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "rs_palisette.png",
+    "bodyfullbright" : "rs_palisettefullbright.png"
+  }
+}

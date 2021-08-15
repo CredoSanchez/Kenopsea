@@ -1,0 +1,23 @@
+{
+  "materialId" : 655,
+  "materialName" : "rs_grass",
+  "particleColor" : [0, 34, 56, 72],
+  "itemDrop" : "rs_grass",
+  "description" : "Soft grass & mosses.",
+  "shortdescription" : "Kenopsea Grass",
+  "footstepSound" : "/sfx/blocks/footstep_wetclay.ogg",
+  "tillableMod" : 31,
+  "soil" : true,
+  "health" : 1,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_grass.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 50
+  }
+}

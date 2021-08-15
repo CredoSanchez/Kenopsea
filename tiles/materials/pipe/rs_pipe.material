@@ -1,0 +1,23 @@
+{
+  "materialId" : 653,
+  "materialName" : "rs_pipe",
+  "particleColor" : [97, 97, 97, 255],
+  "itemDrop" : "rs_pipe", 
+  "shortdescription" : "Alliance Pipe",
+  
+  "description" : "An aged metal pipe, still without leaks.",
+
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 6,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_pipe.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 105
+  }
+}

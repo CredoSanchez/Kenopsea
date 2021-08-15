@@ -1,0 +1,107 @@
+{
+  "itemName" : "rs_fisher",
+  "price" : 50000,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "description" : "Do you smell it? That smell. A kind of smelly smell. The smelly smell that smells... smelly.",
+  "shortdescription" : "^orange;Fish Flinger 5000",
+  "tooltipKind" : "base",
+  "category" : "uniqueWeapon",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged"],
+  
+  "fixedLevel" : false,
+  
+  "inventoryIcon" : [
+    { "image" : "rs_fishericon.png" }
+  ],
+  
+  "animation" : "rs_fisher.animation",
+  "animationParts" : {
+    "middle" : "rs_fisher.png",
+	"middlefullbright" : "rs_fisherlit.png"
+  },
+  "animationCustom" : {
+    "particleEmitters" : {
+      "muzzleFlash" : {
+        "particles" : [
+          { "particle" : "rocketbarrelpuff", "offset" : [0, 0] },
+		  { "particle" : "rocketbarrelpuff", "offset" : [0, 0] },
+		  { "particle" : "rocketbarrelpuff", "offset" : [0, 0] },
+          { "particle" : "rs_drip", "offset" : [0, 0] },
+		  { "particle" : "rs_drip", "offset" : [0, 0] },
+          { "particle" : "rs_drip", "offset" : [0, 0] },
+		  { "particle" : "rs_drip", "offset" : [0, 0] },
+		  { "particle" : "rs_drip", "offset" : [0, 0] },
+          { "particle" : "rs_drip", "offset" : [0, 0] },
+		  { "particle" : "rs_drip", "offset" : [0, 0] }
+        ]
+	  }
+    },
+    "sounds" : {
+      "fire" : [ "/sfx/gun/rocket1.ogg" ]
+    }
+  },
+
+  "baseOffset" : [0.5, -1.25],
+  "muzzleOffset" : [3.0, 1.25],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.75,
+    "baseDps" : 1,
+    "energyUsage" : 1,
+    "projectileCount" : 1,
+    "inaccuracy" : 0.05,
+    "fireType" : "auto",
+
+    "projectileType" : "rs_tacticalfish",
+	"muzzleFlashVariants" : 3,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 15,
+        "twoHanded" : true,
+        "allowRotate" : true,
+        "allowFlip" : true,
+		"frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation"
+      },
+      "fire" : {
+        "duration" : 0.1,
+        "armRotation" : 4,
+        "weaponRotation" : 15,
+        "twoHanded" : true,
+        "allowRotate" : true,
+        "allowFlip" : true,
+		"frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation"
+      },
+      "cooldown" : {
+        "duration" : 0.75,
+        "armRotation" : -5,
+        "weaponRotation" : 15,
+        "weaponOffset" : [0, 0],
+        "twoHanded" : true,
+		"animationStates": {
+			"body": "reload"
+		},
+        "aimAngle" : 0,
+        "allowRotate" : true,
+        "allowFlip" : true,
+		"frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation"
+      }
+	}
+  },
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

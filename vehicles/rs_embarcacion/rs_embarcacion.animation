@@ -1,0 +1,103 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "thrust" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+          "on" : {
+            "frames" : 4,
+            "cycle" : 0.3,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+    "parts" : {
+      "ship" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 1,
+          "transformationGroups" : ["rotation"],
+          "image" : "rs_embarcacion.png",
+          "seatPosition" : [2.0, 0.5]
+        }
+      },
+      "bottomThrust" : {
+        "properties" : {
+          "offset" : [-11.4, -3.8],
+          "centered" : true,
+          "zLevel" : -1,
+          "fullbright" : true,
+          "transformationGroups" : ["rotation"]
+        },
+        "partStates" : {
+          "thrust" : {
+            "on" : {
+              "properties" : {
+                "image" : "thruster.png:<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "globalTagDefaults" : {
+    "colour" : ""
+  },
+
+  "transformationGroups" : {
+    "rotation" : {
+      "interpolated" : true
+    },
+    "frontcannon" : {
+      "interpolated" : true
+    },
+    "backcannon" : {
+      "interpolated" : true
+    }
+  },
+
+  "particleEmitters" : {
+    "ventralThrusterIdle" : {
+      "transformationGroups" : ["rotation"],
+      "emissionRate" : 5.0,
+      "offsetRegion" : [-0.5, -1.5, 0.5, -1.55],
+      "particles" : [ { "particle" : "hoverbikedownthrust"} ]
+    },
+    "smoke" : {
+      "transformationGroups" : ["rotation"],
+      "emissionRate" : 0.0,
+      "offsetRegion" : [-1.5, -1.5, 0.5, -1],
+      "particles" : [ { "particle" : "burningvehiclesmokefront"} ]
+    },
+    
+    "damageShards" : {
+      "transformationGroups" : ["rotation"],
+      "emissionRate" : 0.0,
+      "burstCount"  : 60,
+      "offsetRegion" : [-5.0, -2.0, 5.0, 1],
+      "particles" : [
+        { "particle" : "hoverbikekhakishard" },
+        { "particle" : "fireshard"}
+      ]
+    }
+  },
+
+ "lights" : {
+  },
+
+  "sounds" : {
+    "explode" : [
+      "/sfx/gun/grenadeblast_small_fire1.ogg",
+      "/sfx/gun/grenadeblast_small_fire2.ogg",
+      "/sfx/gun/grenadeblast_small_fire3.ogg"
+    ],
+
+    "engineStart" : [ "/sfx/tools/teleport_up.ogg" ],
+    "engineLoop" : [ "/sfx/tech/hoverbike_drive_loop.ogg" ],
+
+    "fire" : [ "/sfx/gun/rocket1.ogg" ]
+  }
+}

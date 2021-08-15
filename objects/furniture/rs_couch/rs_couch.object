@@ -1,0 +1,57 @@
+{
+  "objectName" : "rs_couch",
+  "colonyTags" : ["commerce"],
+  "rarity" : "Common",
+  "description" : "A well worn couch that seems to have cushions made of... burlap?.",
+  "shortdescription" : "Kenopsea Couch",
+  "tooltipKind" : "rs_base",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 95,
+
+  "apexDescription" : "This chair is comfortable enough. The animal hide cushions add a little character.",
+  "avianDescription" : "The animal hide cushioning is itchy on the feathers.",
+  "floranDescription" : "Chair ssstill smellss a bit like prey. Good chair.",
+  "glitchDescription" : "Impressed. This chair may look low quality but the hide cushions create a lot of potential comfort.",
+  "humanDescription" : "This couch looks a little itchy to sit on.",
+  "hylotlDescription" : "I'd be reluctant to sit on this chair. The animal hide cushioning doesn't look very comfortable.",
+  "novakidDescription" : "The perfect chair. I'd rest my feet up at a chair like this any day.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+
+  "inventoryIcon" : "rs_couchicon.png",
+  "orientations" : [
+    {
+      "image" : "rs_couch.png:<color>",
+      "sitCoverImage" : "/objects/furniture/rs_couch/rs_couchcover.png",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [-10, 22], // Right
+        [3, 22] // Left
+      ],
+	  
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "rs_couch.png:<color>",
+      "sitCoverImage" : "/objects/furniture/rs_couch/rs_couchcover.png",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [-2, 22], // Left
+        [11, 22] // Right
+      ],
+	  
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

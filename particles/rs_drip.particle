@@ -1,0 +1,19 @@
+{
+  "kind" : "rs_drip",
+  "definition" : {
+    "type" : "ember",
+      "size" : 1.0,
+      "color" : [73, 179, 253, 255],
+      "fade" : 0.9,
+      "initialVelocity" : [0.0, -10],
+      "finalVelocity" : [0.0, -20],
+      "approach" : [0, 20],
+      "timeToLive" : 4.0,
+      "layer" : "back",
+	  "variance" : {
+      "initialVelocity" : [5, 0],
+      "size" : 1.5
+    },
+	"collidesLiquid" : true
+  }
+}

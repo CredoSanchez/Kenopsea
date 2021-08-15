@@ -1,0 +1,23 @@
+{
+  "materialId" : 643,
+  "materialName" : "rs_floor2",
+  "particleColor" : [84, 82, 85, 255],
+  "itemDrop" : "rs_floor2", 
+  "shortdescription" : "Reinforced Floor",
+  
+  "description" : "A reinforced floor used primarily on railcars and ships.",
+
+  "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
+  "health" : 8,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_floor2.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 80
+  }
+}

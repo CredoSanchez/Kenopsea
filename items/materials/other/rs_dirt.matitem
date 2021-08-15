@@ -1,0 +1,12 @@
+{
+  "itemName" : "rs_dirt",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_dirt.png",
+  "description" : "A damp blend of soil and rock.",
+  "shortdescription" : "Kenopsea Dirt",
+  "tooltipKind" : "rs_base",
+
+  "materialId" : 654
+}
