@@ -1,2 +1,2 @@
-# Red-Sea
-The WIP download for Red Sea
+# Kenopsea
+The WIP download for Kenopsea
