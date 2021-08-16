@@ -8,7 +8,7 @@
   "description" : "A Helmet with a large hat and enscription on its side that only reads: cs.",
   "shortdescription" : "CS Helmet",
   "tooltipKind" : "armor",
-  "hideBody": false,
+  "hideBody": true,
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
