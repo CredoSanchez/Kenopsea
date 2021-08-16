@@ -6,7 +6,7 @@
   "rarity" : "Legendary",
   "category" : "legwear",
   "description" : "Tough trousers for long journeys.",
-  "shortdescription" : "Red Sea Leg Armor",
+  "shortdescription" : "Kenopsea Leg Armor",
   "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
@@ -14,7 +14,7 @@
 
   "colorOptions" : [
     /* DEFAULT */
-    { "ffca8a" : "394b55", "e0975c" : "35454b", "a85636" : "313b41", "6f2919" : "282e32" },
+    { "ffca8a" : "cd4841", "e0975c" : "893132", "a85636" : "541e1e", "6f2919" : "290c13" },
     /* BLACK */
     { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     /* GREY */

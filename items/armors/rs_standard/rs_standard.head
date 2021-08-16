@@ -5,10 +5,10 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "headwear",
-  "description" : "A Helmet with a large hat and enscription on its side that only reads: cs.",
-  "shortdescription" : "CS Standard",
+  "description" : "A large hat with adorning fabric.",
+  "shortdescription" : "Kenopsea Standard",
   "tooltipKind" : "armor",
-  "hideBody": true,
+  "hideBody": false,
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
@@ -16,7 +16,7 @@
 
   "colorOptions" : [
     /* DEFAULT */
-    { "ffca8a" : "755332", "e0975c" : "60452b", "a85636" : "4a3724", "6f2919" : "3a2b21" },
+    { "ffca8a" : "cd4841", "e0975c" : "893132", "a85636" : "541e1e", "6f2919" : "290c13" },
     /* BLACK */
     { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     /* GREY */
