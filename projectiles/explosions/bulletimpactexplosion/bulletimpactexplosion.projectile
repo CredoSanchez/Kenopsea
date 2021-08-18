@@ -3,6 +3,7 @@
   "image" : "bulletimpactexplosion.png",
   "animationCycle" : 0.2,
   "frameNumber" : 6,
+  "emitters" : [ "rs_flametrail" ],
   "speed" : 0,
   "lightColor" : [160, 30, 30],
   "pointLight" : true,
@@ -11,7 +12,6 @@
   "piercing" : true,
   "bounces" : -1,
   "flippable" : true,
-  // "damageTeam" : { "type" : "indiscriminate" },
   "damageKind" : "fire",
   "knockback" : 10
 }

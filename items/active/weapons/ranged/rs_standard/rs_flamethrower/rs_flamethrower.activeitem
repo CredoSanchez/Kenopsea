@@ -33,7 +33,7 @@
 		"fullbright" : true,
 		"particles" : [
 		  {"particle" : "rs_sparker"},
-		  {"particle" : "fireember"}
+		  {"particle" : "rs_sparker"}
 		]
 	  }
 	}

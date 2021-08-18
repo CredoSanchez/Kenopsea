@@ -6,7 +6,6 @@
   "windupFrames" : 2,
   "timeToLive" : 10,
   "frameNumber" : 3,
-  "emitters" : [ "rs_flametrail" ],
   "actionOnReap" : [
     {
       "action" : "config",

@@ -26,14 +26,14 @@
     "minSize" : [70, 40]
   },
   "title" : {
-    "type" : "label",
-    "position" : [35, 177],
+    "type" : "title",
+    "position" : [37, 172],
     "hAnchor" : "left",
     "value" : ""
   },
   "subTitle" : {
     "type" : "label",
-    "position" : [35, 167],
+    "position" : [37, 164],
     "hAnchor" : "left",
     "color" : [185, 181, 178],
     "value" : ""

@@ -6,21 +6,21 @@
     "loops" : true,
     "start" : {
       "particles" : [
-        [ "sparks" ]
+        [ "dust2" ]
       ],
       "sounds" : [
         [ ]
       ]
     },
     "particles" : [
-      [ "fireember", "sparks", "campfireflames", "firestormflame" ]
+      [ "rs_sparker", "burningdust", "rs_sparker", "dust2" ]
     ],
     "sounds" : [
       [ ]
     ],
     "stop" : {
       "particles" : [
-        [ "burningdust", "burningdust2", "campfireflames", "firestormflame" ]
+        [ "burningdust", "burningdust2", "rs_sparker", "dust2" ]
       ],
       "sounds" : [
         [ ]
