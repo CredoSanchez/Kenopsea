@@ -1,11 +1,11 @@
 {
-  "materialId" : 647,
-  "materialName" : "rs_kenos",
+  "materialId" : 656,
+  "materialName" : "rs_kilop",
   "particleColor" : [84, 82, 85, 255],
-  "itemDrop" : "rs_kenos", 
+  "itemDrop" : "rs_kilop", 
   "shortdescription" : "Kenopsea Rock",
   
-  "description" : "Jagged rocks, better watch my step.",
+  "description" : "Sharp rocks, better watch my step.",
 
   "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
   "health" : 10,
@@ -13,7 +13,7 @@
   
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "rs_kenos.png",
+    "texture" : "rs_kilop.png",
     "variants" : 5,
     "lightTransparent" : false,
     "occludesBelow" : true,

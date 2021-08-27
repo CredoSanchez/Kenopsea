@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "rs_stone", "count" : 10 },
+    { "item" : "rs_logvertical", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "rs_firepit",
+    "count" : 1
+  },
+  "duration" : 0,
+  "groups" : [ "rs_workbench", "craftingstations", "all" ]
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "rs_kilop",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_kilop.png",
+  "description" : "Sharp rocks, better watch my step.",
+  "shortdescription" : "Kenopsea Rock",
+  "tooltipKind" : "rs_base",
+
+  "materialId" : 656,
+  "learnBlueprintsOnPickup" : [ "rs_kilop" ]
+}

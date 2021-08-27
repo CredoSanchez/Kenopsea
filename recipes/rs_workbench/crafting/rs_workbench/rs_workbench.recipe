@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "rs_girder", "count" : 5 },
+    { "item" : "rs_plankhorizontal", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "rs_workbench",
+    "count" : 1
+  },
+  "duration" : 0,
+  "groups" : [ "inventorstable2", "craftingstations", "all" ]
+}
