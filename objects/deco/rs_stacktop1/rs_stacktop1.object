@@ -27,15 +27,15 @@
 
     "particle" : {
       "type" : "animated",
-      "animation" : "/animations/dust3/dust3.animation",
+      "animation" : "/animations/fog/fog.animation",
       "size" : 1.0,
       "color" : [175, 175, 175, 255],
       "destructionAction" : "fade",
-      "destructionTime" : 3,
+      "destructionTime" : 6,
       "initialVelocity" : [1, 2],
-      "timeToLive" : 4,
+      "timeToLive" : 6,
       "layer" : "front",
-      "position" : [1, 2.5],
+      "position" : [2.5, 3.5],
       "collidesForeground" : false
     },
     "particleVariance" : {
