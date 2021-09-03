@@ -61,7 +61,7 @@
 
   "weather" : [
     [0, [
-      "/weather.config:fog"
+      "/weather.config:ocean"
     ]]
   ],
   "skyOptions" : [
