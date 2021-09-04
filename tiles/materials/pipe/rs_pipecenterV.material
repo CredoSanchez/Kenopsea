@@ -1,11 +1,11 @@
 {
-  "materialId" : 648,
-  "materialName" : "rs_pipebottom",
+  "materialId" : 658,
+  "materialName" : "rs_pipecenterV",
   "particleColor" : [97, 97, 97, 255],
-  "itemDrop" : "rs_pipebottom", 
-  "shortdescription" : "Kenopsea Pipe Bottom",
+  "itemDrop" : "rs_pipecenterV", 
+  "shortdescription" : "Kenopsea Pipe Center",
   
-  "description" : "The bottom half of an old pipe.",
+  "description" : "The center of an old pipe.",
 
   "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
   "health" : 8,
@@ -13,11 +13,11 @@
   
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "rs_pipebottom.png",
+    "texture" : "rs_pipecenterV.png",
     "variants" : 1,
     "lightTransparent" : false,
     "occludesBelow" : true,
     "multiColored" : false,
-    "zLevel" : 100
+    "zLevel" : 199
   }
 }

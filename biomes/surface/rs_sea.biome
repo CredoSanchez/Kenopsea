@@ -1,52 +1,29 @@
 {
-  "name" : "red_sea",
-  "friendlyName" : "Red Sea",
+  "name" : "rs_sea",
+  "friendlyName" : "Kenopsea",
 
   "spawnProfile" : {
     "groups" : [
         {
         "select" : 1,
         "pool" : [
-          [ 0.1429, "wisper" ],
-          [ 0.1429, "lilodon" ],
-          [ 0.1429, "capricoat" ],
-          [ 0.1429, "skimbus" ],
-          [ 0.1429, "pulpin" ],
-          [ 0.1429, "monopus" ]
+          [ 1, "capricoat" ]
         ]
       },
       {
         "select" : 1,
         "pool" : [
-          [ 0.4, "polarmoth" ],
-          [ 0.3, "orphanfly" ],
-          [ 0.3, "snowskater" ]
+          [ 1, "snowskater" ]
         ]
-      },
-      {
-        "select" : 1,
-        "pool" : "generatedGroundAggroDay"
-      }, 
-      {
-        "select" : 3,
-        "pool" : "nightTerrors"
-      },      
-      {
-        "select" : 2,
-        "pool" : "generatedGround"
-      },
-      {
-        "select" : 2,
-        "pool" : "generatedFlying"
       },
       {
         "select" : 2,
         "pool" : [
-          [ 1, "frozenowlcritter" ],
-          [ 1, "sealcritter" ],
-          [ 1, "icescabcritter" ],
-          [ 1, "dancercritter" ],
-          [ 1, "snowbcritter" ]
+          [ 0.4, "frozenowlcritter" ],
+          [ 0.4, "sealcritter" ],
+          [ 0.4, "icescabcritter" ],
+          [ 0.4, "dancercritter" ],
+          [ 0.4, "snowbcritter" ]
         ]
       }
     ],
@@ -61,7 +38,7 @@
 
   "weather" : [
     [0, [
-      "/weather.config:fog"
+      "/weather.config:ocean"
     ]]
   ],
   "skyOptions" : [
@@ -153,7 +130,7 @@
         "type" : "tree",
         "treeFoliageHueShiftMax" : 0,
         "treeStemHueShiftMax" : 0,
-        "treeStemList" : [ "rs_pine" ],
+        "treeStemList" : [ "rs_pinestem" ],
         "treeFoliageList" : [ "rs_pinefoliage" ]
       }
     ]
@@ -161,7 +138,7 @@
 
   "undergroundPlaceables" : {
     "grassMod" : [ "grass" ],
-    "grassModDensity" : 0.2,
+    "grassModDensity" : 0,
 
     "items" : [
       {

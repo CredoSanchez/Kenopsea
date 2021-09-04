@@ -54,6 +54,6 @@
 
   "planetTypeChangeThreshold" : 0.5,
 
-  "terraformBiome" : "red_sea",
+  "terraformBiome" : "rs_sea",
   "terraformPlanetType" : "ocean"
 }

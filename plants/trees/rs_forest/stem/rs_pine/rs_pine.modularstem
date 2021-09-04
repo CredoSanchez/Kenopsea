@@ -1,9 +1,9 @@
 {
-  "name" : "rs_pine",
-  "shape" : "forest",
+  "name" : "rs_pinestem",
+  "shape" : "rs_pine",
   "health" : 10,
   "middleMinSize" : 2,
-  "middleMaxSize" : 8,
+  "middleMaxSize" : 4,
   "dropConfig" : {
     "drops" : [
       [ { "item" : "rs_loghorizontal", "count" : 3 } ]
