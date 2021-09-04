@@ -163,8 +163,6 @@
       "directives" : "?brightness=75"
     },
 
-// Day Clouds
-
 	  {
       "kind" : "rs_clouds",
       "baseCount" : 1,
