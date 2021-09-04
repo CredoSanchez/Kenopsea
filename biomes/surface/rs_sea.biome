@@ -1,6 +1,6 @@
 {
-  "name" : "red_sea",
-  "friendlyName" : "Red Sea",
+  "name" : "rs_sea",
+  "friendlyName" : "Kenopsea",
 
   "spawnProfile" : {
     "groups" : [

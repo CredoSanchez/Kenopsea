@@ -1,7 +1,7 @@
 [
   {
     "op": "add",
-    "path": "/planetTypes/rs_sea",
+    "path": "/planetTypes/rs_kenopsea",
     "value": {
         "threatRange": [
             6,
@@ -9,37 +9,33 @@
         ],
         "layers": {
             "surface": {
-                "primaryRegion": [
-                    "red_sea"
-                ],
-                "secondaryRegions": [
-                    "forest"
-                ],
-                "dungeonCountRange": [
-                    2,
-                    3
-                ],
-                "dungeons": [
-                    [
-                        1.0,
-                        "oasis"
-                    ]
+              "primaryRegion": ["rs_sea"],
+              "baseHeight" : 1150,
+              "layerLevel" : 1050
+            },
+              "subsurface" : {
+                "primaryRegion" : ["oceanfloor"],
+                "dungeons" : [[1.0, "hylotloceancity"], [1.0, "hylotlruinedcity"]]
+            },
+              "dungeons": [
+                  [
+                    1.0,
+                    "oasis"
+                  ]
                 ]
             }
          }
-      }
-   },
+      },
   {
     "op" : "add",
-    "path" : "/regionTypes/red_sea",
+    "path" : "/regionTypes/rs_sea",
     "value" : {
       "oceanLiquid" : ["water"],
       "blockSelector" : ["remixedIslandsSurface"],
-      "fgCaveSelector" : ["empty"],
-      "bgOreSelector" : ["empty"],
-      "biome" : [
-        [[0, [ "red_sea" ]]]
-      ]
+      "fgCaveSelector" : [ "empty" ],
+      "bgOreSelector" : [ "empty" ],
+      "biome" : [[0, [ "rs_sea" ]]],
+      "subRegion": []
     }
   }
 ]

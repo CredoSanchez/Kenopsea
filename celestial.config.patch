@@ -22,12 +22,12 @@
   {
     "op" : "add",
     "path" : "/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
-    "value" : "rs_sea"
+    "value" : "rs_kenopsea"
   },
 
   {
     "op" : "add",
     "path" : "/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
-    "value" : "rs_sea"
+    "value" : "rs_kenopsea"
   }
 ]

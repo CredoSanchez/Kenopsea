@@ -2,21 +2,20 @@
   [
   {
     "op": "add",
-    "path": "/visitableTypeDescription/rs_sea",
+    "path": "/visitableTypeDescription/rs_kenopsea",
     "value" : [
-      "^#0055f1;Planet^red; A vast desolate sea spotted with cold archipelagos and industrial sites.",
-      "^#0055f1;Planet^red; A seemingly dead sea with nothing left but industrial parks and dockyards.",
-      "Planet description 3."
+      "^#0055f1;Kenopsea^white; That which still remains here may not be friendly.",
+      "^#0055f1;Kenopsea^white; A seemingly dead sea with nothing left but industrial parks and dockyards... and something else."
       ]
   },
   {
     "op": "add",
-    "path": "/planetTypeNames/rs_sea",
+    "path": "/planetTypeNames/rs_kenopsea",
     "value": "Kenopsea"
   },
   {
     "op": "add",
-    "path": "/planetTypeColors/rs_sea",
+    "path": "/planetTypeColors/rs_kenopsea",
     "value": [
       100,
       100,
