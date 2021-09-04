@@ -12,7 +12,7 @@
     "op" : "add",
     "path" : "/terrestrialGraphics/rs_sea",
     "value" : {
-      "baseImages" : "/celestial/system/terrestrial/biomes/rs_sea/maskie<num>.png",
+      "baseImages" : "/celestial/system/terrestrial/biomes/rs_sea/rs_maskie<num>.png",
       "dynamicsImages" : "/celestial/system/terrestrial/dynamics/ocean/<num>.png",
       "dynamicsRange" : [1, 20],
       "basecount" : 3

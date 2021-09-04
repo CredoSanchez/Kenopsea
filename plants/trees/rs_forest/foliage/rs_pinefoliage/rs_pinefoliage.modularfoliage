@@ -1,6 +1,6 @@
 {
   "name" : "rs_pinefoliage",
-  "shape" : "pinetree",
+  "shape" : "rs_pine",
 
   "dropConfig" : {
     "drops" : [
