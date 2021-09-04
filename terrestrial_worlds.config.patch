@@ -1,24 +1,34 @@
 [
   {
-    "op" : "add",
-    "path" : "/planetTypes/rs_sea",
-    "value" : {
-      "threatRange" : [6, 6],
-      "layers" : {
-        "surface" : {
-          "primaryRegion" : ["red_sea"],
-          "secondaryRegions" : ["forest"],
-          "dungeonCountRange" : [2, 3],
-          "dungeons" : [
-            [1.0,"oasis"]
-          ]
-        },
-        "subsurface" : {
-          "primaryRegion" : []
-        }
+    "op": "add",
+    "path": "/planetTypes/rs_sea",
+    "value": {
+        "threatRange": [
+            6,
+            6
+        ],
+        "layers": {
+            "surface": {
+                "primaryRegion": [
+                    "red_sea"
+                ],
+                "secondaryRegions": [
+                    "forest"
+                ],
+                "dungeonCountRange": [
+                    2,
+                    3
+                ],
+                "dungeons": [
+                    [
+                        1.0,
+                        "oasis"
+                    ]
+                ]
+            }
+         }
       }
-    }
-  },
+   },
   {
     "op" : "add",
     "path" : "/regionTypes/red_sea",
