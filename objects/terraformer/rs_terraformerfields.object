@@ -1,18 +1,18 @@
 {
-  "objectName" : "rs_terraformersea",
+  "objectName" : "rs_terraformerfields",
   "colonyTags" : [],
   "rarity" : "Legendary",
-  "description" : "Transforms a planet's climate into a vast sea; use on existing ocean type planets.",
-  "shortdescription" : "Kenopsea Terraformer",
+  "description" : "Transforms a planet's climate into a vast plain of fields.",
+  "shortdescription" : "Kenopsea Fields Terraformer",
   "race" : "ancient",
   "category" : "terraformer",
   "price" : 5000,
   "printable" : false,
 
-  "inventoryIcon" : "rs_terraformerseaicon.png",
+  "inventoryIcon" : "rs_terraformerfieldsicon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "rs_terraformerseafullbright.png:inactive", "fullbright" : true }, { "image" : "terraformer.png:inactive" } ],
+      "imageLayers" : [ { "image" : "rs_terraformerfieldsfullbright.png:inactive", "fullbright" : true }, { "image" : "terraformer.png:inactive" } ],
       "imagePosition" : [-16, 0],
 
       "direction" : "left",
@@ -22,7 +22,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "imageLayers" : [ { "image" : "rs_terraformerseafullbright.png:inactive", "fullbright" : true }, { "image" : "terraformer.png:inactive" } ],
+      "imageLayers" : [ { "image" : "rs_terraformerfieldsfullbright.png:inactive", "fullbright" : true }, { "image" : "terraformer.png:inactive" } ],
       "imagePosition" : [-16, 0],
 
       "direction" : "right",
@@ -54,6 +54,6 @@
 
   "planetTypeChangeThreshold" : 0.5,
 
-  "terraformBiome" : "rs_sea",
-  "terraformPlanetType" : "rs_kenopsea"
+  "terraformBiome" : "rs_fields",
+  "terraformPlanetType" : "savannah"
 }

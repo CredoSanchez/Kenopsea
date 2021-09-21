@@ -82,7 +82,6 @@
   },
 
   "surfacePlaceables" : {
-
     "items" : [
       {
         "mode" : "floor",
@@ -137,9 +136,6 @@
   },
 
   "undergroundPlaceables" : {
-    "grassMod" : [ "grass" ],
-    "grassModDensity" : 0,
-
     "items" : [
       {
         "mode" : "floor",

@@ -30,8 +30,7 @@
       "kind" : "rs_sky",
       "offset" : [0, 100],
       "parallax" : [14, 1.8],
-      "nohueshift" : true,
-	  "directives" : "?brightness=50"
+      "nohueshift" : true
 	},
 	{
       "kind" : "rs_streaks",

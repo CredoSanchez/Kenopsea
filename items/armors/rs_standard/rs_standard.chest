@@ -9,6 +9,37 @@
   "shortdescription" : "Kenopsea Chest Armor",
   "tooltipKind" : "armor",
 
+  "statusEffects" : [
+    {
+      "stat" : "biomecoldImmunity",
+      "amount" : 1.0
+    }
+  ],
+
+  "level" : 6,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "manipulatorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.25
+    },
+    {
+      "levelFunction" : "manipulatorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "protection",
+      "amount" : 2
+    },
+    {
+      "levelFunction" : "manipulatorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 5
+    },
+    {
+      "levelFunction" : "manipulatorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 5
+    }
+  ],
+
   "maleFrames" : {
     "body" : "chest.png",
     "backSleeve" : "bsleeve.png",
