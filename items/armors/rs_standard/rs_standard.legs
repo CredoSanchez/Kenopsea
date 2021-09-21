@@ -9,6 +9,30 @@
   "shortdescription" : "Kenopsea Leg Armor",
   "tooltipKind" : "armor",
 
+  "level" : 6,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "manipulatorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.1
+    },
+    {
+      "levelFunction" : "manipulatorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "protection",
+      "amount" : 2
+    },
+    {
+      "levelFunction" : "manipulatorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 2
+    },
+    {
+      "levelFunction" : "manipulatorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 2
+    }
+  ],
+
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
 
