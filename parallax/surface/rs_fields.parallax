@@ -75,6 +75,13 @@
       "fadePercent" : 0.1
     },
     {
+      "kind" : "rs_bridge",
+      "baseCount" : 1,
+      "offset" : [0, 80],
+      "parallax" : [1.5, 1.55],
+      "fadePercent" : 0.1
+    },
+    {
       "kind" : "rs_train",
       "baseCount" : 1,
       "offset" : [0, -23],
