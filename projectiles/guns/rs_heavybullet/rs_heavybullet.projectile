@@ -43,6 +43,30 @@
   "periodicActions" : [
     {
       "time" : 0.01,
+      "repeat" : false,
+      "action" : "projectile",
+      "type" : "rs_flamethrower",
+      "inheritDamageFactor" : 0.5,
+	    "angleAdjust" : 360
+    },
+    {
+      "time" : 0.01,
+      "repeat" : false,
+      "action" : "projectile",
+      "type" : "rs_flamethrower",
+      "inheritDamageFactor" : 0.5,
+	    "angleAdjust" : 360
+    },
+    {
+      "time" : 0.01,
+      "repeat" : false,
+      "action" : "projectile",
+      "type" : "rs_shrapnel",
+      "inheritDamageFactor" : 0.5,
+	    "angleAdjust" : 360
+    },
+    {
+      "time" : 0.01,
       "repeat" : true,
       "action" : "particle",
       "rotate" : true,

@@ -1,18 +1,18 @@
 {
-  "objectName" : "rs_stacktop1",
+  "objectName" : "rs_stacktop3",
   "colonyTags" : ["commerce"],
   "rarity" : "Common",
   "description" : "The top of a large smokestack.",
-  "shortdescription" : "Kenopsea Stack Top",
+  "shortdescription" : "Kenopsea Stack Top (Heavy)",
   "tooltipKind" : "rs_base",
   "race" : "generic",
   "category" : "decoration",
   "price" : 75,
 
-  "inventoryIcon" : "rs_stacktop1icon.png",
+  "inventoryIcon" : "rs_stacktop3icon.png",
   "orientations" : [
     {
-      "dualImage" : "rs_stacktop1.png:<color>",
+      "dualImage" : "rs_stacktop3.png:<color>",
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,
@@ -21,19 +21,19 @@
     }
   ],
   "particleEmitter" : {
-    "emissionRate" : 4,
+    "emissionRate" : 6,
     "emissionVariance" : 0.5,
     "pixelOrigin" : [0, 0],
 
     "particle" : {
       "type" : "animated",
       "animation" : "/animations/smoke/rs_smoke.animation",
-      "size" : 1.0,
+      "size" : 2.0,
       "color" : [175, 175, 175, 255],
       "destructionAction" : "fade",
-      "destructionTime" : 6,
+      "destructionTime" : 12,
       "initialVelocity" : [1, 2],
-      "timeToLive" : 6,
+      "timeToLive" : 12,
       "layer" : "front",
       "position" : [2.5, 3.5],
       "collidesForeground" : false

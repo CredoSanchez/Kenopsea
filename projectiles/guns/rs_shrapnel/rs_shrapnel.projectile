@@ -2,21 +2,15 @@
   "projectileName" : "rs_shrapnel",
   "image" : "rs_shrapnel.png",
   "physics" : "shrapnel",
-  "bounces" : 1,
+  "bounces" : 0,
   "animationCycle" : 0.5,
   "animationLoops" : false,
   "windupFrames" : 4,
-  "timeToLive" : 5,
+  "timeToLive" : 1,
   "frameNumber" : 5,
   "emitters" : [ "rocketsmoke" ],
-  "actionOnReap" : [
-    {
-      "action" : "config",
-      "file" : "/projectiles/explosions/bulletimpactexplosion/bulletimpactexplosion.config"
-    }
-  ],
-  "power" : 5.0,
-  "speed" : 75,
+  "power" : 1,
+  "speed" : 60,
   "fullbright" : true,
   "damageKind" : "shotgunbullet"
 }
