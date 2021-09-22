@@ -1,0 +1,52 @@
+{
+  "projectileName" : "rs_nailsticking",
+  "physics" : "stickybomb",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "rs_nail.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "piercing" : true,
+  "power" : 1,
+  "timeToLive" : 5,
+  "supportsProcessing" : true,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "hydrophobic" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/arrowexplosion/arrowexplosion.config"
+    }
+  ],
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/projectiles/ropehook_impact1.ogg",
+        "/sfx/projectiles/ropehook_impact2.ogg",
+        "/sfx/projectiles/ropehook_impact3.ogg",
+        "/sfx/projectiles/ropehook_impact4.ogg",
+        "/sfx/projectiles/ropehook_impact5.ogg",
+        "/sfx/projectiles/ropehook_impact6.ogg",
+        "/sfx/projectiles/ropehook_impact7.ogg",
+        "/sfx/projectiles/ropehook_impact8.ogg",
+        "/sfx/projectiles/ropehook_impact9.ogg",
+        "/sfx/projectiles/ropehook_impact10.ogg",
+        "/sfx/projectiles/ropehook_impact11.ogg",
+        "/sfx/projectiles/ropehook_impact12.ogg"
+      ]
+    }
+  ],
+  "actionOnDetonate" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/burstexplosion/fireburstexplosion.config"
+    }
+  ],
+  
+  "renderLayer" : "Monster+1",
+  
+  "scripts" : [ "/projectiles/scripts/thea-embeddedexplosion.lua" ],
+  "searchRadius" : 0.1
+}
