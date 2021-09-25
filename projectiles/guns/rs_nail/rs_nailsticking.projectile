@@ -13,6 +13,7 @@
   "damageType" : "NoDamage",
   "damageKind" : "default",
   "hydrophobic" : false,
+  "emitters" : [ "rs_flametrail" ],
   "actionOnReap" : [
     {
       "action" : "config",

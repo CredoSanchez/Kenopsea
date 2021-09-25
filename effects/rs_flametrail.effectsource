@@ -13,14 +13,14 @@
       ]
     },
     "particles" : [
-      [ "rs_sparker", "burningdust", "rs_sparker", "dust2" ]
+      [ "rs_sparker", "rs_sparker", "dust2" ]
     ],
     "sounds" : [
       [ ]
     ],
     "stop" : {
       "particles" : [
-        [ "burningdust", "burningdust2", "rs_sparker", "dust2" ]
+        [ "burningdust", "rs_sparker", "dust2" ]
       ],
       "sounds" : [
         [ ]
