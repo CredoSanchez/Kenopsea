@@ -70,14 +70,14 @@
     {
       "kind" : "rs_bridge",
       "baseCount" : 1,
-      "offset" : [0, 80],
+      "offset" : [0, 137],
       "parallax" : [1.5, 1.5],
       "fadePercent" : 0.1
     },
     {
       "kind" : "rs_bridge",
       "baseCount" : 1,
-      "offset" : [0, 80],
+      "offset" : [0, 137],
       "parallax" : [1.5, 1.55],
       "fadePercent" : 0.1
     },
@@ -88,7 +88,7 @@
       "parallax" : [1.5, 1.5],
       "fadePercent" : 0.1,
       "minSpeed" : 110000,
-      "maxSpeed" : 110000
+      "maxSpeed" : 170000
     },
     {
       "kind" : "rs_fields5",

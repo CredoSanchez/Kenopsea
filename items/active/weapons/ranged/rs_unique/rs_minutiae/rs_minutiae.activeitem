@@ -1,0 +1,102 @@
+{
+  "itemName" : "rs_minutiae",
+  "price" : 12500,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "description" : "When hunting, the little things count the most.",
+  "shortdescription" : "Minutiae",
+  "tooltipKind" : "gun",
+  "category" : "uniqueWeapon",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged"],
+  
+  "fixedLevel" : false,
+
+  "inventoryIcon" : [
+    { "image" : "rs_minutiaeicon.png" }
+  ],
+
+  "animation" : "rs_minutiae.animation",
+  "animationParts" : {
+    "middle" : "rs_minutiae.png",
+	"middlefullbright" : "rs_minutiaelit.png",
+	"muzzleFlash" : "/animations/muzzleflash/tempmuzzle/rs_tempmuzzle.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/burstshot1.ogg" ]
+    },
+	"particleEmitters" : {
+      "muzzleFlash" : {
+	    "transformationGroups" : ["weapon"],
+		"offsetRegion" : [0.16, 0.30, 0.16, 0.30],
+        "particles" : [
+          { "particle" : "rs_bulletcasing1" },
+		  { "particle" : "rs_sparker", "offset" : [3.2, 0.25] },
+		  { "particle" : "fireember", "offset" : [3.2, 0.25] },
+		  { "particle" : "campfireflames", "offset" : [3.2, 0.25] },
+		  { "particle" : "burningdust", "offset" : [3.2, 0.25] }
+        ]
+      }
+	}
+  },
+
+  "baseOffset" : [0.75, 0.10],
+  "muzzleOffset" : [3.2, 0.25],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.5,
+    "baseDps" : 5,
+    "energyUsage" : 25,
+    "projectileCount" : 1,
+    "inaccuracy" : 0.015,
+    "fireType" : "auto",
+
+    "projectileType" : [ "rs_nail"],
+    "projectileParameters" : {
+      "knockbackRange" : [5, 0]
+    },
+    "muzzleFlashVariants" : 3,
+
+    "stances": {
+	 "idle": {
+		"armRotation": 0,
+		"weaponRotation": 0,
+		"twoHanded": true,
+		"allowRotate": true,
+		"allowFlip": true
+		},
+	 "fire": {
+		"duration": 0,
+		"armRotation": 1,
+		"weaponRotation": 1,
+		"twoHanded": true,
+		"allowRotate": false,
+		"allowFlip": true
+		},
+	 "cooldown": {
+		"duration" : 0.35,
+        "armRotation" : -10,
+        "weaponRotation" : 20,
+        "weaponOffset" : [-0.75, -0.75],
+        "twoHanded" : true,
+		"animationStates": {
+			"body": "reload"
+		},
+		"frontArmFrame" : "walk.1",
+        "backArmFrame" : "rotation",
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

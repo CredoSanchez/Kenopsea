@@ -7,6 +7,7 @@
   "damageKindImage" : "icon.png",
   "pointLight" : false,
   "flippable" : true,
+  "emitters" : [ "rs_flametrail" ],
   "actionOnReap" : [
     {
       "action" : "config",
