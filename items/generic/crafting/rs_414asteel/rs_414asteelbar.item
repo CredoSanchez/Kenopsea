@@ -1,9 +1,9 @@
 {
-  "itemName" : "rs_414astealbar",
+  "itemName" : "rs_414asteelbar",
   "price" : 250,
   "rarity" : "Legendary",
   "category" : "craftingMaterial",
-  "inventoryIcon" : "rs_414astealbar.png",
+  "inventoryIcon" : "rs_414asteelbar.png",
   "description" : "A heavy bar capable of supporting great weight.",
   "shortdescription" : "414A Steel Bar",
   "itemTags" : [ "reagent" ]

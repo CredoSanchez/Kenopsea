@@ -1,0 +1,23 @@
+{
+  "materialId" : 661,
+  "materialName" : "rs_slopedglassalt",
+  "particleColor" : [182, 182, 182, 255],
+  "itemDrop" : "rs_slopedglassalt",
+
+  "description" : "Sleek glass panels reinforced with metal.",
+
+  "shortdescription" : "Framed Glass",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_slopedglass.png",
+    "variants" : 5,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 50
+  }
+}
