@@ -2,6 +2,6 @@
   "frames" : "barrelsmoke.png",
   "variants" : 1,
   "frameNumber" : 8,
-  "animationCycle" : 0.6,
+  "animationCycle" : 1,
   "offset" : [3, 0]
 }
