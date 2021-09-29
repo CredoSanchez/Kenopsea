@@ -1,0 +1,13 @@
+{
+  "itemName" : "rs_slopedglassalt",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_slopedglass.png",
+  "shortdescription" : "Kenopsea Glass Panel (Alt)",
+  "description" : "Sleek glass panels reinforced with metal.",
+  "tooltipKind" : "rs_base",
+
+  "materialId" : 661,
+  "learnBlueprintsOnPickup" : [ "rs_slopedglass" ]
+}
