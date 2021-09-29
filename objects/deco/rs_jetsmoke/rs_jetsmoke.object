@@ -1,0 +1,46 @@
+{
+  "objectName" : "rs_jetsmoke",
+  "colonyTags" : ["commerce"],
+  "rarity" : "Common",
+  "description" : "Emits smoke.",
+  "shortdescription" : "Kenopsea Smoke",
+  "tooltipKind" : "rs_base",
+  "race" : "generic",
+  "category" : "decoration",
+  "price" : 75,
+
+  "inventoryIcon" : "rs_jetsmokeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rs_jetsmoke.png:<color>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ ]
+
+    }
+  ],
+  "particleEmitter" : {
+    "emissionRate" : 7.5,
+    "emissionVariance" : 0,
+    "pixelOrigin" : [-10, 5],
+
+    "particle" : {
+      "type" : "animated",
+      "animation" : "/animations/barrelsmoke/barrelsmoke.animation",
+      "size" : 1.0,
+      "color" : [175, 175, 175, 255],
+      "destructionAction" : "fade",
+      "destructionTime" : 2.5,
+      "initialVelocity" : [5, 0],
+      "timeToLive" : 5,
+      "layer" : "front",
+      "position" : [0, 0],
+      "collidesForeground" : false
+    },
+    "particleVariance" : {
+      "rotation" : 1.5,
+      "initialVelocity" : [1.5, 0]
+    }
+  }
+}
