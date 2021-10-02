@@ -1,8 +1,8 @@
 {
-  "materialId" : 636,
-  "materialName" : "rs_slopedred",
+  "materialId" : 663,
+  "materialName" : "rs_slopedpaintable",
   "particleColor" : [182, 182, 182, 255],
-  "itemDrop" : "rs_slopedred",
+  "itemDrop" : "rs_slopedpaintable",
 
   "description" : "Sturdy metal panelling that has been rusted with age.",
   "glitchDescription" : "Eager. I am sure with some elbow grease, this metal panelling could be cleared up.",
@@ -21,6 +21,6 @@
     "lightTransparent" : false,
     "occludesBelow" : true,
     "multiColored" : true,
-    "zLevel" : 5001
+    "zLevel" : 5002
   }
 }

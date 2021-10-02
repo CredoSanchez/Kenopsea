@@ -1,0 +1,23 @@
+{
+  "objectName" : "rs_boosterlarge",
+  "colonyTags" : ["commerce"],
+  "rarity" : "Common",
+  "description" : "A booster exhaust port.",
+  "shortdescription" : "Kenopsea Booster (Large)",
+  "tooltipKind" : "rs_base",
+  "race" : "generic",
+  "category" : "decoration",
+  "price" : 75,
+
+  "inventoryIcon" : "rs_boosterlargeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rs_boosterlarge.png:<color>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ ]
+
+    }
+  ]
+}

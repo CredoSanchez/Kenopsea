@@ -1,0 +1,23 @@
+{
+  "objectName" : "rs_rocketrear",
+  "colonyTags" : ["commerce"],
+  "rarity" : "Common",
+  "description" : "A large rocket exhaust.",
+  "shortdescription" : "Kenopsea Rocket (Rear)",
+  "tooltipKind" : "rs_base",
+  "race" : "generic",
+  "category" : "decoration",
+  "price" : 75,
+
+  "inventoryIcon" : "rs_rocketrearicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rs_rocketrear.png:<color>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ ]
+
+    }
+  ]
+}

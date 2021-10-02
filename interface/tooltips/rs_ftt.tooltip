@@ -1,12 +1,12 @@
 {
   "background" : {
     "type" : "background",
-    "fileBody" : "/interface/tooltips/rs_akrbody.png"
+    "fileBody" : "/interface/tooltips/rs_ffbody.png"
   },
   "somethingelseidfk" : {
     "type" : "image",
     "position" : [1, 133],
-    "file" : "/interface/inventory/rs_akrportrait.png",
+    "file" : "/interface/inventory/rs_ffportrait.png",
     "zlevel" : 500
   }
 }

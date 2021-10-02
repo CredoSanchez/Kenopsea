@@ -1,0 +1,11 @@
+{
+  "itemName" : "rs_blacktop",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_blacktop.png",
+  "description" : "This blacktop has seen much use over the years.",
+  "shortdescription" : "Kenopsea Blacktop",
+
+  "materialId" : 662
+}

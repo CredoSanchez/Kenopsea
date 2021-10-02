@@ -4,10 +4,8 @@
   "level" : 6,
   "maxStack" : 1,
   "rarity" : "Essential",
-  "description" : "Do you smell it? That smell. A kind of smelly smell. The smelly smell that smells... smelly.",
   "shortdescription" : "^orange;Fish Flinger 5000",
-  "tooltipKind" : "base",
-  "category" : "uniqueWeapon",
+  "tooltipKind" : "rs_ftt",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged"],
   
