@@ -30,7 +30,7 @@
 	"particleEmitters" : {
       "muzzleFlash" : {
 	    "transformationGroups" : ["weapon"],
-		"offsetRegion" : [0.16, 0.25, 0.16, 0.25],
+		  "offsetRegion" : [0.16, 0.25, 0.16, 0.25],
         "particles" : [
           { "particle" : "rs_bulletcasing2", "offset" : [0.75, 0.25] },
 		  { "particle" : "rs_breaksmoke", "offset" : [0, 0] },
@@ -42,7 +42,7 @@
 		  { "particle" : "rocketbarrelpuff", "offset" : [2.40, 0.85] },
           { "particle" : "rocketbarrelpuff", "offset" : [2.40, 0.85] }
         ]
-	  }
+	    }
     }
   },
   "baseOffset" : [1.0, -0.55],
@@ -101,6 +101,8 @@
 	  }
     }
   },
+
+  "altAbilityType" : "rs_grenadelauncher",
   
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

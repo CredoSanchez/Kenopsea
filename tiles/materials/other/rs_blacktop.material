@@ -1,0 +1,21 @@
+{
+  "materialId" : 662,
+  "materialName" : "rs_blacktop",
+  "particleColor" : [44, 44, 44, 255],
+  "itemDrop" : "rs_blacktop",
+  "description" : "This blacktop has seen much use over the years.",
+  "shortdescription" : "Kenopsea Road",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_blacktop.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 50
+  }
+}
