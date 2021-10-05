@@ -1,0 +1,48 @@
+{
+  "objectName" : "rs_boosterflamelarge",
+  "colonyTags" : [],
+  "scannable" : false,
+  "rarity" : "Common",
+  "description" : "This must take an insane amount of fuel.",
+  "shortdescription" : "Kenopsea Booster Flame",
+  "race" : "generic",
+
+  "category" : "light",
+  "lightColor" : [179, 149, 107],
+  "pointLight" : true,
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+
+  "inventoryIcon" : "rs_boosterflamelargeicon.png",
+  "orientations" : [
+    {
+      "image" : "rs_boosterflamelarge.png:on.1",
+      "imagePosition" : [-32, -32],
+      "fullbright" : true,
+
+      "collision" : "solid",
+      "spaces" : [ [-3, 2], [-3, 1], [-3, 0], [-3, -1], [-3, -2], [-3, -3], [-2, 2], [-2, 1], [-2, 0], [-2, -1], [-2, -2], [-2, -3], [-1, 2], [-1, 1], [-1, 0], [-1, -1], [-1, -2], [-1, -3], [0, 2], [0, 1], [0, 0], [0, -1], [0, -2], [0, -3] ],
+      "anchors" : [ ],
+      "direction" : "right"
+    }
+  ],
+
+  "animation" : "/objects/ship/boosters/rs_boosterflame.animation",
+  "animationParts" : {
+    "booster" : "rs_boosterflamelarge.png"
+  },
+  "animationPosition" : [-32, -32],
+
+  "soundEffect" : "/sfx/objects/boosterflame.ogg",
+
+  "scripts" : ["/objects/ship/boosters/rs_boosterflame.lua"],
+  "scriptDelta" : 10,
+
+  "flyingBoosterStates" : {
+    "none" : "off",
+    "disembarking" : "off",
+    "warp" : "turnOn",
+    "arriving" : "turnOff"
+  }
+}
