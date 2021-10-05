@@ -6,7 +6,7 @@
   "objectType" : "container",
   "description" : "Accepts Liquid Erchius as fuel for the ship's FTL dive.",
   "shortdescription" : "Kenopsea Fuel Hatch",
-  "race" : "human",
+  "tooltipKind" : "rs_base",
   "lightColor" : [179, 149, 107],
 
   "flickerPeriod" : 0.3,
