@@ -1,0 +1,39 @@
+{
+  "objectName" : "rs_boat",
+  "colonyTags" : ["generic"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 8000,
+
+  "description" : "One of many small sailboats.",
+  "shortdescription" : "Kenopsea Sailboat",
+  "tooltipKind" : "rs_base",
+  "race" : "generic",
+
+  "inventoryIcon" : "rs_boaticon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "rs_boat.png:<color>.<frame>", "fullbright" : true }, { "image" : "rs_boatlit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "imagePosition" : [0, 5],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ ]
+    },
+    {
+      "imageLayers" : [ { "image" : "rs_boat.png:<color>.<frame>", "fullbright" : true }, { "image" : "rs_boatlit.png:<color>.<frame>" } ],
+      "direction" : "right",
+      
+      "imagePosition" : [0, 5],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ ]
+    }
+  ]
+}
