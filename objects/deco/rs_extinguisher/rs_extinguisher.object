@@ -1,0 +1,22 @@
+{
+  "objectName" : "rs_extinguisher",
+  "colonyTags" : ["generic"],
+  "rarity" : "Common",
+  "description" : "To keep flames at a controllable level",
+  "shortdescription" : "Kenopsea Extinguisher",
+  "tooltipKind" : "rs_base",
+  "race" : "generic",
+  "category" : "decoration",
+  "price" : 75,
+
+  "inventoryIcon" : "rs_extinguishericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rs_extinguisher.png:<color>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

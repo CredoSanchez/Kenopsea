@@ -121,6 +121,22 @@
         "bx" : 0,
         "by" : 0
       }
+    },
+    "crown4" : {
+      "image" : "crown4.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
+    },
+    "crown5" : {
+      "image" : "crown5.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
     }
   }
 }

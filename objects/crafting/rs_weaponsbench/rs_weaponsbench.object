@@ -1,0 +1,22 @@
+{
+  "objectName" : "rs_weaponsbench",
+  "colonyTags" : ["commerce"],
+  "rarity" : "Common",
+  "description" : "Contruct your means of immolation.",
+  "shortdescription" : "Kenopsea Weapons Bench",
+  "tooltipKind" : "rs_base",
+  "race" : "generic",
+  "category" : "decoration",
+  "price" : 75,
+
+  "inventoryIcon" : "rs_weaponsbenchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rs_weaponsbench.png:<color>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
