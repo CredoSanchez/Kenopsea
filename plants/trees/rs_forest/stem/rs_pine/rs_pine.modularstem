@@ -116,6 +116,20 @@
         "bx" : -85,
         "by" : -16
       }
+    },
+    "crown4" : {
+      "image" : "crown4.png",
+      "attachment" : {
+        "bx" : -85,
+        "by" : -16
+      }
+    },
+    "crown5" : {
+      "image" : "crown5.png",
+      "attachment" : {
+        "bx" : -85,
+        "by" : -16
+      }
     }
   },
   "middle" : {

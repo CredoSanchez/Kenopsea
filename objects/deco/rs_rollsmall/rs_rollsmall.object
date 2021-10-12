@@ -1,0 +1,22 @@
+{
+  "objectName" : "rs_rollsmall",
+  "colonyTags" : ["generic"],
+  "rarity" : "Common",
+  "description" : "A small roll of fabric ready for use",
+  "shortdescription" : "Kenopsea Fabric Small Roll",
+  "tooltipKind" : "rs_base",
+  "race" : "generic",
+  "category" : "decoration",
+  "price" : 75,
+
+  "inventoryIcon" : "rs_rollsmallicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rs_rollsmall.png:<color>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
