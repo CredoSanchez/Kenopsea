@@ -10,6 +10,7 @@
   "category" : "uniqueWeapon",
   "twoHanded" : false,
   "itemTags" : ["weapon","ranged","assaultrifle"],
+  "cursor" : "/cursors/rs_reticle.cursor",
   
   "fixedLevel" : false,
 
@@ -44,7 +45,7 @@
   "baseOffset" : [1.10, 0.025],
   "muzzleOffset" : [2, 0.30],
 
-  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "scripts" : ["/items/active/weapons/ranged/rs_gun.lua"],
 
   "elementalType" : "physical",
 

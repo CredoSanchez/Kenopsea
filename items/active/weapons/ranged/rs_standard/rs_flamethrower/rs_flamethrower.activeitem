@@ -10,6 +10,7 @@
   "category" : "uniqueWeapon",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged"],
+  "cursor" : "/cursors/rs_reticle.cursor",
 
   "inventoryIcon" : "rs_flamethrower.png",
 
@@ -41,7 +42,7 @@
   "baseOffset" : [0.75, 0],
   "muzzleOffset" : [2.5, 0.4],
 
-  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "scripts" : ["/items/active/weapons/ranged/rs_gun.lua"],
 
   "elementalType" : "fire",
 

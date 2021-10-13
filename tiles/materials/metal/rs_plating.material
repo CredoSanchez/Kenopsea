@@ -1,0 +1,23 @@
+{
+  "materialId" : 664,
+  "materialName" : "rs_plating",
+  "particleColor" : [84, 82, 85, 255],
+  "itemDrop" : "rs_plating", 
+  "shortdescription" : "Kenopsea Plate",
+  
+  "description" : "Strong cable.",
+
+  "footstepSound" : "/sfx/blocks/footstep_metal.ogg",
+  "health" : 10,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_plating.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 5003
+  }
+}
