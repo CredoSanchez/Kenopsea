@@ -1,0 +1,12 @@
+{
+  "itemName" : "rs_plating",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_plating.png",
+  "shortdescription" : "Kenopsea Metal Plate",
+  "description" : "Thick metal plating most commonly used for patching up hulls.",
+  "tooltipKind" : "rs_base",
+
+  "materialId" : 664
+}

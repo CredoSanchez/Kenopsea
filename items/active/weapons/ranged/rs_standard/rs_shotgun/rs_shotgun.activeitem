@@ -10,6 +10,7 @@
   "category" : "uniqueWeapon",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged"],
+  "cursor" : "/cursors/rs_reticle.cursor",
   
   "fixedLevel" : false,
 
@@ -48,7 +49,7 @@
   "baseOffset" : [1.0, -0.55],
   "muzzleOffset" : [2.40, 0.85],
 
-  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "scripts" : ["/items/active/weapons/ranged/rs_gun.lua"],
 
   "elementalType" : "physical",
 

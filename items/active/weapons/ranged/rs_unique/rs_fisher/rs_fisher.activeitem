@@ -8,6 +8,7 @@
   "tooltipKind" : "rs_ftt",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged"],
+  "cursor" : "/cursors/rs_reticle.cursor",
   
   "fixedLevel" : false,
   
@@ -45,7 +46,7 @@
   "baseOffset" : [0.5, -1.25],
   "muzzleOffset" : [3.0, 1.25],
 
-  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "scripts" : ["/items/active/weapons/ranged/rs_gun.lua"],
 
   "elementalType" : "physical",
 
