@@ -1,0 +1,21 @@
+{
+  "materialId" : 667,
+  "materialName" : "rs_plant",
+  "particleColor" : [98, 127, 65, 255],
+  "itemDrop" : "rs_plant",
+  "description" : "Thick plant life.",
+  "footstepSound" : "/sfx/blocks/footstep_tallgrass.ogg",
+  "health" : 2,
+  "category" : "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_plant.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 3515
+  }
+}

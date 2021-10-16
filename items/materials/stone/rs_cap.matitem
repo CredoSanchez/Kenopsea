@@ -1,0 +1,12 @@
+{
+  "itemName" : "rs_cap",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_cap.png",
+  "shortdescription" : "Kenopsea Brick Cap",
+  "description" : "A crown to affix to the top of brickwork.",
+  "tooltipKind" : "rs_base",
+
+  "materialId" : 665
+}

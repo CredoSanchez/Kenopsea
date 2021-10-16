@@ -1,0 +1,12 @@
+{
+  "itemName" : "rs_cablepipe",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_cablepipe.png",
+  "shortdescription" : "Kenopsea Cable",
+  "description" : "Old cables.",
+  "tooltipKind" : "rs_base",
+
+  "materialId" : 668
+}

@@ -28,11 +28,11 @@
   "particleEmitter" : {
     "emissionRate" : 2,
     "emissionVariance" : 0.1,
-    "pixelOrigin" : [0, 0],
+    "pixelOrigin" : [0, -3],
 
     "particle" : {
       "type" : "animated",
-      "animation" : "/animations/smoke/rs_smoke.animation",
+      "animation" : "/animations/stacksmoke/stacksmoke.animation",
       "size" : 0.5,
       "color" : [175, 175, 175, 255],
       "destructionAction" : "fade",

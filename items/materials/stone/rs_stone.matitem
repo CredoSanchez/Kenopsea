@@ -4,8 +4,8 @@
   "category" : "block",
   "rarity" : "Common",
   "inventoryIcon" : "rs_stone.png",
-  "shortdescription" : "Kenopsea Stone",
-  "description" : "It doesn't paint the way you think it will.",
+  "shortdescription" : "Kenopsea Brick",
+  "description" : "An old brick and stone wall.",
   "tooltipKind" : "rs_base",
 
   "materialId" : 627

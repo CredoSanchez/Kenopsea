@@ -1,0 +1,23 @@
+{
+  "materialId" : 668,
+  "materialName" : "rs_cablepipe",
+  "particleColor" : [97, 97, 97, 255],
+  "itemDrop" : "rs_cablepipe", 
+  "shortdescription" : "Kenopsea Cable",
+  
+  "description" : "Old cables.",
+
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 6,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_cablepipe.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 75
+  }
+}

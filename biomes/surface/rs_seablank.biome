@@ -1,5 +1,5 @@
 {
-  "name" : "rs_sea",
+  "name" : "rs_seablank",
   "friendlyName" : "Kenopsea",
 
   "spawnProfile" : {
@@ -61,7 +61,7 @@
   "subBlocks" : [ "rs_kenos", "rs_kilop", "rs_dirt" ],
   "ores" : "surface",
 
-  "parallax" : "/parallax/surface/rs_sea.parallax",
+  "parallax" : "/parallax/surface/rs_seablank.parallax",
 
   "ambientNoises" : {
     "day" : {
