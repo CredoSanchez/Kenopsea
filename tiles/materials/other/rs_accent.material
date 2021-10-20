@@ -1,0 +1,22 @@
+{
+  "materialId" : 645,
+  "materialName" : "rs_accent",
+  "particleColor" : [225, 191, 150, 255],
+  "itemDrop" : "rs_accent",
+  "description" : "The perfect finishing touch.",
+  "shortdescription" : "Kenopsea Accent Tile",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "health" : 8,
+  "category" : "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_accent.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 70
+  }
+}
