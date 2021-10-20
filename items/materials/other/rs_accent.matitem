@@ -1,0 +1,13 @@
+{
+  "itemName" : "rs_accent",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_accent.png",
+  "description" : "The perfect finishing touch.",
+  "shortdescription" : "Kenopsea Accent Tile",
+  "tooltipKind" : "rs_base",
+
+  "materialId" : 645,
+  "learnBlueprintsOnPickup" : [ "rs_accent" ]
+}

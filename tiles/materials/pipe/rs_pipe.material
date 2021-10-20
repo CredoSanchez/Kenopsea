@@ -11,7 +11,7 @@
   "health" : 6,
   "category" : "materials",
   
-  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderTemplate" : "/tiles/scb-pipetemplate.config",
   "renderParameters" : {
     "texture" : "rs_pipe.png",
     "variants" : 1,

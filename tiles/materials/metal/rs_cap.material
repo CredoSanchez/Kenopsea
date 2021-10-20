@@ -3,11 +3,11 @@
   "materialName" : "rs_cap",
   "particleColor" : [84, 82, 85, 255],
   "itemDrop" : "rs_cap", 
-  "shortdescription" : "Brick Top",
+  "shortdescription" : "Brick Cap",
   
   "description" : "A crown to affix to the top of brickwork.",
 
-  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
+  "footstepSound" : "/sfx/blocks/footstep_metal.ogg",
   "health" : 12,
   "category" : "materials",
   
@@ -17,7 +17,7 @@
     "variants" : 10,
     "lightTransparent" : false,
     "occludesBelow" : true,
-    "multiColored" : false,
+    "multiColored" : true,
     "zLevel" : 111
   }
 }
