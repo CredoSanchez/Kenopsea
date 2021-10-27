@@ -1,0 +1,12 @@
+{
+  "itemName" : "rs_ice",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_ice.png",
+  "shortdescription" : "Kenopsea Ice",
+  "description" : "Sharp crystals of ice.",
+  "tooltipKind" : "rs_base",
+
+  "materialId" : 629
+}

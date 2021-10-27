@@ -1,0 +1,12 @@
+{
+  "itemName" : "rs_leaves",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_leaves.png",
+  "description" : "Thorny rose leaves.",
+  "shortdescription" : "Kenopsea Leaves",
+  "tooltipKind" : "rs_base",
+
+  "materialId" : 671
+}

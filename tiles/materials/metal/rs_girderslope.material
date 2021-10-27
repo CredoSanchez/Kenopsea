@@ -1,0 +1,23 @@
+{
+  "materialId" : 670,
+  "materialName" : "rs_girderslope",
+  "particleColor" : [97, 97, 97, 255],
+  "itemDrop" : "rs_girderslope", 
+  "shortdescription" : "Kenopsea Girder",
+  
+  "description" : "Heavy girders capable of holding immense weight.",
+
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
+  "health" : 10,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/scb-pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_girderslope.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 71
+  }
+}

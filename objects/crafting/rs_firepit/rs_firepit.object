@@ -26,8 +26,8 @@
   "flickerIntensityVariance" : 0.025,
 
   "particleEmitter" : {
-    "emissionRate" : 2,
-    "emissionVariance" : 0.1,
+    "emissionRate" : 3,
+    "emissionVariance" : 0.5,
     "pixelOrigin" : [0, -3],
 
     "particle" : {
@@ -36,16 +36,16 @@
       "size" : 0.5,
       "color" : [175, 175, 175, 255],
       "destructionAction" : "fade",
-      "destructionTime" : 3,
-      "initialVelocity" : [1, 2],
-      "timeToLive" : 1.5,
+      "destructionTime" : 1.25,
+      "initialVelocity" : [1, 3.75],
+      "timeToLive" : 7.5,
       "layer" : "front",
       "position" : [2.5, 3.5],
       "collidesForeground" : false
     },
     "particleVariance" : {
       "rotation" : 90,
-      "initialVelocity" : [0.5, -1]
+      "initialVelocity" : [0.75, 0.75]
     }
   },
   

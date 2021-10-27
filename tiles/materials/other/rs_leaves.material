@@ -1,0 +1,22 @@
+{
+  "materialId" : 671,
+  "materialName" : "rs_leaves",
+  "particleColor" : [13, 39, 7, 255],
+  "itemDrop" : "rs_leaves",
+  "description" : "A bunch of thorny rose leaves.",
+  "shortdescription" : "Kenopsea Rose Leaves",
+  "footstepSound" : "/sfx/blocks/footstep_tallgrass.ogg",
+  "health" : 2,
+  "category" : "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_leaves.png",
+    "variants" : 15,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 3516
+  }
+}
