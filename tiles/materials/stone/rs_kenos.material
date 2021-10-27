@@ -14,7 +14,7 @@
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
     "texture" : "rs_kenos.png",
-    "variants" : 5,
+    "variants" : 15,
     "lightTransparent" : false,
     "occludesBelow" : true,
     "multiColored" : false,

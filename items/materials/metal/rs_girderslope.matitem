@@ -1,0 +1,17 @@
+{
+  "itemName" : "rs_girderslope",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_girderslope.png",
+  "description" : "Heavy girders capable of holding immense weight.",
+  "shortdescription" : "Kenopsea Girder (Sloped)",
+  "glitchDescription" : "Impressed. This reinforced metal girder is very strong.",
+  "floranDescription" : "Cold metal girderss.",
+  "novakidDescription" : "A strong lookin' metal girder.",
+  "tooltipKind" : "rs_base",
+
+  "materialId" : 670,
+  "learnBlueprintsOnPickup" : [ "rs_girderslope" ]
+}
+

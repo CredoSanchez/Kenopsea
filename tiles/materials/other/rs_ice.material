@@ -1,0 +1,23 @@
+{
+  "materialId" : 629,
+  "materialName" : "rs_ice",
+  "particleColor" : [145, 186, 233, 255],
+  "itemDrop" : "rs_ice", 
+  "shortdescription" : "Ice",
+  
+  "description" : "Sharp crystals of ice.",
+
+  "footstepSound" : "/sfx/blocks/footstep_ice.ogg",
+  "health" : 8,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_ice.png",
+    "variants" : 5,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 200
+  }
+}

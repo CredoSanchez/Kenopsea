@@ -15,6 +15,7 @@
   "orientations" : [
     {
       "imageLayers" : [ { "image" : "rs_patrolboat.png:<color>.<frame>", "fullbright" : true }, { "image" : "rs_patrolboatlit.png:<color>.<frame>" } ],
+      "renderLayer" : "BackgroundTile-1",
       "direction" : "left",
       "flipImages" : true,
       
@@ -22,18 +23,19 @@
       "frames" : 6,
       "animationCycle" : 1,
 
-      "spaceScan" : 0.1,
+      "spaces" : [ [0, 0], [0, 0], [0, 0], [0, 0], [0, 0] ],
       "anchors" : []
     },
     {
       "imageLayers" : [ { "image" : "rs_patrolboat.png:<color>.<frame>", "fullbright" : true }, { "image" : "rs_patrolboatlit.png:<color>.<frame>" } ],
+      "renderLayer" : "BackgroundTile-1",
       "direction" : "right",
       
       "imagePosition" : [0, 0],
       "frames" : 6,
       "animationCycle" : 1,
 
-      "spaceScan" : 0.1,
+      "spaces" : [ [0, 0], [0, 0], [0, 0], [0, 0], [0, 0] ],
       "anchors" : []
     }
   ]
