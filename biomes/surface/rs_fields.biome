@@ -71,15 +71,15 @@
     {
       "mainColor" : [255, 255, 255],
 
-      "morningColors" : [ [179, 162, 152], [173, 119, 87] ],
-      "dayColors" : [ [181, 181, 181], [255, 255, 255] ],
-      "eveningColors" : [ [71, 71, 71], [143, 143, 143] ],
-      "nightColors" : [ [28, 28, 28], [54, 54, 54] ],
+      "morningColors" : [ [255, 255, 255], [255, 255, 255] ],
+      "dayColors" : [ [255, 255, 255], [255, 255, 255] ],
+      "eveningColors" : [ [255, 255, 255], [255, 255, 255] ],
+      "nightColors" : [ [255, 255, 255], [255, 255, 255] ],
 
-      "morningLightColor" : [140, 71, 0],
-      "dayLightColor" : [200, 200, 200],
-      "eveningLightColor" : [160, 120, 180],
-      "nightLightColor" : [40, 20, 60]
+      "morningLightColor" : [128, 103, 78],
+      "dayLightColor" : [114, 140, 140],
+      "eveningLightColor" : [128, 103, 78],
+      "nightLightColor" : [20, 20, 20]
     }
   ],
 

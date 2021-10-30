@@ -5,13 +5,13 @@
     "path": "/visitableTypeDescription/rs_kenopsea",
     "value" : [
       "^#0055f1;Kenopsea^white; That which still remains here may not be friendly.",
-      "^#0055f1;Kenopsea^white; A seemingly dead sea with nothing left but industrial parks and dockyards... and something else."
+      "^#0055f1;Kenopsea^white; A seemingly dead ocean with nothing left but industrial parks and, dockyards... and you now."
       ]
   },
   {
     "op": "add",
     "path": "/planetTypeNames/rs_kenopsea",
-    "value": "Kenopsea"
+    "value": "Kenopsea Ocean"
   },
   {
     "op": "add",
@@ -22,5 +22,53 @@
       100
     ]
   }
-  ]
+  ],
+  [
+    {
+      "op": "add",
+      "path": "/visitableTypeDescription/rs_kenopseablank",
+      "value" : [
+        "^#0055f1;Kenopsea^white; That which still remains here may not be friendly.",
+        "^#0055f1;Kenopsea^white; A seemingly dead ocean with nothing left but industrial parks, dockyards... and you now."
+        ]
+    },
+    {
+      "op": "add",
+      "path": "/planetTypeNames/rs_kenopseablank",
+      "value": "Kenopsea Ocean"
+    },
+    {
+      "op": "add",
+      "path": "/planetTypeColors/rs_kenopseablank",
+      "value": [
+        100,
+        100,
+        100
+      ]
+    }
+    ],
+    [
+      {
+        "op": "add",
+        "path": "/visitableTypeDescription/rs_kenopseafields",
+        "value" : [
+          "^#0055f1;Kenopsea^white; Fields occupited only by lonely mountains and... you now.",
+          "^#0055f1;Kenopsea^white; Large fields divided by stoic mountain ranges."
+          ]
+      },
+      {
+        "op": "add",
+        "path": "/planetTypeNames/rs_kenopseafields",
+        "value": "Kenopsea Fields"
+      },
+      {
+        "op": "add",
+        "path": "/planetTypeColors/rs_kenopseafields",
+        "value": [
+          100,
+          100,
+          100
+        ]
+      }
+      ]
 ]

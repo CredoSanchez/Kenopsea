@@ -37,5 +37,71 @@
       "biome" : [[0, [ "rs_sea" ]]],
       "subRegion": []
     }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/rs_kenopseablank",
+    "value": {
+        "threatRange": [
+            6,
+            6
+        ],
+        "layers": {
+            "surface": {
+              "primaryRegion": ["rs_seablank"],
+              "baseHeight" : 1150,
+              "layerLevel" : 1050
+            },
+              "subsurface" : {
+                "primaryRegion" : ["oceanfloor"],
+                "dungeons" : [[1.0, "hylotloceancity"], [1.0, "hylotlruinedcity"]]
+            },
+              "dungeons": [
+                  [
+                    1.0,
+                    "oasis"
+                  ]
+                ]
+            }
+         }
+      },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/rs_seablank",
+    "value" : {
+      "oceanLiquid" : ["water"],
+      "blockSelector" : ["remixedIslandsSurface"],
+      "fgCaveSelector" : [ "empty" ],
+      "bgOreSelector" : [ "empty" ],
+      "biome" : [[0, [ "rs_seablank" ]]],
+      "subRegion": []
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetTypes/rs_kenopseafields",
+    "value": {
+        "threatRange": [
+            6,
+            6
+        ],
+        "layers": {
+            "surface": {
+              "primaryRegion": ["rs_fields"]
+              }
+            }
+         }
+      },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/rs_fields",
+    "value" : {
+      "caveLiquid" : ["water"],
+      "blockSelector" : ["remixedMildSurface"],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgOreSelector" : [ "empty" ],
+      "biome" : [[0, [ "rs_fields" ]]],
+      "subRegion": []
+    }
   }
 ]

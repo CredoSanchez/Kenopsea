@@ -1,0 +1,12 @@
+{
+  "itemName" : "rs_gear",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_gear.png",
+  "shortdescription" : "Kenopsea Gear",
+  "description" : "A toothed gear for transfering mechanical rotation.",
+  "tooltipKind" : "rs_base",
+
+  "materialId" : 628
+}

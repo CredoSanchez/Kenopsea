@@ -2,7 +2,7 @@
   { "op" : "add",
     "path" : "/terrestrialHorizonGraphics/rs_sea",
     "value" : {
-      "baseImages" : "/celestial/system/terrestrial/horizon/textures/rs_sea_<selector>.png",
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/ocean_<selector>.png",
       "maskTextures" : "/celestial/system/terrestrial/horizon/masks/ocean/<mask><selector>.png",
       "maskRange" : [1, 25],
       "maskPerPlanetRange" : [3, 3]
@@ -12,10 +12,9 @@
     "op" : "add",
     "path" : "/terrestrialGraphics/rs_sea",
     "value" : {
-      "baseImages" : "/celestial/system/terrestrial/biomes/rs_sea/rs_maskie<num>.png",
+      "baseImages" : "/celestial/system/terrestrial/biomes/ocean/maskie<num>.png",
       "dynamicsImages" : "/celestial/system/terrestrial/dynamics/ocean/<num>.png",
-      "dynamicsRange" : [1, 20],
-      "basecount" : 3
+      "dynamicsRange" : [1, 20]
     }
   },
 
@@ -29,5 +28,70 @@
     "op" : "add",
     "path" : "/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
     "value" : "rs_kenopsea"
+  },
+
+
+  { "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/rs_sea",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/ocean_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/ocean/<mask><selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]
+    }
+  },
+ {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/rs_sea",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/ocean/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/ocean/<num>.png",
+      "dynamicsRange" : [1, 20]
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
+    "value" : "rs_kenopseablank"
+  },
+
+  {
+    "op" : "add",
+    "path" : "/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
+    "value" : "rs_kenopseablank"
+  },
+
+  
+  { "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/savannah",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/savannah_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]
+    }
+  },
+ {
+    "op" : "add",
+    "path" : "/terrestrialGraphics/savannah",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/savannah/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange" : [1, 30],
+      "baseCount" : 4
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
+    "value" : "rs_kenopseafields"
+  },
+
+  {
+    "op" : "add",
+    "path" : "/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
+    "value" : "rs_kenopseafields"
   }
 ]
