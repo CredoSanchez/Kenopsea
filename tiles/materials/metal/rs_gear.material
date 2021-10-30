@@ -1,23 +1,23 @@
 {
   "materialId" : 628,
-  "materialName" : "rs_ropehorizontal",
+  "materialName" : "rs_gear",
   "particleColor" : [84, 82, 85, 255],
-  "itemDrop" : "rs_ropehorizontal", 
+  "itemDrop" : "rs_gear", 
   "shortdescription" : "Rope Horizontal",
   
-  "description" : "Strong rope.",
+  "description" : "A toothed gear for transfering mechanical rotation.",
 
-  "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
+  "footstepSound" : "/sfx/blocks/footstep_metal.ogg",
   "health" : 8,
   "category" : "materials",
   
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "rs_ropehorizontal.png",
+    "texture" : "rs_gear.png",
     "variants" : 1,
     "lightTransparent" : false,
     "occludesBelow" : true,
     "multiColored" : false,
-    "zLevel" : 70
+    "zLevel" : 100
   }
 }
