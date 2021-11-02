@@ -1,0 +1,12 @@
+{
+  "background" : {
+    "type" : "background",
+    "fileBody" : "/interface/tooltips/rs_capitalvices.png"
+  },
+  "somethingelseidfk" : {
+    "type" : "image",
+    "position" : [1, 133],
+    "file" : "/interface/inventory/rs_capitalvicesportrait.png",
+    "zlevel" : 500
+  }
+}
