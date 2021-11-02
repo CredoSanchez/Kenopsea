@@ -1,0 +1,11 @@
+{
+  "itemName" : "rs_rail",
+  "price" : 0,
+  "category" : "rail",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_rail.png",
+  "description" : "These rails are a bit rough, but functional.",
+  "shortdescription" : "Kenopsea Rail",
+
+  "materialId" : 672
+}

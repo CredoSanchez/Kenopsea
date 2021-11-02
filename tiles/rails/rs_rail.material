@@ -1,0 +1,22 @@
+{
+  "materialId" : 672,
+  "materialName" : "rs_rail",
+  "collisionKind" : "none",
+  "foregroundOnly" : true,
+  "itemDrop" : "rs_rail",
+  "shortdescription" : "Kenopsea Rail",
+  "description" : "These rails are a bit rough, but functional.",
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
+  "category": "supports",
+  "health" : 3,
+
+  "renderTemplate" : "/tiles/railtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_rail.png",
+    "variants" : 1,
+    "multiColored" : false,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "zLevel" : 0
+  }
+}

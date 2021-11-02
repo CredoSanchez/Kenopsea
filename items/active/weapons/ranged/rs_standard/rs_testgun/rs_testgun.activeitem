@@ -1,11 +1,11 @@
 {
-  "itemName" : "rs_revolver",
-  "price" : 20000,
+  "itemName" : "rs_testgun",
+  "price" : 7500,
   "level" : 6,
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "A captains revolver, whom previous owner took refuge in the taboo.",
-  "shortdescription" : "Ilke",
+  "description" : "What does it shoot? Who knows.",
+  "shortdescription" : "Test gun",
   "tooltipKind" : "gun",
   "category" : "uniqueWeapon",
   "twoHanded" : false,
@@ -15,18 +15,18 @@
   "fixedLevel" : false,
 
   "inventoryIcon" : [
-    { "image" : "rs_revolvericon.png" }
+    { "image" : "rs_testgunicon.png" }
   ],
 
-  "animation" : "rs_revolver.animation",
+  "animation" : "rs_testgun.animation",
   "animationParts" : {
-    "middle" : "rs_revolver.png",
-	"middlefullbright" : "rs_revolverlit.png",
+    "middle" : "rs_testgun.png",
+	"middlefullbright" : "rs_testgunlit.png",
     "muzzleFlash" : "/animations/muzzleflash/tempmuzzle/rs_tempmuzzle.png"
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/gun/rs_standardshot.ogg" ]
+      "fire" : [ "/sfx/gun/rs_chainshot.ogg" ]
     },
 	"particleEmitters" : {
       "muzzleFlash" : {
@@ -53,14 +53,14 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.45,
-    "baseDps" : 10,
-    "energyUsage" : 25,
+    "fireTime" : 0.30,
+    "baseDps" : 5,
+    "energyUsage" : 20,
     "projectileCount" : 1,
-    "inaccuracy" : 0.025,
+    "inaccuracy" : 0.03,
     "fireType" : "auto",
 
-    "projectileType" : "rs_bullet",
+    "projectileType" : "rs_chainbullet",
     "projectileParameters" : {
       "knockbackRange" : [10, 40]
     },
