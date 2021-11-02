@@ -1,0 +1,39 @@
+{
+  "projectileName" : "rs_chainbullet",
+  "image" : "rs_chainbullet.png",
+  "animationCycle" : 0.3,
+  "animationLoops" : false,
+  "windupFrames" : 2,
+  "timeToLive" : 10,
+  "frameNumber" : 3,
+  "emitters" : [ "rs_flametrail" ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletimpactexplosion/bulletimpactexplosion.config"
+    }
+  ],
+  "periodicActions" : [
+    {
+      "time" : 0.01,
+      "repeat" : true,
+      "action" : "particle",
+      "rotate" : true,
+      "specification" : {
+        "type" : "animated",
+        "image" : "/projectiles/guns/rs_chainbullet/trail.animation",
+        "position" : [-1.75, 0],
+        "layer" : "back",
+        "timeToLive" : 0.3,
+        "destructionTime" : 0.2,
+        "destructionAction" : "fade",
+        "fullbright" : true
+      }
+    }
+  ],
+  "power" : 2.0,
+  "speed" : 150,
+  "lightColor" : [179, 149, 107],
+  "fullbright" : true,
+  "damageKind" : "default"
+}
