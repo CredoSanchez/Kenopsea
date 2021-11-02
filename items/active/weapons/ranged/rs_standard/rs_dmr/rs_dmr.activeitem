@@ -26,7 +26,7 @@
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/gun/burstshot1.ogg" ]
+      "fire" : [ "/sfx/gun/rs_standardshot.ogg" ]
     },
 	"particleEmitters" : {
       "muzzleFlash" : {
