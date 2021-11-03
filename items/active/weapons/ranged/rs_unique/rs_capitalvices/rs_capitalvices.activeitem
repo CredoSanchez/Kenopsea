@@ -37,12 +37,7 @@
 		"transformationGroups" : ["muzzle"],
 		"offsetRegion" : [-1.0, 0, -1.0, 0],
 		"particles" : [
-          { "particle" : "rs_bulletcasing2" },
-          { "particle" : "rs_bulletcasing2" },
-          { "particle" : "rs_bulletcasing2" },
-          { "particle" : "rs_bulletcasing2" },
-          { "particle" : "rs_bulletcasing2" },
-          { "particle" : "rs_bulletcasing2" }
+          { "particle" : "coldbreath" }
         ]
 	  }
 	}
@@ -60,32 +55,23 @@
     "class" : "RSAmmoFire",
 
     "fireTime" : 0.435,
-    "baseDps" : 11.5,
+    "baseDps" : 12.5,
     "inaccuracy" : 0.03,
 	
 	"readyTime" : 0.3, //Time between finishing the reload animation and being able to fire the first shot again
 	
-	"maxAmmo" : 6,
+	"maxAmmo" : 7,
 	"cycleAfterShot" : true,
 
     "projectileCount" : 3,
     "fireType" : "auto",
-	"shotIntervals" : [3, 6],
+	"shotIntervals" : [7],
 
-	"heavyDamageMultiplier" : 1.125,
-	"heavyProjectileType" : "rs_heavybullet",
+	"heavyDamageMultiplier" : 1.25,
+	"heavyProjectileType" : "rs_chainbullet",
     "projectileType" : "rs_bullet",
     "projectileParameters" : {
-      "knockback" : 12,
-	  "actionOnReap" : [
-		{
-		  "action" : "projectile",
-		  "inheritDamageFactor" : 0.1,
-		  "type" : "rs_shrapnel",
-		  "fuzzAngle" : 30,
-		  "angleAdjust" : -15
-		}
-	  ]
+      "knockback" : 12
     },
 	
     "stances" : {
@@ -116,7 +102,7 @@
         "allowFlip" : true
       },
       "reload" : {
-        "duration" : 0.75,
+        "duration" : 1,
         "armRotation" : -25,
         "weaponRotation" : 55,
 		"weaponOffset" : [-0.25, 0.0],

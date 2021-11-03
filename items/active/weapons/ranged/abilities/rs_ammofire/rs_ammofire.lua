@@ -24,7 +24,7 @@ function RSAmmoFire:update(dt, fireMode, shiftHeld)
 
   self.cooldownTimer = math.max(0, self.cooldownTimer - self.dt)
   
-  world.debugText(self.currentAmmo, vec2.add(self:firePosition(), {0,1}), "orange")
+  animator.setParticleEmitterActive("heavyReady", self:isShotHeavy(self.maxAmmo - self.currentAmmo + 1))
 
   if animator.animationState("firing") ~= "fire" then
     animator.setLightActive("muzzleFlash", false)

@@ -28,7 +28,7 @@
           },
           "reload" : {
             "frames" : 6,
-            "cycle" : 0.75,
+            "cycle" : 1,
             "mode" : "transition",
             "transition" : "readyState1"
           }
@@ -164,6 +164,14 @@
       "transformationGroups" : ["muzzle"],
       "offsetRegion" : [0, 0, 0, 0],
       "particles" : [ ]
+    },
+    "heavyReady" : {
+	  "transformationGroups" : ["muzzle"],
+	  "offsetRegion" : [0.375, 0.0, 0.375, 0.0],
+	  "emissionRate" : 30,
+	  "particles" : [
+	    {"particle" : "burningdust"}
+	  ]
     }
   },
 
