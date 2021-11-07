@@ -6,41 +6,18 @@
   "animatedParts" : {
     "stateTypes" : {
       "gun" : {
-        "default" : "readyState1",
+        "default" : "idle",
         "states" : {
-          "readyState1" : {
-			"frames" : 1
-		  },
-          "startCycle1" : {
-            "frames" : 1,
-            "cycle" : 0.15,
+          "idle" : {},
+          "fire" : {
+            "frames" : 4,
+            "cycle" : 0.35,
             "mode" : "transition",
-            "transition" : "readyState2"
-          },
-		  "readyState2" : {
-			"frames" : 1
-		  },
-          "startCycle2" : {
-            "frames" : 1,
-            "cycle" : 0.15,
-            "mode" : "transition",
-            "transition" : "readyState1"
+            "transition" : "idle"
           },
           "reload" : {
             "frames" : 6,
             "cycle" : 1,
-            "mode" : "transition",
-            "transition" : "readyState1"
-          }
-        }
-      },
-      "gunBarrel" : {
-        "default" : "idle",
-        "states" : {
-          "idle" : {},
-          "cool" : {
-            "frames" : 4,
-            "cycle" : 0.2,
             "mode" : "transition",
             "transition" : "idle"
           }
@@ -70,24 +47,14 @@
         },
         "partStates" : {
           "gun" : {
-            "readyState1" : {
+            "idle" : {
               "properties" : {
-                "image" : "<partImage>:ready1"
+                "image" : "<partImage>:idle"
               }
             },
-			"startCycle1" : {
+			"fire" : {
               "properties" : {
-                "image" : "<partImage>:cycle1.<frame>"
-              }
-            },
-			"readyState2" : {
-              "properties" : {
-                "image" : "<partImage>:ready2"
-              }
-            },
-			"startCycle2" : {
-              "properties" : {
-                "image" : "<partImage>:cycle2.<frame>"
+                "image" : "<partImage>:cool.<frame>"
               }
             },
 			"reload" : {
@@ -108,15 +75,20 @@
           "transformationGroups" : ["weapon"]
         },
         "partStates" : {
-          "gunBarrel" : {
+          "gun" : {
             "idle" : {
               "properties" : {
-                "image" : ""
+                "image" : "<partImage>:idle"
               }
             },
-			"cool" : {
+			"fire" : {
               "properties" : {
                 "image" : "<partImage>:cool.<frame>"
+              }
+            },
+			"reload" : {
+              "properties" : {
+                "image" : "<partImage>:reload.<frame>"
               }
             }
           }
