@@ -27,8 +27,8 @@
       }
     },
     "sounds" : {
-      "fire" : [ "/sfx/gun/pistol3.ogg" ],
-      "fireHeavy" : [ "/sfx/gun/shotgun4.ogg" ],
+      "fire" : [ "/sfx/gun/rs_standardshot.ogg" ],
+      "fireHeavy" : [ "/sfx/gun/rs_chainshot.ogg" ],
 	  "reloadLoop" : [  ],
 	  "reload" : [ "/sfx/gun/shotgun_reload_clip2.ogg" ]
     },

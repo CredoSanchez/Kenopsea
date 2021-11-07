@@ -54,15 +54,15 @@
     "class" : "GunFire",
 
     "fireTime" : 0.30,
-    "baseDps" : 5,
-    "energyUsage" : 20,
+    "baseDps" : 1,
+    "energyUsage" : 0,
     "projectileCount" : 1,
-    "inaccuracy" : 0.03,
+    "inaccuracy" : 0,
     "fireType" : "auto",
 
     "projectileType" : "rs_chainbullet",
     "projectileParameters" : {
-      "knockbackRange" : [10, 40]
+      "knockbackRange" : [0, 0]
     },
     "muzzleFlashVariants" : 3,
 

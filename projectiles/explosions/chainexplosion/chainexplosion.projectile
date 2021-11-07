@@ -1,0 +1,16 @@
+{
+  "projectileName" : "chainexplosion",
+  "image" : "chainexplosion.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 7,
+  "speed" : 0,
+  "fullbright" : true,
+  "damagePoly" : [ [-18, 0], [-12, -12], [0, -18], [12, -12], [18, 0], [12, 12], [0, 18], [-12, 12] ],
+  "power" : 1.0,
+  "animationLoops" : false,
+  "orientationLocked" : true,
+  "piercing" : true,
+  "bounces" : -1,
+  "flippable" : true,
+  "damageKind" : "fire"
+}

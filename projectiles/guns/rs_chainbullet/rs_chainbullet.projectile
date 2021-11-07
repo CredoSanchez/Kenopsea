@@ -10,7 +10,7 @@
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/bulletimpactexplosion/bulletimpactexplosion.config"
+      "file" : "/projectiles/explosions/chainexplosion/chainexplosion.config"
     }
   ],
   "periodicActions" : [

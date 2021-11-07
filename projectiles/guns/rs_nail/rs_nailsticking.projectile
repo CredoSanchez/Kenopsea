@@ -47,6 +47,6 @@
   
   "renderLayer" : "Monster+1",
   
-  "scripts" : [ "/projectiles/scripts/neb-embeddedexplosion.lua" ],
+  "scripts" : [ "/projectiles/scripts/thea-embeddedexplosion.lua" ],
   "searchRadius" : 0.1
 }

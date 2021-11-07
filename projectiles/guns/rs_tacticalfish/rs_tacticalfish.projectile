@@ -10,19 +10,7 @@
   "frameNumber" : 4,
   "emitters" : [ "rs_dripsource" ],
   "power" : 1,
-  "statusEffects" : [ "wet" ],
   "speed" : 50,
   "fullbright" : false,
-  "piercing" : true,
-  "damageKind" : "default",
-  "actionOnReap" : [
-    {
-      "action" : "config",
-      "file" : "/projectiles/explosions/tacticalfishexplosion/tacticalfishexplosion.config"
-    }
-  ],
-  
-  "scripts" : [ "/projectiles/scripts/neb-bounceoffenemies.lua" ],
-  "entityBounces" : 5,
-  "bounceFactor" : 0.7
+  "damageKind" : "default"
 }
