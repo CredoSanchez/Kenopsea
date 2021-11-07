@@ -13,8 +13,6 @@
   "speed" : 50,
   "fullbright" : false,
   "statusEffects" : [ "wet" ],
-  "speed" : 50,
-  "fullbright" : false,
   "piercing" : true,
   "damageKind" : "default",
   "actionOnReap" : [
