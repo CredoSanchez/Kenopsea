@@ -1,6 +1,8 @@
 require "/scripts/util.lua"
 require "/scripts/interp.lua"
 
+--By nebby
+
 -- Base gun fire ability
 RSAmmoFire = WeaponAbility:new()
 
@@ -16,7 +18,7 @@ function RSAmmoFire:init()
   
   self.currentAmmo = config.getParameter("ammoCount", self.maxAmmo)
   
-  animator.setAnimationState("gun", "readyState1")
+  animator.setAnimationState("gun", "idle")
 end
 
 function RSAmmoFire:update(dt, fireMode, shiftHeld)
@@ -73,17 +75,6 @@ function RSAmmoFire:auto()
   --Remove ammo from the magazine, and cycle the weapon if needed
   self.currentAmmo = self.currentAmmo - 1
   activeItem.setInstanceValue("ammoCount", self.currentAmmo)
-  
-  --Optional firing animations
-  if self.cycleAfterShot == true then
-	if animator.animationState("gun") == "readyState1" then
-	  animator.setAnimationState("gun", "startCycle1")
-	elseif animator.animationState("gun") == "readyState2" then
-	  animator.setAnimationState("gun", "startCycle2")
-	end
-  elseif self.fireAnimation == true then
-	animator.setAnimationState("gun", "fire")
-  end
 
   if self.stances.fire.duration then
     util.wait(self.stances.fire.duration)
@@ -114,17 +105,6 @@ function RSAmmoFire:burst()
   --Remove ammo from the magazine, and cycle the weapon if needed
   self.currentAmmo = self.currentAmmo - 1
   activeItem.setInstanceValue("ammoCount", self.currentAmmo)
-  
-  --Optional firing animations
-  if self.cycleAfterShot == true then
-	if animator.animationState("gun") == "readyState1" then
-	  animator.setAnimationState("gun", "startCycle1")
-	elseif animator.animationState("gun") == "readyState2" then
-	  animator.setAnimationState("gun", "startCycle2")
-	end
-  elseif self.fireAnimation == true then
-	animator.setAnimationState("gun", "fire")
-  end
 
   self.cooldownTimer = (self.fireTime - self.burstTime) * self.burstCount
 end
@@ -144,24 +124,6 @@ function RSAmmoFire:cooldown()
 
     progress = math.min(1.0, progress + (self.dt / self.stances.cooldown.duration))
   end)
-end
-
-function RSAmmoFire:preReloadTwirl()
-  self.weapon:setStance(self.stances.preReloadTwirl)
-  self.weapon:updateAim()
-
-  animator.playSound("preReloadTwirl")
-  
-  local progress = 0
-  util.wait(self.stances.preReloadTwirl.duration, function()
-
-	self.weapon.relativeWeaponRotation = util.toRadians(interp.linear(progress, self.stances.preReloadTwirl.weaponRotation, self.stances.preReloadTwirl.endWeaponRotation))
-	self.weapon.relativeArmRotation = util.toRadians(interp.linear(progress, self.stances.preReloadTwirl.armRotation, self.stances.preReloadTwirl.endArmRotation))
-
-	progress = math.min(1.0, progress + (self.dt / self.stances.preReloadTwirl.duration))
-  end)
-  
-  self:setState(self.reload)
 end
 
 function RSAmmoFire:reload()
@@ -224,7 +186,10 @@ function RSAmmoFire:muzzleFlash(heavy)
   animator.burstParticleEmitter("muzzleFlash")
   animator.playSound("fire" .. (heavy and "Heavy" or ""))
   
-  animator.setAnimationState("gunBarrel", "cool")
+  --Optional firing animations
+  if self.fireAnimation == true then
+	animator.setAnimationState("gun", "fire")
+  end
 
   animator.setLightActive("muzzleFlash", true)
 end
@@ -266,6 +231,7 @@ function RSAmmoFire:fireProjectile(heavyShot, projectileType, projectileParams, 
   return projectileId
 end
 
+--Determine if the shot is a heavy shot
 function RSAmmoFire:isShotHeavy(currentShot)
   local shotIsHeavy = false
   for _, shot in ipairs(self.shotIntervals) do

@@ -1,7 +1,7 @@
 {
   "itemName" : "rs_capitalvices",
   "price" : 1500,
-  "inventoryIcon" : "rs_capitalvices.png:ready1",
+  "inventoryIcon" : "rs_capitalvices.png:idle",
   "maxStack" : 1,
   "rarity" : "Essential",
   "shortdescription" : "^orange;Capital Vices",
@@ -30,7 +30,7 @@
       "fire" : [ "/sfx/gun/rs_standardshot.ogg" ],
       "fireHeavy" : [ "/sfx/gun/rs_chainshot.ogg" ],
 	  "reloadLoop" : [  ],
-	  "reload" : [ "/sfx/gun/shotgun_reload_clip2.ogg" ]
+	  "reload" : [ "/sfx/gun/reload/grenade_reload_clip2.ogg" ]
     },
 	"particleEmitters" : {
 	  "reload" : {
@@ -59,9 +59,9 @@
     "inaccuracy" : 0.03,
 	
 	"readyTime" : 0.3, //Time between finishing the reload animation and being able to fire the first shot again
+	"fireAnimation" : true,
 	
 	"maxAmmo" : 7,
-	"cycleAfterShot" : true,
 
     "projectileCount" : 3,
     "fireType" : "auto",
