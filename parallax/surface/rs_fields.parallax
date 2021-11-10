@@ -52,49 +52,36 @@
     {
       "kind" : "savannah2",
       "offset" : [0, 50],
-      "parallax" : [2.8, 2.8],
-      "fadePercent" : 0.01
+      "parallax" : [2.8, 2.8]
     },
     {
       "kind" : "rs_fields3",
       "offset" : [0, 50],
-      "parallax" : [3, 3],
-      "fadePercent" : 0.02
+      "parallax" : [3, 3]
     },
     {
       "kind" : "rs_fields4",
       "offset" : [0, 50],
-      "parallax" : [3.2, 3.2],
-      "fadePercent" : 0.03
+      "parallax" : [3.2, 3.2]
     },
     {
       "kind" : "rs_bridge",
       "baseCount" : 1,
       "offset" : [0, 137],
-      "parallax" : [1.5, 1.5],
-      "fadePercent" : 0.1
-    },
-    {
-      "kind" : "rs_bridge",
-      "baseCount" : 1,
-      "offset" : [0, 137],
-      "parallax" : [1.5, 1.55],
-      "fadePercent" : 0.1
+      "parallax" : [1.5, 1.5]
     },
     {
       "kind" : "rs_train",
       "baseCount" : 1,
       "offset" : [0, -23],
       "parallax" : [1.5, 1.5],
-      "fadePercent" : 0.1,
       "minSpeed" : 110000,
       "maxSpeed" : 170000
     },
     {
       "kind" : "rs_fields5",
       "offset" : [0, 50],
-      "parallax" : [3.4, 3.4],
-      "fadePercent" : 0.04
+      "parallax" : [3.4, 3.4]
     },
     {
       "kind" : "rs_fields6",
@@ -115,15 +102,13 @@
       "kind" : "rs_mountains",
       "baseCount" : 1,
       "offset" : [0, 45],
-      "parallax" : [8, 4],
-      "fadePercent" : 0.1
+      "parallax" : [8, 4]
     },
     {
       "kind" : "rs_mountainsback",
       "baseCount" : 1,
       "offset" : [0, 325],
-      "parallax" : [8.01, 4.2],
-      "fadePercent" : 0.1
+      "parallax" : [8.01, 4.2]
     },
 
   {
