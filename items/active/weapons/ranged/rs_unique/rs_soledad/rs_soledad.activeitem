@@ -1,0 +1,130 @@
+{
+  "itemName" : "rs_soledad",
+  "price" : 1500,
+  "inventoryIcon" : "rs_soledad.png:idle",
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "shortdescription" : "^orange;Soledad",
+  "level" : 6,
+  "tooltipKind" : "rs_soledad",
+  "itemTags" : ["weapon", "ranged"],
+  "twoHanded" : true,
+
+  "animation" : "rs_soledad.animation",
+  "animationParts" : {
+    "middle" : "rs_soledad.png",
+	"middleFullbright" : "rs_soledadlit.png",
+    "muzzleFlash" : "/animations/muzzleflash/tempmuzzle/rs_tempmuzzle.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "middleFullbright" : {
+		  "properties" : {
+		    "offset" : [0.65, 0.0]
+		  }
+		}
+      }
+    },
+    "sounds" : {
+      "fire" : [ "/sfx/gun/rs_standardshot.ogg" ],
+      "fireHeavy" : [ "/sfx/gun/rs_akrshot.ogg" ],
+	  "reloadLoop" : [  ],
+	  "reload" : [ "/sfx/gun/reload/grenade_reload_clip2.ogg" ]
+    },
+	"particleEmitters" : {
+	  "reload" : {
+		"transformationGroups" : ["muzzle"],
+		"offsetRegion" : [-1.0, 0, -1.0, 0],
+		"particles" : [
+          { "particle" : "rs_bulletcasing1" },
+          { "particle" : "rs_bulletcasing1" },
+          { "particle" : "rs_bulletcasing1" },
+          { "particle" : "rs_bulletcasing1" },
+          { "particle" : "rs_bulletcasing2" }
+        ]
+	  }
+	}
+  },
+
+  "baseOffset" : [0.65, 0.0],
+  "muzzleOffset" : [1.5, 0.25],
+
+  "scripts" : ["/items/active/weapons/ranged/rs_gun.lua"],
+
+  "elementalType" : "physical",
+  
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/abilities/rs_ammofire/rs_ammofire.lua"],
+    "class" : "RSAmmoFire",
+
+    "fireTime" : 0.5,
+    "baseDps" : 14,
+    "inaccuracy" : 0,
+	
+	"readyTime" : 0.5,
+	"fireAnimation" : true,
+	
+	"maxAmmo" : 5,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+	"shotIntervals" : [5],
+
+	"heavyDamageMultiplier" : 1.25,
+	"heavyProjectileType" : "rs_heavybullet",
+    "projectileType" : "rs_bullet",
+    "projectileParameters" : {
+      "knockback" : 12
+    },
+	
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 10,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.30,
+        "armRotation" : 5,
+        "weaponRotation" : 10,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "reload" : {
+        "duration" : 1,
+        "armRotation" : -25,
+        "weaponRotation" : 55,
+		"weaponOffset" : [-0.25, 0.0],
+        "twoHanded" : true,
+
+        "aimAngle" : 0,
+        "allowRotate" : false,
+        "allowFlip" : true,
+
+		"frontArmFrameSequence" : [
+		  [0.0, "rotation"],
+		  [0.1, "walk.2"],
+		  [0.3, "run.3"],
+		  [0.55, "run.1"]
+		],
+        "backArmFrame" : "rotation"
+      }
+    }
+  },
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
