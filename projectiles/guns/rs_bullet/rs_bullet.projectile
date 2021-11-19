@@ -1,6 +1,7 @@
 {
   "projectileName" : "rs_bullet",
   "image" : "rs_bullet.png",
+  "physics" : "arrownosticky",
   "animationCycle" : 0.3,
   "animationLoops" : false,
   "windupFrames" : 2,
@@ -31,7 +32,7 @@
     }
   ],
   "power" : 2.0,
-  "speed" : 150,
+  "speed" : 125,
   "lightColor" : [179, 149, 107],
   "fullbright" : true,
   "damageKind" : "default"

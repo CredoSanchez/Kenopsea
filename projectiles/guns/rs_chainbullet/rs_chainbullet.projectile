@@ -1,6 +1,7 @@
 {
   "projectileName" : "rs_chainbullet",
   "image" : "rs_chainbullet.png",
+  "physics" : "arrownosticky",
   "animationCycle" : 0.3,
   "animationLoops" : false,
   "windupFrames" : 2,
@@ -11,6 +12,10 @@
     {
       "action" : "config",
       "file" : "/projectiles/explosions/chainexplosion/chainexplosion.config"
+    },
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/heatedbulletexplosion/rs_heatedbulletexplosion.config"
     }
   ],
   "periodicActions" : [
@@ -32,7 +37,7 @@
     }
   ],
   "power" : 2.0,
-  "speed" : 150,
+  "speed" : 125,
   "lightColor" : [179, 149, 107],
   "fullbright" : true,
   "damageKind" : "default"

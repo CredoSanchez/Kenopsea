@@ -1,6 +1,7 @@
 {
   "projectileName" : "rs_heavybullet",
   "image" : "rs_heavybullet.png",
+  "physics" : "arrownosticky",
   "animationCycle" : 0.3,
   "animationLoops" : false,
   "windupFrames" : 2,
@@ -11,6 +12,10 @@
     {
       "action" : "config",
       "file" : "/projectiles/explosions/bulletimpactexplosion/bulletimpactexplosion.config"
+    },
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/heatedbulletexplosion/rs_heatedbulletexplosion.config"
     },
 	{
       "action" : "projectile",
@@ -84,7 +89,7 @@
     }
   ],
   "power" : 2.0,
-  "speed" : 175,
+  "speed" : 150,
   "lightColor" : [179, 149, 107],
   "fullbright" : true,
   "damageKind" : "default"
