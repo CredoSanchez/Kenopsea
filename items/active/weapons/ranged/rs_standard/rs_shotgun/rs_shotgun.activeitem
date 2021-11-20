@@ -34,13 +34,14 @@
 		  "offsetRegion" : [0.16, 0.25, 0.16, 0.25],
         "particles" : [
           { "particle" : "rs_bulletcasing2", "offset" : [0.75, 0.25] },
-		  { "particle" : "rs_breaksmoke", "offset" : [0, 0] },
-		  { "particle" : "rs_sparker", "offset" : [2.40, 0.85] },
-		  { "particle" : "fireember", "offset" : [2.40, 0.85] },
-		  { "particle" : "campfireflames", "offset" : [2.40, 0.85] },
-		  { "particle" : "burningdust", "offset" : [2.40, 0.85] },
-		  { "particle" : "firebackspark", "offset" : [2.40, 0.85] },
-		  { "particle" : "rocketbarrelpuff", "offset" : [2.40, 0.85] },
+		      { "particle" : "rs_breaksmoke", "offset" : [0, 0] },
+		      { "particle" : "rs_sparker", "offset" : [2.40, 0.85] },
+          { "particle" : "rs_sparker", "offset" : [2.40, 0.85] },
+		      { "particle" : "fireember", "offset" : [2.40, 0.85] },
+		      { "particle" : "campfireflames", "offset" : [2.40, 0.85] },
+		      { "particle" : "burningdust", "offset" : [2.40, 0.85] },
+		      { "particle" : "firebackspark", "offset" : [2.40, 0.85] },
+		      { "particle" : "rocketbarrelpuff", "offset" : [2.40, 0.85] },
           { "particle" : "rocketbarrelpuff", "offset" : [2.40, 0.85] }
         ]
 	    }

@@ -39,7 +39,22 @@
 		"particles" : [
           { "particle" : "coldbreath" }
         ]
-	  }
+	  },
+    "muzzleFlash" : {
+	    "transformationGroups" : ["weapon"],
+		"offsetRegion" : [1.25, 0, 1.25, 0],
+        "particles" : [
+          { "particle" : "rs_bulletcasing1" },
+		      { "particle" : "rs_sparker", "offset" : [1.25, 0.5] },
+		      { "particle" : "rs_sparker", "offset" : [1.25, 0.5] },
+		      { "particle" : "fireember", "offset" : [1.25, 0.5] },
+		      { "particle" : "campfireflames", "offset" : [1.25, 0.5] },
+		      { "particle" : "burningdust", "offset" : [1.25, 0.5] },
+		      { "particle" : "firebackspark", "offset" : [1.25, 0.5] },
+		      { "particle" : "rocketbarrelpuff", "offset" : [1.25, 0.5] },
+          { "particle" : "rocketbarrelpuff", "offset" : [1.25, 0.5] }
+        ]
+      }
 	}
   },
 
@@ -58,7 +73,7 @@
     "baseDps" : 12.5,
     "inaccuracy" : 0.03,
 	
-	"readyTime" : 0.3, //Time between finishing the reload animation and being able to fire the first shot again
+	"readyTime" : 0.3,
 	"fireAnimation" : true,
 	
 	"maxAmmo" : 7,

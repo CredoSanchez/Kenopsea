@@ -60,7 +60,7 @@
 		"middlefullbright": {
 			"properties": {
 				"centered": true,
-				"offset": [0.75, 0.1],
+				"offset": [0.75, 0.10],
 				"zLevel": 2,
 				"transformationGroups": ["weapon"],
 				"fullbright": true

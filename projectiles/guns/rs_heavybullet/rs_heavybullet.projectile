@@ -11,10 +11,6 @@
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/bulletimpactexplosion/bulletimpactexplosion.config"
-    },
-    {
-      "action" : "config",
       "file" : "/projectiles/explosions/heatedbulletexplosion/rs_heatedbulletexplosion.config"
     },
 	{

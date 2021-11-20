@@ -41,7 +41,7 @@
   "actionOnDetonate" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/minutiaeexplosion/minutiaeexplosion.config"
+      "file" : "/projectiles/explosions/heatedbulletexplosion/rs_heatedbulletexplosion.config"
     }
   ],
   
