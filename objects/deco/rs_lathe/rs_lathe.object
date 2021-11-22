@@ -18,8 +18,8 @@
       "flipImages" : true,
       
       "imagePosition" : [0, 0],
-      "frames" : 16,
-      "animationCycle" : 1.5,
+      "frames" : 24,
+      "animationCycle" : 2.25,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
@@ -29,8 +29,8 @@
       "direction" : "right",
       
       "imagePosition" : [0, 0],
-      "frames" : 16,
-      "animationCycle" : 1.5,
+      "frames" : 24,
+      "animationCycle" : 2.25,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
