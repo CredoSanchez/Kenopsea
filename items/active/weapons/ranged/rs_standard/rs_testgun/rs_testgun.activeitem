@@ -6,7 +6,7 @@
   "rarity" : "Legendary",
   "description" : "What does it shoot? Who knows.",
   "shortdescription" : "Test gun",
-  "tooltipKind" : "gun",
+  "tooltipKind" : "rs_rdto",
   "category" : "uniqueWeapon",
   "twoHanded" : false,
   "itemTags" : ["weapon","ranged"],

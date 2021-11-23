@@ -1,0 +1,12 @@
+{
+  "background" : {
+    "type" : "background",
+    "fileBody" : "/interface/tooltips/rs_rdtobody.png"
+  },
+  "somethingelseidfk" : {
+    "type" : "image",
+    "position" : [1, 333],
+    "file" : "/interface/inventory/rs_rdtoportrait.png",
+    "zlevel" : 500
+  }
+}
