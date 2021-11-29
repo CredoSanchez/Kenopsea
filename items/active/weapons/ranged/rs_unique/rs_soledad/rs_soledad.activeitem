@@ -48,7 +48,6 @@
 	    "transformationGroups" : ["weapon"],
 		"offsetRegion" : [1.25, 0, 1.25, 0],
         "particles" : [
-          { "particle" : "rs_bulletcasing1" },
 		      { "particle" : "rs_sparker", "offset" : [1.5, 0.25] },
 		      { "particle" : "rs_sparker", "offset" : [1.5, 0.25] },
 		      { "particle" : "fireember", "offset" : [1.5, 0.25] },
