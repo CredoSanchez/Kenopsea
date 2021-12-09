@@ -1,8 +1,8 @@
 {
-  "materialId" : 643,
-  "materialName" : "rs_floor2",
+  "materialId" : 12368,
+  "materialName" : "rs_woodfloor2",
   "particleColor" : [84, 82, 85, 255],
-  "itemDrop" : "rs_floor2", 
+  "itemDrop" : "rs_woodfloor2", 
   "shortdescription" : "Reinforced Floor",
   
   "description" : "A reinforced floor used primarily on railcars and ships.",
@@ -13,7 +13,7 @@
   
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "rs_floor2.png",
+    "texture" : "rs_woodfloor2.png",
     "variants" : 5,
     "lightTransparent" : false,
     "occludesBelow" : true,

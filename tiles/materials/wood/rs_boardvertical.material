@@ -1,8 +1,8 @@
 {
-  "materialId" : 640,
-  "materialName" : "rs_board",
+  "materialId" : 12362,
+  "materialName" : "rs_boardvertical",
   "particleColor" : [89, 127, 52, 255],
-  "itemDrop" : "rs_board",
+  "itemDrop" : "rs_boardvertical",
   "description" : "Expertly treated wood.",
   "shortdescription" : "Red Sea Wood",
   "glitchDescription" : "Amazed. This wood was specially treated by a master craftsman.",
@@ -15,7 +15,7 @@
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "rs_board.png",
+    "texture" : "rs_boardvertical.png",
     "variants" : 5,
     "lightTransparent" : false,
     "occludesBelow" : true,

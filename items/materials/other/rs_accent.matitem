@@ -8,6 +8,6 @@
   "shortdescription" : "Kenopsea Accent Tile",
   "tooltipKind" : "rs_base",
 
-  "materialId" : 645,
+  "materialId" : 12381,
   "learnBlueprintsOnPickup" : [ "rs_accent" ]
 }

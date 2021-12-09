@@ -8,6 +8,6 @@
   "description" : "Sleek glass panels reinforced with metal.",
   "tooltipKind" : "rs_base",
 
-  "materialId" : 660,
+  "materialId" : 12311,
   "learnBlueprintsOnPickup" : [ "rs_slopedglass" ]
 }

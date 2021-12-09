@@ -11,7 +11,7 @@
   "novakidDescription" : "A strong lookin' metal girder.",
   "tooltipKind" : "rs_base",
 
-  "materialId" : 670,
+  "materialId" : 12307,
   "learnBlueprintsOnPickup" : [ "rs_girderslope" ]
 }
 

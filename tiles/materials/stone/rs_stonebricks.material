@@ -1,8 +1,8 @@
 {
-  "materialId" : 627,
-  "materialName" : "rs_stone",
+  "materialId" : 12345,
+  "materialName" : "rs_stonebricks",
   "particleColor" : [84, 82, 85, 255],
-  "itemDrop" : "rs_stone", 
+  "itemDrop" : "rs_stonebricks", 
   "shortdescription" : "Variable Stone",
   
   "description" : "Old but sturdy brickwork and stones.",
@@ -13,7 +13,7 @@
   
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "rs_stone.png",
+    "texture" : "rs_stonebricks.png",
     "variants" : 5,
     "lightTransparent" : false,
     "occludesBelow" : true,

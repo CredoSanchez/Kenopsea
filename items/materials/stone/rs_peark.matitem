@@ -8,6 +8,6 @@
   "shortdescription" : "Kenopsea Rock",
   "tooltipKind" : "rs_base",
 
-  "materialId" : 646,
+  "materialId" : 12344,
   "learnBlueprintsOnPickup" : [ "rs_peark" ]
 }

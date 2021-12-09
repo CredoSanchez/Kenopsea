@@ -8,6 +8,6 @@
   "description" : "Strong platforms.",
   "tooltipKind" : "rs_base",
 
-  "materialId" : 639,
+  "materialId" : 12369,
   "learnBlueprintsOnPickup" : [ "rs_platform" ]
 }

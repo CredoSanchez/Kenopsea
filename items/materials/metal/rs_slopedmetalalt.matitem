@@ -1,9 +1,9 @@
 {
-  "itemName" : "rs_slopedpaintable",
+  "itemName" : "rs_slopedmetalalt",
   "price" : 0,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "rs_slopedred.png",
+  "inventoryIcon" : "rs_slopedmetal.png",
   "shortdescription" : "Kenopsea Metal Plating Variant",
   "description" : "Sturdy metal panelling that has been rusted with age.",
   "glitchdescription" : "Eager. I am sure with some elbow grease, this metal panelling could be cleared up.",
@@ -11,6 +11,6 @@
   "novakiddescription" : "Some 'ol metal panels covered in rust.",
   "tooltipKind" : "rs_base",
 
-  "materialId" : 663,
-  "learnBlueprintsOnPickup" : [ "rs_slopedpaintable" ]
+  "materialId" : 12314,
+  "learnBlueprintsOnPickup" : [ "rs_slopedmetalalt" ]
 }

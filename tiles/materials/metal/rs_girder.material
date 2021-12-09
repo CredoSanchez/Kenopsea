@@ -1,8 +1,8 @@
 {
-  "materialId" : 637,
+  "materialId" : 12305,
   "materialName" : "rs_girder",
   "frames" : "girder.png",
-  "particleColor" : [97, 97, 97, 255],
+  "particleColor" : [84, 82, 85, 255],
   "variants" : 1,
   "itemDrop" : "rs_girder",
   "description" : "A strong looking metal girder.",

@@ -1,8 +1,8 @@
 {
-  "materialId" : 659,
-  "materialName" : "rs_pipecenterH",
+  "materialId" : 12335,
+  "materialName" : "rs_pipecentervertical",
   "particleColor" : [97, 97, 97, 255],
-  "itemDrop" : "rs_pipecenterH", 
+  "itemDrop" : "rs_pipecentervertical", 
   "shortdescription" : "Kenopsea Pipe Center",
   
   "description" : "The center of an old pipe.",
@@ -13,7 +13,7 @@
   
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "rs_pipecenterH.png",
+    "texture" : "rs_pipecentervertical.png",
     "variants" : 1,
     "lightTransparent" : false,
     "occludesBelow" : true,

@@ -1,12 +1,12 @@
 {
-  "itemName" : "rs_stone",
+  "itemName" : "rs_stonebricks",
   "price" : 0,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "rs_stone.png",
+  "inventoryIcon" : "rs_stonebricks.png",
   "shortdescription" : "Kenopsea Brick",
   "description" : "An old brick and stone wall.",
   "tooltipKind" : "rs_base",
 
-  "materialId" : 627
+  "materialId" : 12345
 }

@@ -1,12 +1,12 @@
 {
-  "itemName" : "rs_floor1",
+  "itemName" : "rs_stonefloor",
   "price" : 0,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "rs_floor1.png",
+  "inventoryIcon" : "rs_stonefloor.png",
   "shortdescription" : "Kenopsea Floor",
   "description" : "Heavy stones cover this path.",
   "tooltipKind" : "rs_base",
 
-  "materialId" : 638
+  "materialId" : 12346
 }

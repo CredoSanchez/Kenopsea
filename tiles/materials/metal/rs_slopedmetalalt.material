@@ -1,8 +1,8 @@
 {
-  "materialId" : 663,
-  "materialName" : "rs_slopedpaintable",
+  "materialId" : 12314,
+  "materialName" : "rs_slopedmetalalt",
   "particleColor" : [182, 182, 182, 255],
-  "itemDrop" : "rs_slopedpaintable",
+  "itemDrop" : "rs_slopedmetalalt",
 
   "description" : "Sturdy metal panelling that has been rusted with age.",
   "glitchDescription" : "Eager. I am sure with some elbow grease, this metal panelling could be cleared up.",
@@ -16,11 +16,11 @@
 
   "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "rs_slopedred.png",
+    "texture" : "rs_slopedmetal.png",
     "variants" : 9,
     "lightTransparent" : false,
     "occludesBelow" : true,
     "multiColored" : true,
-    "zLevel" : 5002
+    "zLevel" : 5001
   }
 }

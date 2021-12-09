@@ -8,6 +8,6 @@
   "description" : "Large stone for support & foundation.",
   "tooltipKind" : "rs_base",
 
-  "materialId" : 652,
+  "materialId" : 12341,
   "learnBlueprintsOnPickup" : [ "rs_heavystone" ]
 }
