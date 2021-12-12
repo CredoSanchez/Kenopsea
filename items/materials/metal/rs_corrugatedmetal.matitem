@@ -1,0 +1,12 @@
+{
+  "itemName" : "rs_corrugatedmetal",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_corrugatedmetal.png",
+  "shortdescription" : "Kenopsea Corrugated Metal",
+  "description" : "Corrugated metal panels.",
+  "tooltipKind" : "rs_base",
+
+  "materialId" : 12319
+}

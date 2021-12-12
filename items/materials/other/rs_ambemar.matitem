@@ -1,0 +1,13 @@
+{
+  "itemName" : "rs_ambemar",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_ambemar.png",
+  "description" : "A highly flammable waxy biproduct.",
+  "shortdescription" : "Kenopsea Ambemar",
+  "tooltipKind" : "rs_base",
+
+  "materialId" : 12390,
+  "learnBlueprintsOnPickup" : [ "rs_ambemar" ]
+}

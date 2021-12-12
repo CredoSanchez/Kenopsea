@@ -1,0 +1,16 @@
+{
+  "itemName" : "rs_boardhorizontal",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_boardhorizontal.png",
+  "description" : "Expertly treated wood.",
+  "shortdescription" : "Kenopsea Wood",
+  "glitchdescription" : "Amazed. This wood was specially treated by a master craftsman.",
+  "florandescription" : "Floran likess sspecial treated wood.",
+  "novakiddescription" : "This wood looks like it's been treated with somethin'.",
+  "tooltipKind" : "rs_base",
+
+  "materialId" : 12361,
+  "learnBlueprintsOnPickup" : [ "rs_boardhorizontal" ]
+}

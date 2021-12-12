@@ -1,0 +1,23 @@
+{
+  "materialId" : 12390,
+  "materialName" : "rs_ambemar",
+  "particleColor" : [13, 39, 7, 255],
+  "itemDrop" : "rs_ambemar",
+  "description" : "A highly flammable waxy biproduct.",
+  "shortdescription" : "Kenopsea Ambemar",
+  "footstepSound" : "/sfx/blocks/footstep_tallgrass.ogg",
+  "health" : 2,
+  "category" : "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_ambemar.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 70,
+    "radiantLight" : [223, 91, 5]
+  }
+}
