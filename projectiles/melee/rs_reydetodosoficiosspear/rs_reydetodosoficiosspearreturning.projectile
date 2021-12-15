@@ -22,5 +22,5 @@
   "damageType" : "Status",
   "damageKind" : "fire",
   "hydrophobic" : false,
-  "fullbright" : true
+  "fullbright" : false
 }
