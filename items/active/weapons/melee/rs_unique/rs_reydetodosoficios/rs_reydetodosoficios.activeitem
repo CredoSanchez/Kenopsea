@@ -1,0 +1,335 @@
+{
+  "itemName" : "rs_reydetodosoficios",
+  "price" : 1500,
+  "level" : 6,
+  "fixedLevel" : false,
+  "maxStack" : 1,
+  "rarity" : "essential",
+  "description" : "A weapon fit for a king.",
+  "shortdescription" : "Rey de todos Oficios",
+  "tooltipKind" : "rs_rdto",
+  "category" : "Javelin",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged"],
+
+  "inventoryIcon" : "rs_reydetodosoficios.png:idle",
+
+  "animation" : "rs_reydetodosoficios.animation",
+  "animationParts" : {
+    "weapon" : "rs_reydetodosoficios.png"
+    //"weaponFullbright" : "rs_reydetodosoficiosfullbright.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+	  //PRIMARY
+      "fire" : [ "/sfx/melee/swing_hammer.ogg" ],
+      "fire2" : [ "/sfx/melee/swing_hammer.ogg" ],
+      "fire3" : [ "/sfx/melee/swing_broadsword.ogg" ],
+      "fire4" : [ "/sfx/melee/swing_spear_fire1.ogg", "/sfx/melee/swing_spear_fire2.ogg", "/sfx/melee/swing_spear_fire3.ogg" ],
+	  
+      "chargeFire" : [ "/sfx/melee/swing_hammer_fire1.ogg", "/sfx/melee/swing_hammer_fire2.ogg", "/sfx/melee/swing_hammer_fire3.ogg" ],
+	  "parry" : [ "/sfx/melee/rs_reydetodosoficiosparry.ogg" ],
+	  
+      "readyBlade" : [ "/sfx/npc/monsters/orbide_windup2.ogg" ],
+	  
+	  //ALT
+	  "aimingReady" : [ "/sfx/npc/monsters/orbide_windup2.ogg" ],
+	  "throw" : [ "/sfx/melee/rs_reydetodosoficiosthrow.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbility" : {
+    "name" : "Combo Strike",
+    "scripts" : ["/items/active/weapons/melee/rs_meleecombo.lua"],
+	"class" : "RSMeleeCombo",
+	
+    "fireTime" : 0.7,
+    "chargeTime" : 0.65,
+	"walkWhileCharging" : true,
+	"energyUsage" : 35,
+
+    "edgeTriggerGrace" : 0.25,
+	
+	"comboSpeedFactor" : 1,
+	
+	"flashTime" : 0.15,
+	"flashDirectives" : "fade=FFFFFFFF=0.15",
+	"chargeDirectives" : "?fade=FFFFFF=0.025?border=2;FF484850;00000000",
+	
+    "baseDps" : 9.5,
+	
+	"comboSteps" : 4,
+	
+	"swooshOffsetRegions" : [
+      [0.75, 0.0, 4.25, 5.0],
+      [0.75, 0.0, 4.25, 5.0],
+      [1.5, -1.0, 5.5, 1.0],
+      [4.25, 4.25, -4.25, -4.25]
+    ],
+	
+	"chargedDamageConfig" : {
+      "statusEffects" : [ "burning" ],
+      "baseDamageFactor" : 1.65,
+      "knockbackMode" : "aim",
+	  "damageSourceKind" : "firebroadsword",
+      "knockback" : 40,
+      "timeout" : 0.25
+    },
+	"damageConfig" : {
+      "statusEffects" : [ ],
+      "knockbackMode" : "aim",
+	  "damageSourceKind" : "spear",
+      "knockback" : 15,
+      "timeout" : 0.25
+    },
+    "stepDamageConfig" : [
+      {
+        "baseDamageFactor" : 1.0,
+		"damageSourceKind" : "spear",
+        "knockback" : 15,
+        "statusEffects" : [ ]
+      },
+      {
+        "baseDamageFactor" : 0.75,
+		"damageSourceKind" : "spear",
+        "knockback" : 15,
+        "statusEffects" : [ ]
+      },
+      {
+        "baseDamageFactor" : 1.15,
+		"damageSourceKind" : "spear",
+        "knockback" : 15,
+        "statusEffects" : [ ]
+      },
+      {
+        "baseDamageFactor" : 1.45,
+		"damageSourceKind" : "firespear",
+        "knockback" : 25,
+        "statusEffects" : [ "burning" ]
+      }
+    ],
+	
+	"stances" : {
+      //IDLE - DEFAULT
+	  "idle" : {
+        "aimAngle" : 0,
+        "armRotation" : -100,
+        "weaponRotation" : -5,
+        "weaponOffset" : [0, -1.5],
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+	  //CHARGE ATTACK
+      "chargeFire" : {
+        "duration" : 0.275,
+        "armRotation" : 115,
+        "weaponRotation" : 225,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+	  //COMBO STEP 1
+      "windup1" : {
+        "duration" : 0.175,
+        "armRotation" : -115,
+        "weaponRotation" : 215,
+        "weaponOffset" : [0, -0.75],
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "preslash1" : {
+        "duration" : 0.025,
+        "armRotation" : 5,
+        "weaponRotation" : 185,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : false
+      },
+      "fire1" : {
+        "duration" : 0.225,
+        "armRotation" : 80,
+        "weaponRotation" : 200,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "wait1" : {
+        "duration" : 0.15,
+        "armRotation" : 60,
+        "weaponRotation" : 210,
+        "twoHanded" : true,
+		
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+	  //COMBO STEP 2
+      "windup2" : {
+        "duration" : 0.175,
+        "armRotation" : 135,
+        "endArmRotation" : 90,
+        "weaponRotation" : -15,
+        "endWeaponRotation" : -10,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "preslash2" : {
+        "duration" : 0.025,
+        "armRotation" : 55,
+        "weaponRotation" : -45,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "fire2" : {
+        "duration" : 0.3,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "wait2" : {
+        "duration" : 0.175,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+		
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+	  //COMBO STEP 3
+      "windup3" : {
+        "duration" : 0.2,
+        "armRotation" : -145,
+        "weaponRotation" : 55,
+        "twoHanded" : true,
+        "weaponOffset" : [0, 0],
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire3" : {
+        "duration" : 0.2,
+        "armRotation" : -5,
+        "weaponRotation" : -85,
+        "twoHanded" : false,
+        "weaponOffset" : [0, 0],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "wait3" : {
+        "duration" : 0.15,
+        "armRotation" : -5,
+        "weaponRotation" : -95,
+        "weaponOffset" : [0, 1.0],
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+	  //COMBO STEP 4
+      "windup4" : {
+        "duration" : 0.35,
+        "armRotation" : -145,
+        "weaponRotation" : 55,
+        "twoHanded" : true,
+        "weaponOffset" : [0, 0],
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		
+		//Stance effects from weapon.lua
+		"playSounds" : [
+		  "readyBlade"
+		],
+		
+		"comboDirectives" : "?fade=FFFFFF=0.025?border=2;FF484850;00000000"
+      },
+      "fire4" : {
+        "duration" : 0.4,
+        "armRotation" : -5,
+        "weaponRotation" : -85,
+        "twoHanded" : false,
+        "weaponOffset" : [0, 0],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+	  }
+    }
+  },
+
+  "altAbility" : {
+    "name" : "Throw",
+    "scripts" : ["/items/active/weapons/melee/abilities/unique/rs_spearthrow/rs_spearthrow.lua"],
+    "class" : "RSSpearThrow",
+
+    "walkWhileFiring" : true,
+
+    "fireOffset" : [0.0, 0.0],
+
+    "energyPerShot" : 60,
+
+    "windupTime" : 0.25,
+	"cooldownTime" : 1.25,
+
+    "projectileType" : "rs_reydetodosoficiosspear",
+    "projectileParameters" : {
+      "speed" : 125,
+      "power" : 6
+    },
+
+	"readyFlashDirectives" : "?fade=FFFFFF=0.025?border=2;FF484850;00000000",
+
+    "stances" : {
+	  "windup" : {
+        "armRotation" : 50,
+        "weaponRotation" : -170,
+        "allowRotate" : false,
+        "allowFlip" : true,
+        "twoHanded" : true
+      },
+      "aiming" : {
+        "armRotation" : 130,
+        "weaponRotation" : -220,
+        "allowRotate" : false,
+        "allowFlip" : true,
+        "twoHanded" : false
+      },
+      "fire" : {
+        "duration" : 0.15,
+        "armRotation" : 130,
+		"armAngularVelocity" : -1300,
+        "weaponRotation" : -320,
+        "allowRotate" : false,
+        "allowFlip" : true,
+        "twoHanded" : false
+      },
+	  "cooldown" : {
+		"duration" : 0.15,
+        "armRotation" : -90,
+        "weaponRotation" : 0,
+        "allowRotate" : false,
+        "allowFlip" : true,
+        "twoHanded" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
