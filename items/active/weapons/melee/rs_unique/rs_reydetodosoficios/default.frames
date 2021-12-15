@@ -1,0 +1,13 @@
+{
+  "frameGrid" : {
+    "size" : [15, 61],
+    "dimensions" : [10, 1],
+    "names" : [
+      [ "returning.1", "returning.2", "returning.3", "returning.4", "returning.5", "returning.6", "returning.7", "returning.8", "returning.9", "idle" ]
+    ]
+  },
+
+  "aliases" : {
+    "default" : "idle"
+  }
+}
