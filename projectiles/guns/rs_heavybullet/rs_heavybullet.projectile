@@ -48,6 +48,22 @@
       "action" : "projectile",
       "type" : "rs_flamethrower",
       "inheritDamageFactor" : 0.5,
+	    "angleAdjust" : 355
+    },
+    {
+      "time" : 0.01,
+      "repeat" : false,
+      "action" : "projectile",
+      "type" : "rs_flamethrower",
+      "inheritDamageFactor" : 0.5,
+	    "angleAdjust" : 365
+    },
+    {
+      "time" : 0.01,
+      "repeat" : false,
+      "action" : "projectile",
+      "type" : "rs_bullet",
+      "inheritDamageFactor" : 0.5,
 	    "angleAdjust" : 360
     },
     {
@@ -69,6 +85,24 @@
     },
     {
       "time" : 0.01,
+      "repeat" : false,
+      "action" : "projectile",
+      "type" : "rs_shrapnel",
+      "inheritDamageFactor" : 0.5,
+      "speed" : 100,
+	    "angleAdjust" : 360
+    },
+    {
+      "time" : 0.01,
+      "repeat" : false,
+      "action" : "projectile",
+      "type" : "rs_shrapnel",
+      "inheritDamageFactor" : 0.5,
+      "speed" : 100,
+	    "angleAdjust" : 360
+    },
+    {
+      "time" : 0.01,
       "repeat" : true,
       "action" : "particle",
       "rotate" : true,
@@ -76,11 +110,36 @@
         "type" : "animated",
         "image" : "/projectiles/guns/rs_heavybullet/trail.animation",
         "position" : [-1.75, 0],
-        "layer" : "back",
+        "layer" : "front",
         "timeToLive" : 0.3,
         "destructionTime" : 0.2,
         "destructionAction" : "fade",
         "fullbright" : true
+      }
+    },
+    {
+      "time" : 0.01,
+      "action" : "particle",
+      "rotate" : true,
+      "repeat" : true,
+      "specification" : {
+        "type" : "streak",
+        "layer" : "back",
+        "fullbright" : false,
+        "destructionAction" : "shrink",
+        "size" : 2.5,
+		"color" : [75, 75, 75, 75],
+		"collidesForeground" : false,
+		"length" : 25,
+        "position" : [0, 0],
+        "timeToLive" : 0.75,
+        "destructionTime" : 0.05,
+		"initialVelocity" : [0.5, 0],
+		"variance" : {
+		  "size" : 0.5,
+          "destructionTime" : 0.5,
+		  "initialVelocity" : [0.5, -0]
+		    }
       }
     }
   ],

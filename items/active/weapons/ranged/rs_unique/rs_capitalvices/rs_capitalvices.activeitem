@@ -9,6 +9,7 @@
   "tooltipKind" : "rs_capitalvices",
   "itemTags" : ["weapon", "ranged"],
   "twoHanded" : true,
+  "cursor" : "/cursors/rs_reticle.cursor",
 
   "animation" : "rs_capitalvices.animation",
   "animationParts" : {

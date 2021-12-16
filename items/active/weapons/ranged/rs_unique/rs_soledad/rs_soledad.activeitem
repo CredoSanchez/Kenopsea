@@ -9,6 +9,7 @@
   "tooltipKind" : "rs_soledad",
   "itemTags" : ["weapon", "ranged"],
   "twoHanded" : true,
+  "cursor" : "/cursors/rs_reticle.cursor",
 
   "animation" : "rs_soledad.animation",
   "animationParts" : {
