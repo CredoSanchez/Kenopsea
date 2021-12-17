@@ -1,12 +1,12 @@
 {
-  "itemName" : "rs_floor1",
+  "itemName" : "rs_woodfloor2",
   "price" : 0,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "rs_floor1.png",
+  "inventoryIcon" : "rs_woodfloor2.png",
   "shortdescription" : "Kenopsea Reinforced Floor",
   "description" : "A reinforced floor used primarily on railcars and ships.",
   "tooltipKind" : "rs_base",
 
-  "materialId" : 12367
+  "materialId" : 12368
 }
