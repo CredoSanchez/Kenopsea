@@ -1,0 +1,22 @@
+{
+  "objectName" : "rs_jug1",
+  "colonyTags" : ["commerce"],
+  "rarity" : "Common",
+  "description" : "A jug for storing liquids.",
+  "shortdescription" : "Kenopsea Jug",
+  "tooltipKind" : "rs_base",
+  "race" : "generic",
+  "category" : "decoration",
+  "price" : 75,
+
+  "inventoryIcon" : "rs_jug1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rs_jug1.png:<color>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

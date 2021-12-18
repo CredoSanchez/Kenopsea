@@ -1,0 +1,22 @@
+{
+  "objectName" : "rs_grinder",
+  "colonyTags" : ["commerce"],
+  "rarity" : "Common",
+  "description" : "A coffe bean grinder for an excellent brew.",
+  "shortdescription" : "Kenopsea Coffee Grinder",
+  "tooltipKind" : "rs_base",
+  "race" : "generic",
+  "category" : "decoration",
+  "price" : 75,
+
+  "inventoryIcon" : "rs_grindericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rs_grinder.png:<color>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
