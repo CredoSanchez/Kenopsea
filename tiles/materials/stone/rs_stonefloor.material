@@ -1,9 +1,9 @@
 {
   "materialId" : 12346,
-  "materialName" : "rs_floor1",
+  "materialName" : "rs_stonefloor",
   "particleColor" : [84, 82, 85, 255],
-  "itemDrop" : "rs_floor1", 
-  "shortdescription" : "Red Sea Floor",
+  "itemDrop" : "rs_stonefloor", 
+  "shortdescription" : "Kenopsea Stone Floor",
   
   "description" : "Heavy stone tiles line this floor.",
 
@@ -13,7 +13,7 @@
   
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "rs_floor1.png",
+    "texture" : "rs_stonefloor.png",
     "variants" : 5,
     "lightTransparent" : false,
     "occludesBelow" : true,

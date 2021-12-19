@@ -1,0 +1,26 @@
+{
+  "objectName" : "rs_ringleft",
+  "colonyTags" : ["generic"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+
+  "description" : "A boxing ring to determine the bounds of the fight.",
+  "shortdescription" : "Kenopsea Ring",
+  "tooltipKind" : "rs_base",
+  "race" : "human",
+
+  "inventoryIcon" : "rs_ringlefticon.png",
+  "orientations" : [
+    {
+      "image" : "rs_ringleft.png",
+	  "renderLayer" : "player+1",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
