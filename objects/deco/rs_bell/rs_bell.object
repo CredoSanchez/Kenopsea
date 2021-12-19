@@ -1,0 +1,25 @@
+{
+  "objectName" : "rs_bell",
+  "colonyTags" : ["commerce","storage"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+
+  "description" : "A bell for signals.",
+  "shortdescription" : "Kenopsea Bell",
+  "tooltipKind" : "rs_base",
+  "race" : "generic",
+
+  "inventoryIcon" : "rs_bellicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rs_bell.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}
