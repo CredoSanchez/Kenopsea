@@ -1,0 +1,171 @@
+{
+  "name" : "rs_marketa",
+  "friendlyName" : "Kenopsea",
+
+  "spawnProfile" : {
+    "groups" : [
+        {
+        "select" : 1,
+        "pool" : [
+          [ 1, "capricoat" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 1, "snowskater" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 0.4, "frozenowlcritter" ],
+          [ 0.4, "sealcritter" ],
+          [ 0.4, "icescabcritter" ],
+          [ 0.4, "dancercritter" ],
+          [ 0.4, "snowbcritter" ]
+        ]
+      }
+    ],
+    "monsterParameters" : {
+      "colors" : "arctic"
+    }
+  },
+
+  "hueShiftOptions" : [0],
+
+  "weather" : [
+    [0, [
+      "/weather.config:ocean"
+    ]]
+  ],
+  "skyOptions" : [
+    {
+      "mainColor" : [255, 255, 255],
+
+      "morningColors" : [ [255, 255, 255], [255, 255, 255] ],
+      "dayColors" : [ [255, 255, 255], [255, 255, 255] ],
+      "eveningColors" : [ [255, 255, 255], [255, 255, 255] ],
+      "nightColors" : [ [255, 255, 255], [255, 255, 255] ],
+
+      "morningLightColor" : [128, 103, 78],
+      "dayLightColor" : [200, 200, 200],
+      "eveningLightColor" : [128, 103, 78],
+      "nightLightColor" : [20, 20, 20]
+    }
+  ],
+
+  "mainBlock" : "rs_peark",
+  "subBlocks" : [ "rs_kenos", "rs_kilop", "rs_dirt" ],
+  "ores" : "surface",
+
+  "parallax" : "/parallax/surface/rs_marketa.parallax",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/arctic_day.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/arctic_night.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : [ "/music/rs_anchorage.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/music/rs_vacio.ogg" ]
+    }
+  },
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "rs_grassmod" ],
+    "grassModDensity" : 0.9,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:overgroundRareChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "terrainfeatures" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 0,
+        "treeStemHueShiftMax" : 0,
+        "treeStemList" : [ "rs_pinestem" ],
+        "treeFoliageList" : [ "rs_pinefoliage" ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      }
+    ]
+  }
+}

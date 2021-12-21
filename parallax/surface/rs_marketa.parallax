@@ -1,0 +1,133 @@
+{
+  "verticalOrigin" : 35,
+  
+  "layers" : [
+    {
+      "kind" : "tile/ocean",
+      "repeatY" : true,
+      "tileLimitTop" : 610,
+      "parallax" : 1.0,
+      "nohueshift" : true
+    },
+    {
+      "kind" : "oceanbelow",
+      "offset" : [0, 610],
+      "parallax" : 1.0,
+      "nohueshift" : true,
+	    "minSpeed" : 2000,
+      "maxSpeed" : 2000
+    },
+
+
+	{
+      "kind" : "rs_sky",
+      "offset" : [0, 175],
+      "parallax" : [11.75, 1.24],
+      "nohueshift" : true
+	},
+	
+  {
+    "kind" : "ocean1",
+    "offset" : [0, 278],
+    "parallax" : [1.5, 1.05],
+    "nohueshift" : true,
+    "minSpeed" : 2000,
+    "maxSpeed" : 2000
+  },
+  {
+    "kind" : "ocean2",
+    "offset" : [0, 283],
+    "parallax" : [2, 1.05],
+    "nohueshift" : true,
+    "minSpeed" : 2000,
+    "maxSpeed" : 2000,
+    "fadePercent" : 0.01
+  },
+  {
+    "kind" : "ocean3",
+    "offset" : [0, 283],
+    "parallax" : [3, 1.08],
+    "nohueshift" : true,
+    "minSpeed" : 2000,
+    "maxSpeed" : 2000,
+    "fadePercent" : 0.015
+  },
+  {
+    "kind" : "ocean4",
+    "offset" : [0, 284],
+    "parallax" : [4, 1.11],
+    "nohueshift" : true,
+    "minSpeed" : 2000,
+    "maxSpeed" : 2000,
+    "fadePercent" : 0.02
+  },
+  {
+    "kind" : "ocean5",
+    "offset" : [0, 286],
+    "parallax" : [5, 1.14],
+    "nohueshift" : true,
+    "minSpeed" : 2000,
+    "maxSpeed" : 2000,
+    "fadePercent" : 0.025
+  },
+  {
+    "kind" : "ocean6",
+    "offset" : [0, 288],
+    "parallax" : [6, 1.17],
+    "nohueshift" : true,
+    "minSpeed" : 2000,
+    "maxSpeed" : 2000,
+    "fadePercent" : 0.03
+  },
+  {
+    "kind" : "ocean7",
+    "offset" : [0, 290],
+    "parallax" : [7, 1.20],
+    "nohueshift" : true,
+    "minSpeed" : 2000,
+    "maxSpeed" : 2000,
+    "fadePercent" : 0.035
+  },
+  {
+    "kind" : "ocean8",
+    "offset" : [0, 292],
+    "parallax" : [8, 1.23],
+    "nohueshift" : true,
+    "minSpeed" : 2000,
+    "maxSpeed" : 2000,
+    "fadePercent" : 0.04
+  },
+    {
+      "kind" : "oceanblue",
+      "offset" : [0, 292],
+      "parallax" : [8, 1.24],
+      "nohueshift" : true,
+	    "minSpeed" : 2000,
+      "maxSpeed" : 2000
+    },
+    {
+      "kind" : "rs_seashelfblank",
+      "offset" : [0, 550],
+      "parallax" : [8.01, 1.232],
+      "nohueshift" : true,
+	  "directives" : "?brightness=50",
+    "fadePercent" : 0.045
+    },	
+	{
+      "kind" : "rs_mountains",
+      "offset" : [0, 250],
+      "parallax" : [9.3, 1.231],
+      "nohueshift" : true,
+	  "directives" : "?brightness=50",
+    "fadePercent" : 0.05
+    },
+	{
+      "kind" : "rs_mountainsback",
+      "offset" : [0, 515],
+      "parallax" : [11.7, 1.231],
+      "nohueshift" : true,
+      "directives" : "?brightness=75",
+      "fadePercent" : 0.055
+    }
+  ]
+}
