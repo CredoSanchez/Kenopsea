@@ -1,0 +1,23 @@
+{
+  "materialId" : 12348,
+  "materialName" : "rs_plastor",
+  "particleColor" : [84, 82, 85, 255],
+  "itemDrop" : "rs_plastor", 
+  "shortdescription" : "Plasor",
+  
+  "description" : "Thick stone plastor.",
+
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
+  "health" : 12,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_plastor.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 77
+  }
+}

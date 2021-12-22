@@ -19,7 +19,7 @@
       "direction" : "left",
       "flipImages" : true,
       
-      "imagePosition" : [0, 0],
+      "imagePosition" : [-405, 0],
       "frames" : 6,
       "animationCycle" : 1,
 
@@ -31,7 +31,7 @@
       "renderLayer" : "BackgroundTile-1",
       "direction" : "right",
       
-      "imagePosition" : [0, 0],
+      "imagePosition" : [-405, 0],
       "frames" : 6,
       "animationCycle" : 1,
 

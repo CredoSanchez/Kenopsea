@@ -1,0 +1,23 @@
+{
+  "materialId" : 12347,
+  "materialName" : "rs_heavystonebricks",
+  "particleColor" : [84, 82, 85, 255],
+  "itemDrop" : "rs_heavystonebricks", 
+  "shortdescription" : "Heavy Variable Stone",
+  
+  "description" : "Old but sturdy brickwork and stones.",
+
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
+  "health" : 12,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_heavystonebricks.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 75
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "rs_plastor",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_plastor.png",
+  "shortdescription" : "Kenopsea Plastor",
+  "description" : "Thick stone plastor.",
+  "tooltipKind" : "rs_base",
+
+  "materialId" : 12348
+}

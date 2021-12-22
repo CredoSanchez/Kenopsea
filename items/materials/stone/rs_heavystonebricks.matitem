@@ -1,0 +1,12 @@
+{
+  "itemName" : "rs_heavystonebricks",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_heavystonebricks.png",
+  "shortdescription" : "Kenopsea Brick",
+  "description" : "An old brick and stone wall.",
+  "tooltipKind" : "rs_base",
+
+  "materialId" : 12347
+}
