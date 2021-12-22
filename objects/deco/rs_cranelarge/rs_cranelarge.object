@@ -14,7 +14,7 @@
     {
       "image" : "rs_cranelarge.png:<color>",
 
-      "imagePosition" : [-194, 0],
+      "imagePosition" : [-195, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
 
@@ -27,7 +27,7 @@
     {
       "image" : "rs_cranelarge.png:<color>",
 
-      "imagePosition" : [-76, 0],
+      "imagePosition" : [-77, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
 

@@ -1,0 +1,23 @@
+{
+  "objectName" : "rs_waterline",
+  "colonyTags" : ["commerce"],
+  "rarity" : "Common",
+  "description" : "The meeting point between land and the sea",
+  "shortdescription" : "Kenopsea Waterline",
+  "tooltipKind" : "rs_base",
+  "race" : "generic",
+  "category" : "decoration",
+  "price" : 75,
+
+  "inventoryIcon" : "rs_waterlineicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rs_waterline.png:<color>",
+      "imagePosition" : [0, 0],
+      "renderLayer" : "player+1",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ ]
+    }
+  ]
+}
