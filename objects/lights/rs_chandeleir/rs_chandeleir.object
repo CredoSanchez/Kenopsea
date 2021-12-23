@@ -28,7 +28,7 @@
   "orientations" : [
     {
       "image" : "rs_chandeleir.png:<color>.<frame>",
-      "imagePosition" : [0, -8],
+      "imagePosition" : [-16, -8],
 
       "spaceScan" : 0.1,
       "anchors" : [ "top" ]
@@ -41,7 +41,7 @@
     "bg" : "rs_chandeleir.png",
     "fg" : "rs_chandeleirlit.png"
   },
-  "animationPosition" : [0, -8],
+  "animationPosition" : [-16, -8],
 
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
