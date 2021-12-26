@@ -5,20 +5,16 @@
 
   "animatedParts" : {
     "stateTypes" : {
-      "drill" : {
+      "chainsaw" : {
         "default" : "idle",
         "states" : {
           "idle" : {},
-          "active1" : {
+          "primaryActive1" : {
             "frames" : 3,
             "cycle" : 0.18,
-            "mode" : "loop",
-            "properties" : {
-              "persistentSound" : "/sfx/melee/drillspear_active_loop1.ogg",
-              "persistentSoundStopTime" : 0.25
-            }
+            "mode" : "loop"
           },
-          "active2" : {
+          "primaryActive2" : {
             "frames" : 3,
             "cycle" : 0.18,
             "mode" : "loop"
@@ -29,26 +25,21 @@
         "default" : "idle",
         "states" : {
           "idle" : {},
-          "windup1" : {
+          "primaryWindup1" : {
             "frames" : 3,
             "cycle" : 0.25,
             "mode" : "loop"
           },
-          "windup2" : {
+          "primaryWindup2" : {
             "frames" : 3,
             "cycle" : 0.25,
             "mode" : "loop"
           },
-          "active1" : {},
-          "active2" : {
+          "primaryActive1" : {},
+          "primaryActive2" : {
             "frames" : 3,
             "cycle" : 0.18,
-            "mode" : "loop",
-            "properties" : {
-              "immediateSound" : "/sfx/melee/swing_spear.ogg",
-              "persistentSound" : "/sfx/melee/drillspear_active_loop2.ogg",
-              "persistentSoundStopTime" : 0.1
-            }
+            "mode" : "loop"
           }
         }
       },
@@ -68,48 +59,44 @@
     },
 
     "parts" : {
-      "drillenergy" : {
+      "chainsawEnergy" : {
         "properties" : {
           "zLevel" : 2,
           "centered" : true,
           "fullbright" : true,
           "offset" : [0.0, 0.0],
           "transformationGroups" : ["weapon"],
-
-          "drillTip" : [0.0, 4.5],
-          "drillSource1" : [-1.5, 1.0],
-          "drillSource2" : [0.0, 0.0],
-          "drillSource3" : [1.5, 1.0]
+          "damageArea" : [ [-0.75, -0.5], [-0.75, 0.25], [2.0, 0.25], [2.0, -0.5] ],
+		  "sourcePosition" : [0.0, -0.125], //Starting position for the tile collision detection
+		  "tipPosition" : [2.0, -0.125] //Tip of the blade for tile collision detection
         },
 
         "partStates" : {
           "energy" : {
-            "windup1" : {
+            "primaryWindup1" : {
               "properties" : {
                 "image" : "rs_chainsawenergy.png:windup1.<frame>"
               }
             },
-            "windup2" : {
+            "primaryWindup2" : {
               "properties" : {
                 "image" : "rs_chainsawenergy.png:windup2.<frame>"
               }
             },
-            "active1" : {
+            "primaryActive1" : {
               "properties" : {
-                "image" : "rs_chainsawenergy.png:active.<frame>",
-                "damageArea" : [[0.0625, 0.5], [-1.375, 2.25], [0.0625, 4.25], [1.25, 2.25]]
+                "image" : "rs_chainsawenergy.png:active.<frame>"
               }
             },
-            "active2" : {
+            "primaryActive2" : {
               "properties" : {
-                "image" : "rs_chainsawenergy.png:active.<frame>",
-                "damageArea" : [[0.0625, 0.5], [-1.375, 2.25], [0.0625, 4.25], [1.25, 2.25]]
+                "image" : "rs_chainsawenergy.png:active.<frame>"
               }
             }
           }
         }
       },
-      "spearfullbright" : {
+      "basefullbright" : {
         "properties" : {
           "zLevel" : 1,
           "centered" : true,
@@ -119,23 +106,23 @@
         },
 
         "partStates" : {
-          "drill" : {
+          "chainsaw" : {
             "idle" : {
               "properties" : {
                 "image" : "rs_chainsawlit.png:1"
               }
             },
-            "active1" : {
+            "primaryActive1" : {
               "properties" : {
                 "image" : "rs_chainsawlit.png:<frame>"
               }
             },
-            "active2" : {
+            "primaryActive2" : {
               "properties" : {
                 "image" : "rs_chainsawlit.png:<frame>"
               }
             },
-            "active3" : {
+            "primaryActive3" : {
               "properties" : {
                 "image" : "rs_chainsawlit.png:<frame>"
               }
@@ -143,33 +130,32 @@
           }
         }
       },
-      "spear" : {
+      "base" : {
         "properties" : {
           "zLevel" : 0,
           "centered" : true,
           "offset" : [0.0, 0.0],
-          "transformationGroups" : ["weapon"],
-          "damageArea" : [[0, -0.5], [-0.75, 1.0], [-0.75, 2.75], [0, 4.25], [0.75, 2.75], [0.75, 1.0]]
+          "transformationGroups" : ["weapon"]
         },
 
         "partStates" : {
-          "drill" : {
+          "chainsaw" : {
             "idle" : {
               "properties" : {
                 "image" : "rs_chainsaw.png:1"
               }
             },
-            "active1" : {
+            "primaryActive1" : {
               "properties" : {
                 "image" : "rs_chainsaw.png:<frame>"
               }
             },
-            "active2" : {
+            "primaryActive2" : {
               "properties" : {
                 "image" : "rs_chainsaw.png:<frame>"
               }
             },
-            "active3" : {
+            "primaryActive3" : {
               "properties" : {
                 "image" : "rs_chainsaw.png:<frame>"
               }
@@ -218,6 +204,15 @@
       "offsetRegion" : [3.5, -1.0, 7.5, 1.0],
       "particles" : [ ]
     },
+	"miningSparks" : {
+	  "active" : false,
+	  "emissionRate" : 12.0,
+	  "transformationGroups" : ["weapon"],
+	  "offsetRegion" : [0.0, -0.125, 2.0, -0.125],
+	  "particles" : [
+        { "particle" : "sparks"}
+      ]
+	},
     "charge" : {
       "active" : false,
       "transformationGroups" : ["weapon"],
@@ -237,7 +232,7 @@
             "fade" : 1,
             "size" : 0.25,
             "layer" : "front",
-            "timeToLive" : 2.5,
+            "timeToLive" : 0.5,
             "variance" : {
               "initialVelocity" : [-2.5, -1.5],
               "rotation" : 30
@@ -249,8 +244,9 @@
   },
 
   "sounds" : {
-    "fire" : [ "/sfx/melee/swing_spear.ogg" ],
     "windup" : [ "/sfx/melee/drillspear_windup3.ogg" ],
-    "winddown" : [ "/sfx/melee/drillspear_winddown2.ogg" ]
+    "winddown" : [ "/sfx/melee/drillspear_winddown2.ogg" ],
+    "holdLoop" : [ "/sfx/melee/drillspear_active_loop1.ogg" ],
+    "damageLoop" : [ "/sfx/melee/drillspear_active_loop2.ogg" ]
   }
 }

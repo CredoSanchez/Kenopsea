@@ -23,25 +23,25 @@
 
   "aimOffset" : -1.0,
 
-  "primaryAbilityType" : "saw",
   "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/melee/rs_chainsaw/rs_chainsaw.lua"],
-    "class" : "DrillCharge",
+    "scripts" : ["/items/active/weapons/melee/abilities/rs_chainsaw.lua"],
+    "class" : "RSChainsawCharge",
 
     "energyUsage" : 45,
 
     "damageTimeout" : 0.25,
     "damageConfig" : {
-      "damageSourceKind" : "spear",
+      "damageSourceKind" : "axe",
       "statusEffects" : [ ],
       "knockbackMode" : "aim",
       "knockback" : 1,
-      "baseDamage" : 5
+      "baseDamage" : 1
     },
 
-    "tileDamage" : 0.5,
-    "tileDamageRate" : 0.15,
-    "damageTileDepth" : 3,
+	//Tile damage settings
+	"tileDamagePerSecond" : 16.0,
+	"damageForeground" : true,
+	"damageBackground" : false,
 
     "stances" : {
       "idle" : {
