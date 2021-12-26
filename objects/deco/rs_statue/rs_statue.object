@@ -1,0 +1,22 @@
+{
+  "objectName" : "rs_statue",
+  "colonyTags" : ["commerce"],
+  "rarity" : "Common",
+  "description" : "A symbol of the strength and fairness for the market.",
+  "shortdescription" : "Kenopsea Marketa Statue",
+  "tooltipKind" : "rs_base",
+  "race" : "generic",
+  "category" : "decoration",
+  "price" : 1000,
+
+  "inventoryIcon" : "rs_statueicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rs_statue.png:<color>",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

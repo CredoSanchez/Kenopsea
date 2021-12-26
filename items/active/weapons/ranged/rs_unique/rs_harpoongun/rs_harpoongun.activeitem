@@ -66,7 +66,7 @@
         "twoHanded" : true,
         "allowRotate" : true,
         "allowFlip" : true,
-		"frontArmFrame" : "run.3",
+		    "frontArmFrame" : "run.3",
         "backArmFrame" : "rotation"
       },
       "fire" : {
@@ -76,7 +76,7 @@
         "twoHanded" : true,
         "allowRotate" : false,
         "allowFlip" : false,
-		"frontArmFrame" : "run.3",
+		    "frontArmFrame" : "run.3",
         "backArmFrame" : "rotation"
       },
       "cooldown" : {

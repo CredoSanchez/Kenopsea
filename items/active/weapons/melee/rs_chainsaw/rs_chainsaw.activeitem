@@ -1,0 +1,97 @@
+{
+  "itemName" : "rs_chainsaw",
+  "price" : 1080,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Nothing stops the teeth of this chainsaw.",
+  "shortdescription" : "Kenopsea Chainsaw",
+  "tooltipKind" : "rs_base",
+  "category" : "chainsaw",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee"],
+
+  "inventoryIcon" : "rs_chainsawicon.png",
+
+  "animation" : "rs_chainsaw.animation",
+  "animationParts" : {},
+  "animationCustom" : {},
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "saw",
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/melee/rs_chainsaw/rs_chainsaw.lua"],
+    "class" : "DrillCharge",
+
+    "energyUsage" : 45,
+
+    "damageTimeout" : 0.25,
+    "damageConfig" : {
+      "damageSourceKind" : "spear",
+      "statusEffects" : [ ],
+      "knockbackMode" : "aim",
+      "knockback" : 1,
+      "baseDamage" : 5
+    },
+
+    "tileDamage" : 0.5,
+    "tileDamageRate" : 0.15,
+    "damageTileDepth" : 3,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+        "weaponOffset" : [1.25, -0.65],
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+        "frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation"
+      },
+      "windup" : {
+        "duration" : 0.5,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+        "weaponOffset" : [1.25, -0.65],
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+        "frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation"
+      },
+      "fire" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+        "weaponOffset" : [1.25, -0.65],
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+        "frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation"
+      },
+      "winddown" : {
+        "duration" : 0.5,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+        "weaponOffset" : [1.25, -0.65],
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+        "frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation"
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
