@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "rs_stone", "count" : 10 },
+    { "item" : "rs_stonebricks", "count" : 10 },
     { "item" : "rs_logvertical", "count" : 3 }
   ],
   "output" : {
