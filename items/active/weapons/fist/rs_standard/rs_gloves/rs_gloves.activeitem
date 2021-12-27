@@ -12,17 +12,17 @@
   "itemTags" : ["weapon"],
 
   "inventoryIcon" : "rs_gloves.png:front",
-  "animation" : "rs_fistweapon.animation",
+  "animation" : "/items/active/weapons/fist/rs_fistweapon.animation",
   "animationParts" : {
     "weapon" : "rs_gloves.png",
-    "swoosh" : "swoosh/physicalswoosh.png"
+    "swoosh" : "/items/active/weapons/fist/swoosh/physicalswoosh.png"
   },
   "animationCustom" : {
     "sounds" : {
       "fire" : [ "/sfx/melee/swing_dagger.ogg" ]
     }
   },
-  "scripts" : [ "rs_fistweapon.lua" ],
+  "scripts" : [ "/items/active/weapons/fist/rs_fistweapon.lua" ],
 
   "needsEdgeTrigger" : true,
   "edgeTriggerGrace" : 0.1,
@@ -33,8 +33,8 @@
   "comboFinisherSource" : "/items/active/weapons/fist/combofinishers/powerpunch.combofinisher",
 
   "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/fist/punch.lua"],
-    "class" : "Punch",
+    "scripts" : ["/items/active/weapons/fist/rs_punch.lua"],
+    "class" : "RSPunch",
 
     "freezeTime" : 0.15,
     "fireTime" : 0.2,
@@ -48,6 +48,7 @@
     },
     "stances" : {
       "idle" : {
+        "aimAngle" : 0,
         "armRotation" : 0,
         "weaponRotation" : 45,
         "weaponRotationCenter" : [-1.0, 0.0],
@@ -66,8 +67,8 @@
         "weaponRotationCenter" : [-1.0, 0.0],
         "weaponOffset" : [-0.625, -0.125],
 
-        "allowRotate" : false,
-        "allowFlip" : false,
+        "allowRotate" : true,
+        "allowFlip" : true,
 
         "frontArmFrame" : "swimIdle.1",
         "backArmFrame" : "swim.1"
