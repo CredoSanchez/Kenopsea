@@ -29,7 +29,7 @@
 
     "energyUsage" : 45,
 
-    "damageTimeout" : 0.25,
+    "damageTimeout" : 0.1,
     "damageConfig" : {
       "damageSourceKind" : "axe",
       "statusEffects" : [ ],

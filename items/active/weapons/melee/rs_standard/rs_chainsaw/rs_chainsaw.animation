@@ -50,7 +50,7 @@
           },
           "fire" : {
             "frames" : 3,
-            "cycle" : 0.12,
+            "cycle" : 0.18,
             "mode" : "transition",
             "transition" : "idle"
           }
@@ -121,11 +121,6 @@
               "properties" : {
                 "image" : "rs_chainsawlit.png:<frame>"
               }
-            },
-            "primaryActive3" : {
-              "properties" : {
-                "image" : "rs_chainsawlit.png:<frame>"
-              }
             }
           }
         }
@@ -151,11 +146,6 @@
               }
             },
             "primaryActive2" : {
-              "properties" : {
-                "image" : "rs_chainsaw.png:<frame>"
-              }
-            },
-            "primaryActive3" : {
               "properties" : {
                 "image" : "rs_chainsaw.png:<frame>"
               }
