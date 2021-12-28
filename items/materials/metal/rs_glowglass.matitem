@@ -1,0 +1,13 @@
+{
+  "itemName" : "rs_glowglass",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_glowglass.png",
+  "shortdescription" : "Kenopsea Glow Glass",
+  "description" : "Sleek glass panels reinforced with metal.",
+  "tooltipKind" : "rs_base",
+
+  "materialId" : 12320,
+  "learnBlueprintsOnPickup" : [ "rs_glowglass" ]
+}

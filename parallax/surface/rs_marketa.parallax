@@ -18,6 +18,14 @@
       "maxSpeed" : 2000
     },
 
+    {
+      "kind" : "rs_seabuoy",
+      "baseCount" : 1,
+      "offset" : [0, 295],
+      "parallax" : [2.5, 1.08],
+      "nohueshift" : true,
+      "fadePercent" : 0.02
+    },
 
 	{
       "kind" : "rs_sky",

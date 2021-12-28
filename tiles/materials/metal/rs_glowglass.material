@@ -1,0 +1,24 @@
+{
+  "materialId" : 12320,
+  "materialName" : "rs_glowglass",
+  "particleColor" : [182, 182, 182, 255],
+  "itemDrop" : "rs_glowglass",
+
+  "description" : "Sleek glass panels reinforced with metal.",
+
+  "shortdescription" : "Framed Glass",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_glowglass.png",
+    "variants" : 5,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 50,
+    "radiantLight" : [255, 213, 153]
+  }
+}

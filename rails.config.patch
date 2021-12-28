@@ -1,0 +1,10 @@
+[
+  {
+    "op": "add",
+    "path": "/rs_rail",
+    "value": {
+      "friction": 1.0,
+      "speedLimit": 60
+    }
+  }
+]
