@@ -1,0 +1,44 @@
+{
+  "objectName" : "rs_railtramstop",
+  "colonyTags" : ["rails"],
+  "rarity" : "Common",
+
+  "category" : "railPoint",
+  "price" : 600,
+  "description" : "Calls and stops rail trams",
+  "shortdescription" : "Kenopsea Rail Tram Stop",
+  "race" : "generic",
+
+  "inventoryIcon" : "rs_railtramstopicon.png",
+  "orientations" : [
+    {
+      "image" : "rs_railtramstop.png:default.on",
+      "imagePosition" : [-2, -8],
+
+      "materialSpaces" : [
+        [[0, 0], "metamaterial:rail"]
+      ],
+
+      "fgAnchors" : [[-1, 0], [-1, -1], [0, -1], [1, -1], [1, 0], [1, 1], [0, 1], [-1, 1]],
+      "bgAnchors" : [[0, 0]],
+      "anchorAny" : true,
+      
+      "direction" : "right"
+    }
+  ],
+
+  "animation" : "rs_railtramstop.animation",
+  "animationParts" : {
+    "stop" : "rs_railtramstop.png",
+    "stopfullbright" : "rs_railtramstopfullbright.png"
+  },
+  "animationPosition" : [-2, -8],
+
+  "scripts" : [
+    "/objects/rails/railtramstop/railtramstop.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "inputNodes" : [ [0, 0], [0, 1] ],
+  "outputNodes" : [ [0, -1] ]
+}
