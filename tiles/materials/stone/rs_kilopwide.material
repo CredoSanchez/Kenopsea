@@ -1,0 +1,23 @@
+{
+  "materialId" : 12349,
+  "materialName" : "rs_kilopwide",
+  "particleColor" : [84, 82, 85, 255],
+  "itemDrop" : "rs_kilopwide", 
+  "shortdescription" : "Kenopsea Rock",
+  
+  "description" : "Jagged rocks, better watch my step.",
+
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 10,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_kilopwide.png",
+    "variants" : 10,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 2003
+  }
+}
