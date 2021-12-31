@@ -1,0 +1,23 @@
+{
+  "materialId" : 12391,
+  "materialName" : "rs_fabric",
+  "particleColor" : [84, 82, 85, 255],
+  "itemDrop" : "rs_fabric", 
+  "shortdescription" : "Kenopsea Fabric",
+  
+  "description" : "Thick cloths of heavy yet breathable fabric.",
+
+  "footstepSound" : "/sfx/blocks/footstep_ash.ogg",
+  "health" : 4,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_fabric.png",
+    "variants" : 10,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 125
+  }
+}

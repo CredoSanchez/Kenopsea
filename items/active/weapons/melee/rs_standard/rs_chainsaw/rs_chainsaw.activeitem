@@ -39,7 +39,7 @@
     },
 
 	//Tile damage settings
-	"tileDamagePerSecond" : 16.0,
+	"tileDamagePerSecond" : 50.0,
 	"damageForeground" : true,
 	"damageBackground" : false,
 

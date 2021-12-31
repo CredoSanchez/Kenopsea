@@ -1,0 +1,13 @@
+{
+  "itemName" : "rs_fabric",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_fabric.png",
+  "description" : "Thick cloths of heavy yet breathable fabric.",
+  "shortdescription" : "Kenopsea Fabric",
+  "tooltipKind" : "rs_base",
+
+  "materialId" : 12391,
+  "learnBlueprintsOnPickup" : [ "rs_fabric" ]
+}

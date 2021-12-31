@@ -56,7 +56,7 @@
   ],
 
   "mainBlock" : "rs_peark",
-  "subBlocks" : [ "rs_kenos", "rs_kilop", "rs_dirt" ],
+  "subBlocks" : [ "rs_kenos", "rs_kilop", "rs_kilopwide", "rs_dirt" ],
   "ores" : "surface",
 
   "parallax" : "/parallax/surface/rs_marketa.parallax",
@@ -80,8 +80,6 @@
   },
 
   "surfacePlaceables" : {
-    "grassMod" : [ "rs_grassmod" ],
-    "grassModDensity" : 0.9,
 
     "items" : [
       {

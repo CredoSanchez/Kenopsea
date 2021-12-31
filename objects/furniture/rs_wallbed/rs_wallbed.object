@@ -1,0 +1,41 @@
+{
+  "objectName" : "rs_wallbed",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 125,
+  "description" : "A standard bunk bed.",
+  "shortdescription" : "Kenopsea Bunk Bed.",
+  "race" : "protectorate",
+  "printable" : false,
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitEmote" : "sleep",
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "rs_wallbedicon.png",
+  "orientations" : [
+
+    {
+      "image" : "rs_wallbed.png:<color>",
+      "sitCoverImage" : "/objects/furniture/rs_wallbed/rs_wallbedcover.png",
+      "flipImages" : true,
+      "imagePosition" : [-24, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [],
+      "direction" : "left",
+      "sitPosition" : [0, 15]
+    },
+    {
+      "image" : "rs_wallbed.png:<color>",
+      "sitCoverImage" : "/objects/furniture/rs_wallbed/rs_wallbedcover.png",
+      "imagePosition" : [-24, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [],
+      "direction" : "right",
+      "sitPosition" : [-8, 15]
+    }
+  ]
+}
