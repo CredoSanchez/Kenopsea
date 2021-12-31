@@ -5,7 +5,7 @@
 
   "category" : "door",
   "price" : 95,
-  "description" : "A hefty often used on warships and important buildings.",
+  "description" : "A hefty door often used on warships and important buildings.",
   "shortdescription" : "Kenopsea Heavy Door",
   "tooltipKind" : "rs_base",
   "race" : "generic",
