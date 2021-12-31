@@ -1,0 +1,10 @@
+{
+  "name" : "rs_tree1",
+  "description" : "A dry tree.",
+  "shortdescription" : "A brittle, dry tree that stands tall.",
+  "shapes" : [
+    {
+      "base" : "base1.png"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "name" : "rs_marketa",
-  "friendlyName" : "Kenopsea",
+  "friendlyName" : "La Marketa",
 
   "spawnProfile" : {
     "groups" : [
@@ -36,7 +36,7 @@
 
   "weather" : [
     [0, [
-      "/weather.config:ocean"
+      "/weather.config:savannah"
     ]]
   ],
   "skyOptions" : [
@@ -119,17 +119,20 @@
         "type" : "microdungeon",
         "microdungeons" : [ "terrainfeatures" ]
       },
-	  {
+      {
         "mode" : "floor",
         "priority" : 2.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseLarge",
+        "distribution" : "/biomes/distributions.config:denseSmall",
 
-        "type" : "tree",
-        "treeFoliageHueShiftMax" : 0,
-        "treeStemHueShiftMax" : 0,
-        "treeStemList" : [ "rs_pinestem" ],
-        "treeFoliageList" : [ "rs_pinefoliage" ]
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "rs_tree1",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
       }
     ]
   },

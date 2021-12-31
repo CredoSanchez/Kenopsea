@@ -173,23 +173,11 @@
         "type" : "bush",
         "bushes" : [
           {
-            "name" : "rs_greenbush",
+            "name" : "rs_tree1",
             "baseHueShiftMax" : 0,
             "modHueShiftMax" : 0
           }
         ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 1.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:rare",
-
-        "type" : "tree",
-        "treeFoliageHueShiftMax" : 0,
-        "treeStemHueShiftMax" : 0,
-        "treeStemList" : [ "rs_pinestem" ],
-        "treeFoliageList" : [ "rs_pinefoliage" ]
       }
     ]
   },
