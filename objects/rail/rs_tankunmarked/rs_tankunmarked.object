@@ -13,10 +13,12 @@
   "orientations" : [
     {
       "dualImage" : "rs_tankunmarked.png:<color>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [-80, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
 
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "spaces" : [ [0, 0], [0, 0], [0, 0], [0, 0], [0, 0] ],
+      "anchors" : [ ]
     }
   ]
 }
