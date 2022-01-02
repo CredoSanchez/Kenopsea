@@ -1,0 +1,23 @@
+{
+  "materialId" : 12392,
+  "materialName" : "rs_slopedfabric",
+  "particleColor" : [182, 182, 182, 255],
+  "itemDrop" : "rs_slopedfabric",
+
+  "description" : "Thick cloths of heavy yet breathable fabric.",
+
+  "shortdescription" : "Kenopsea Sloped Fabric",
+  "footstepSound" : "/sfx/blocks/footstep_tallgrass.ogg",
+  "health" : 4,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rs_slopedfabric.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 124
+  }
+}

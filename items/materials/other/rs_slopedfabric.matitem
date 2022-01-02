@@ -1,0 +1,13 @@
+{
+  "itemName" : "rs_slopedfabric",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_slopedfabric.png",
+  "description" : "Thick cloths of heavy yet breathable fabric.",
+  "shortdescription" : "Kenopsea Sloped Fabric",
+  "tooltipKind" : "rs_base",
+
+  "materialId" : 12392,
+  "learnBlueprintsOnPickup" : [ "rs_slopedfabric" ]
+}

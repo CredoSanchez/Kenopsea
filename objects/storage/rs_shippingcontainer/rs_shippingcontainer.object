@@ -23,6 +23,7 @@
   "orientations" : [
     {
       "dualImage" : "rs_shippingcontainer.png:<color>",
+      "renderLayer" : "object-1",
       "imagePosition" : [-80, 0],
       "frames" : 1,
       "animationCycle" : 0.4,
