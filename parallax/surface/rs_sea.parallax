@@ -131,9 +131,16 @@
       "maxSpeed" : 2000
     },
     {
+      "kind" : "oceanbelow",
+      "offset" : [0, 575],
+      "parallax" : [8.1, 1.231],
+      "nohueshift" : true,
+      "directives" : "?brightness=50"
+    },
+    {
       "kind" : "rs_seashelf",
       "offset" : [0, 550],
-      "parallax" : [8.01, 1.232],
+      "parallax" : [8.15, 1.232],
       "nohueshift" : true,
 	    "directives" : "?brightness=50",
       "fadePercent" : 0.05
