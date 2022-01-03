@@ -12,7 +12,7 @@
   "inventoryIcon" : "rs_munitions5icon.png",
   "orientations" : [
     {
-      "dualImage" : "rs_munitions5.png:<color>",
+      "dualImage" : "rs_munitions5.png",
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,
