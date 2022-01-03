@@ -1,0 +1,29 @@
+{
+  "objectName" : "rs_turret",
+  "colonyTags" : ["combat"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 1000,
+  "description" : "A standard turret used for protection.",
+  "shortdescription" : "Kenopsea Ship Turret",
+  "race" : "generic",
+
+  "inventoryIcon" : "rs_turreticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rs_turret.png:<color>",
+      "imagePosition" : [-32, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "dualImage" : "rs_turretflipped.png:<color>",
+      "imagePosition" : [-32, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ]
+}
