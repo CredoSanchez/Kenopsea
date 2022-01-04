@@ -1,8 +1,8 @@
 {
   "objectName" : "rs_patrolboat",
-  "colonyTags" : ["deocration"],
+  "colonyTags" : ["decoration"],
   "rarity" : "Legendary",
-  "category" : "deocration",
+  "category" : "decoration",
   "price" : 750,
   
   "description" : "A large boat that patrols the red sea for any threats.",
