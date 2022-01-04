@@ -1,0 +1,122 @@
+{
+  "objectName" : "rs_walllight",
+  "colonyTags" : ["light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 45,
+  "description" : "A warm light.",
+  "shortdescription" : "Kenopsea Light",
+  "race" : "generic",
+
+
+  "lightColor" : [179, 149, 107],
+
+  "inventoryIcon" : "rs_walllighticon.png",
+  "orientations" : [
+    {
+      "image" : "rs_walllightbg.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "animationParts" : {
+        "bg" : "rs_walllightbg.png",
+        "fg" : "rs_walllightbglit.png"
+      },
+      "animationPosition" : [0, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0] ],
+      "anchors" : [ "background" ]
+    },
+
+    {
+      "image" : "rs_walllightleft.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "animationParts" : {
+        "bg" : "rs_walllightleft.png",
+        "fg" : "rs_walllightleftlit.png"
+      },
+      "animationPosition" : [0, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0] ],
+      "anchors" : [ "left" ]
+    },
+
+    {
+      "image" : "rs_walllightright.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "animationParts" : {
+        "bg" : "rs_walllightright.png",
+        "fg" : "rs_walllightrightlit.png"
+      },
+      "animationPosition" : [0, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0] ],
+      "anchors" : [ "right" ]
+    },
+
+    {
+      "image" : "rs_walllightceiling.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "animationParts" : {
+        "bg" : "rs_walllightceiling.png",
+        "fg" : "rs_walllightceilinglit.png"
+      },
+      "animationPosition" : [0, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0] ],
+      "anchors" : [ "top" ]
+    },
+
+    {
+      "image" : "rs_walllightground.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "animationParts" : {
+        "bg" : "rs_walllightground.png",
+        "fg" : "rs_walllightgroundlit.png"
+      },
+      "animationPosition" : [0, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0] ],
+      "anchors" : [ "bottom" ]
+    },
+
+    {
+      "image" : "rs_walllightbg.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "animationParts" : {
+        "bg" : "rs_walllightbg.png",
+        "fg" : "rs_walllightbglit.png"
+      },
+      "animationPosition" : [0, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0] ],
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/rs_walllight.ogg",
+  
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "rs_walllightbg.png",
+    "fg" : "rs_walllightbglit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+
+}
