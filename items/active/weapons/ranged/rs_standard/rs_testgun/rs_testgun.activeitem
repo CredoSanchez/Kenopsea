@@ -60,7 +60,7 @@
     "inaccuracy" : 0,
     "fireType" : "auto",
 
-    "projectileType" : "rs_chainbullet",
+    "projectileType" : "rs_bomb",
     "projectileParameters" : {
       "knockbackRange" : [0, 0]
     },
