@@ -139,7 +139,7 @@
     },	
 	{
       "kind" : "rs_mountains",
-      "offset" : [0, 250],
+      "offset" : [0, 225],
       "parallax" : [9.3, 1.231],
       "nohueshift" : true,
 	  "directives" : "?brightness=50",
@@ -147,7 +147,7 @@
     },
 	{
       "kind" : "rs_mountainsback",
-      "offset" : [0, 515],
+      "offset" : [0, 500],
       "parallax" : [11.7, 1.231],
       "nohueshift" : true,
       "directives" : "?brightness=75",
