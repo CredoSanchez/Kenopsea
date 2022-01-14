@@ -1,19 +1,10 @@
 {
-  "name" : "rs_tree1",
+  "name" : "rs_tree2",
   "description" : "A dry tree.",
   "shortdescription" : "A brittle, dry tree that stands tall.",
   "shapes" : [
     {
       "base" : "base1.png"
-    },
-    {
-      "base" : "base2.png"
-    },
-    {
-      "base" : "base3.png"
-    },
-    {
-      "base" : "base4.png"
     }
   ]
 }

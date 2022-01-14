@@ -152,13 +152,13 @@
       {
         "mode" : "floor",
         "priority" : 2.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredLarge",
+        "variants" : 4,
+        "distribution" : "/biomes/distributions.config:denseSmall",
 
         "type" : "bush",
         "bushes" : [
           {
-            "name" : "savannahbush",
+            "name" : "rs_tree1",
             "baseHueShiftMax" : 0,
             "modHueShiftMax" : 0
           }
@@ -173,7 +173,22 @@
         "type" : "bush",
         "bushes" : [
           {
-            "name" : "rs_tree1",
+            "name" : "rs_tree2",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 3,
+        "distribution" : "/biomes/distributions.config:denseSmall",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "rs_bush1",
             "baseHueShiftMax" : 0,
             "modHueShiftMax" : 0
           }

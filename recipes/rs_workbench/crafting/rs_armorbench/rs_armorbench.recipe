@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "rs_414asteelsheet", "count" : 5 },
+    { "item" : "rs_plankhorizontal", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "rs_armorbench",
+    "count" : 1
+  },
+  "duration" : 0,
+  "groups" : [ "rs_workbench", "craftingstations", "all" ]
+}

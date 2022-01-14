@@ -13,6 +13,7 @@
 	"interactAction" : "OpenCraftingInterface",
 	"interactData" : {
 		"config" : "/interface/windowconfig/rs_workbench.config",
+		"filter" : [ "rs_workbench" ],
 		"paneLayoutOverride" : {
 			"windowtitle" : {
 				"title" : "  ",
@@ -21,8 +22,7 @@
 					"file" : "/interface/crafting/rs_workbench.png"
 				}
 			}
-		},
-		"filter" : [ "rs_workbench" ]
+		  }
 		},
 	"inventoryIcon" : "rs_workbenchicon.png",
 	

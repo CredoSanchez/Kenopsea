@@ -13,10 +13,10 @@
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
     "texture" : "rs_leaves.png",
-    "variants" : 15,
+    "variants" : 9,
     "lightTransparent" : false,
     "occludesBelow" : true,
-    "multiColored" : true,
+    "multiColored" : false,
     "zLevel" : 3516
   }
 }
