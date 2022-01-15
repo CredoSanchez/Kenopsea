@@ -1,5 +1,5 @@
 {
-  "projectileName" : "rs_nail",
+  "projectileName" : "rs_flarenail",
   "image" : "rs_nail.png",
   "physics" : "arrownosticky",
   "animationCycle" : 0.25,
@@ -12,9 +12,9 @@
       "action" : "config",
       "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
     },
-	{
+	  {
       "action" : "projectile",
-      "type" : "rs_nailsticking",
+      "type" : "rs_flarenailsticking",
       "inheritDamageFactor" : 0.0,
       "inheritSpeedFactor" : 0.6,
       "angleAdjust" : 0

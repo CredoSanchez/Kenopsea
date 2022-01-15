@@ -1,0 +1,50 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "sounds" : {
+      "altFire" : [ "/sfx/gun/rs_standardshot.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "name" : "Bombardment Flare",
+    "type" : "rs_flare",
+    "scripts" : ["/items/active/weapons/ranged/abilities/altfire.lua"],
+    "class" : "AltFireAttack",
+
+    "projectileType" : "rs_flarenail",
+    "projectileParameters" : {
+      "speed" : 150
+     },
+
+    "baseDamage" : 16,
+    "energyUsage" : 100,
+
+    "fireTime" : 2.5,
+    "projectileCount" : 1,
+    "inaccuracy" : 0,
+
+    "useParticleEmitter" : false,
+
+    "stances": {
+      "fire": {
+       "duration" : 0.15,
+       "armRotation" : 5,
+       "weaponRotation" : 5,
+       "twoHanded" : true,
+
+       "allowRotate" : false,
+       "allowFlip" : false
+       },
+      "cooldown" : {
+        "duration" : 0.75,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+         }
+       }
+     }
+}

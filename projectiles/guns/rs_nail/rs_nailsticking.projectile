@@ -10,7 +10,6 @@
   "power" : 1,
   "timeToLive" : 5,
   "supportsProcessing" : true,
-  "damageType" : "NoDamage",
   "damageKind" : "default",
   "hydrophobic" : false,
   "actionOnReap" : [
@@ -41,7 +40,22 @@
   "actionOnDetonate" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/heatedbulletexplosion/rs_heatedbulletexplosion.config"
+      "file" : "/projectiles/explosions/bombblockexplosion/bombblockexplosion.config"
+    },
+    {
+      "time" : 0.01,
+      "repeat" : false,
+      "action" : "projectile",
+      "type" : "rs_flamethrower",
+      "inheritDamageFactor" : 1,
+	    "angleAdjust" : 90
+    },
+	  {
+      "action" : "projectile",
+      "inheritDamageFactor" : 1,
+      "type" : "rs_shrapnel",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 270
     }
   ],
   

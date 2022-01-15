@@ -1,0 +1,6 @@
+[
+  {
+    "op" : "add",
+    "path" : "/rs_flare", 
+    "value" : "/items/active/weapons/ranged/abilities/rs_flare/rs_flare.weaponability"}
+]

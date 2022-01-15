@@ -1,7 +1,8 @@
 {
   "projectileName" : "rs_bomb",
   "physics" : "grenade",
-  "bounces" : 1,
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
   "timeToLive" : 5,
   "image" : "rs_bomb.png",
   "animationCycle" : 1,
@@ -16,7 +17,7 @@
       "repeat" : false,
       "action" : "projectile",
       "type" : "rs_flamethrower",
-      "inheritDamageFactor" : 0.5,
+      "inheritDamageFactor" : 1,
 	    "angleAdjust" : 90
     },
     {
@@ -24,7 +25,7 @@
       "repeat" : false,
       "action" : "projectile",
       "type" : "rs_flamethrower",
-      "inheritDamageFactor" : 0.5,
+      "inheritDamageFactor" : 1,
 	    "angleAdjust" : 180
     },
     {
@@ -32,26 +33,26 @@
       "repeat" : false,
       "action" : "projectile",
       "type" : "rs_flamethrower",
-      "inheritDamageFactor" : 0.5,
+      "inheritDamageFactor" : 1,
 	    "angleAdjust" : 270
     },
     {
       "action" : "projectile",
-      "inheritDamageFactor" : 0.05,
+      "inheritDamageFactor" : 1,
       "type" : "rs_shrapnel",
       "fuzzAngle" : 0,
       "angleAdjust" : 90
     },
 	{
       "action" : "projectile",
-      "inheritDamageFactor" : 0.05,
+      "inheritDamageFactor" : 1,
       "type" : "rs_shrapnel",
       "fuzzAngle" : 0,
       "angleAdjust" : 180
     },
 	{
       "action" : "projectile",
-      "inheritDamageFactor" : 0.05,
+      "inheritDamageFactor" : 1,
       "type" : "rs_shrapnel",
       "fuzzAngle" : 0,
       "angleAdjust" : 270
@@ -93,8 +94,6 @@
     }
   ],
   "power" : 60,
-  "damageType" : "NoDamage",
   "damageKind" : "default",
-  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
-  "emitters" : [ "sparks" ]
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ]
 }

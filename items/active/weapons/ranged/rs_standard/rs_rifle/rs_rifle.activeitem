@@ -99,8 +99,6 @@
 	  }
     }
   },
-
-  "altAbilityType" : "shrapnelbomb",
   
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

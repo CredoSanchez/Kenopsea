@@ -1,0 +1,70 @@
+{
+  "projectileName" : "rs_flarenailsticking",
+  "physics" : "arrow",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "rs_nail.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "emitters" : [ "flames" ],
+  "piercing" : false,
+  "power" : 1,
+  "timeToLive" : 5,
+  "supportsProcessing" : true,
+  "damageKind" : "default",
+  "hydrophobic" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/arrowexplosion/arrowexplosion.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "rs_bomb",
+      "offset": [ 0, 100 ],
+      "inheritDamageFactor" : 10,
+      "inheritSpeedFactor" : 10,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "rs_bomb",
+      "offset": [ 10, 80 ],
+      "inheritDamageFactor" : 10,
+      "inheritSpeedFactor" : 10,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "rs_bomb",
+      "offset": [ -10, 120 ],
+      "inheritDamageFactor" : 10,
+      "inheritSpeedFactor" : 10,
+      "angleAdjust" : 0
+    }
+  ],
+  "periodicActions" : [
+    {
+      "time" : 0.25,
+      "repeat" : true,
+      "action" : "particle",
+      "rotate" : false,
+      "specification" : {
+        "type" : "animated",
+        "image" : "/animations/stacksmoke/stacksmoke.animation",
+        "position" : [0, 0],
+        "layer" : "front",
+        "timeToLive" : 17.5,
+        "destructionTime" : 3.25,
+        "initialVelocity" : [1, 3.75],
+        "variance" : {
+				  "initialVelocity" : [0.75, 0.75],
+				  "timeToLive" : 0.5,
+				  "rotation" : 90
+        },
+        "destructionAction" : "fade",
+        "fullbright" : false
+      }
+    }
+  ]
+}
