@@ -79,8 +79,8 @@
     {
       "kind" : "rs_train",
       "baseCount" : 1,
-      "offset" : [0, -23],
-      "parallax" : [1.5, 1.5],
+      "offset" : [0, -21.5],
+      "parallax" : [1.51, 1.5],
       "minSpeed" : 110000,
       "maxSpeed" : 170000
     },

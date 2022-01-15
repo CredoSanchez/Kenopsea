@@ -152,7 +152,7 @@
       {
         "mode" : "floor",
         "priority" : 2.0,
-        "variants" : 4,
+        "variants" : 8,
         "distribution" : "/biomes/distributions.config:denseSmall",
 
         "type" : "bush",
@@ -167,7 +167,7 @@
       {
         "mode" : "floor",
         "priority" : 2.0,
-        "variants" : 1,
+        "variants" : 8,
         "distribution" : "/biomes/distributions.config:denseSmall",
 
         "type" : "bush",
@@ -182,7 +182,7 @@
       {
         "mode" : "floor",
         "priority" : 2.0,
-        "variants" : 3,
+        "variants" : 6,
         "distribution" : "/biomes/distributions.config:denseSmall",
 
         "type" : "bush",
