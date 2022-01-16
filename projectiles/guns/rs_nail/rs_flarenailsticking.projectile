@@ -21,25 +21,25 @@
     {
       "action" : "projectile",
       "type" : "rs_bomb",
-      "offset": [ 0, 100 ],
-      "inheritDamageFactor" : 10,
-      "inheritSpeedFactor" : 10,
+      "offset": [ 10, 70 ],
+      "inheritDamageFactor" : 25,
+      "inheritSpeedFactor" : 25,
       "angleAdjust" : 0
     },
     {
       "action" : "projectile",
       "type" : "rs_bomb",
-      "offset": [ 10, 80 ],
-      "inheritDamageFactor" : 10,
-      "inheritSpeedFactor" : 10,
+      "offset": [ 0, 75 ],
+      "inheritDamageFactor" : 25,
+      "inheritSpeedFactor" : 25,
       "angleAdjust" : 0
     },
     {
       "action" : "projectile",
       "type" : "rs_bomb",
-      "offset": [ -10, 120 ],
-      "inheritDamageFactor" : 10,
-      "inheritSpeedFactor" : 10,
+      "offset": [ -10, 80 ],
+      "inheritDamageFactor" : 25,
+      "inheritSpeedFactor" : 25,
       "angleAdjust" : 0
     }
   ],

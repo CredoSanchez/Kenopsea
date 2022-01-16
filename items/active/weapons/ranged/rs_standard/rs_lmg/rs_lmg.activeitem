@@ -1,11 +1,11 @@
 {
-  "itemName" : "rs_rifle",
-  "price" : 20000,
+  "itemName" : "rs_lmg",
+  "price" : 25000,
   "level" : 6,
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "There's always more to see.",
-  "shortdescription" : "Pakron",
+  "description" : "All in equal measure.",
+  "shortdescription" : "Alyeska",
   "tooltipKind" : "gun",
   "category" : "uniqueWeapon",
   "twoHanded" : true,
@@ -15,13 +15,13 @@
   "fixedLevel" : false,
 
   "inventoryIcon" : [
-    { "image" : "rs_rifleicon.png" }
+    { "image" : "rs_lmgicon.png" }
   ],
 
-  "animation" : "rs_rifle.animation",
+  "animation" : "rs_lmg.animation",
   "animationParts" : {
-    "middle" : "rs_rifle.png",
-	"middlefullbright" : "rs_riflelit.png",
+    "middle" : "rs_lmg.png",
+	"middlefullbright" : "rs_lmglit.png",
     "muzzleFlash" : "/animations/muzzleflash/tempmuzzle/rs_tempmuzzle.png"
   },
   "animationCustom" : {
@@ -34,20 +34,20 @@
 		"offsetRegion" : [0.16, 0.25, 0.16, 0.25],
         "particles" : [
           { "particle" : "rs_bulletcasing1" },
-		      { "particle" : "rs_sparker", "offset" : [2.2, 0.30] },
-		      { "particle" : "rs_sparker", "offset" : [2.2, 0.30] },
-		      { "particle" : "fireember", "offset" : [2.2, 0.30] },
-		      { "particle" : "campfireflames", "offset" : [2.2, 0.30] },
-		      { "particle" : "burningdust", "offset" : [2.2, 0.30] },
-		      { "particle" : "firebackspark", "offset" : [2.2, 0.30] },
-		      { "particle" : "rocketbarrelpuff", "offset" : [2.2, 0.30] },
-          { "particle" : "rocketbarrelpuff", "offset" : [2.2, 0.30] }
+		      { "particle" : "rs_sparker", "offset" : [3, 0.30] },
+		      { "particle" : "rs_sparker", "offset" : [3, 0.30] },
+		      { "particle" : "fireember", "offset" : [3, 0.30] },
+		      { "particle" : "campfireflames", "offset" : [3, 0.30] },
+		      { "particle" : "burningdust", "offset" : [3, 0.30] },
+		      { "particle" : "firebackspark", "offset" : [3, 0.30] },
+		      { "particle" : "rocketbarrelpuff", "offset" : [3, 0.30] },
+          { "particle" : "rocketbarrelpuff", "offset" : [3, 0.30] }
         ]
       }
     }
   },
   "baseOffset" : [1.10, 0.025],
-  "muzzleOffset" : [2.2, 0.30],
+  "muzzleOffset" : [3, 0.30],
 
   "scripts" : ["/items/active/weapons/ranged/rs_gun.lua"],
 
@@ -57,9 +57,9 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.25,
-    "baseDps" : 10,
-    "energyUsage" : 25,
+    "fireTime" : 0.05,
+    "baseDps" : 7.5,
+    "energyUsage" : 15,
     "projectileCount" : 1,
     "inaccuracy" : 0.025,
     "fireType" : "auto",
@@ -88,8 +88,8 @@
 		},
 	 "cooldown": {
 		"duration": 0.1,
-		"armRotation": 4,
-		"weaponRotation": 4,
+		"armRotation": 2,
+		"weaponRotation": 2,
 		"twoHanded": true,
 		"animationStates": {
 			"body": "reload"

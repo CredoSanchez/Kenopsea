@@ -10,7 +10,7 @@
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/bombblockexplosion/bombblockexplosion.config"
+      "file" : "/projectiles/explosions/regularexplosion2/fireexplosionknockbackstatus.config"
     },
     {
       "time" : 0.01,
@@ -93,7 +93,7 @@
       ]
     }
   ],
-  "power" : 60,
+  "power" : 600,
   "damageKind" : "default",
   "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ]
 }
