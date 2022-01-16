@@ -1,6 +1,6 @@
 {
   "itemName" : "rs_lmg",
-  "price" : 25000,
+  "price" : 35000,
   "level" : 6,
   "maxStack" : 1,
   "rarity" : "Legendary",
@@ -33,7 +33,7 @@
 	    "transformationGroups" : ["weapon"],
 		"offsetRegion" : [0.16, 0.25, 0.16, 0.25],
         "particles" : [
-          { "particle" : "rs_bulletcasing1" },
+          { "particle" : "rs_bulletcasing2" },
 		      { "particle" : "rs_sparker", "offset" : [3, 0.30] },
 		      { "particle" : "rs_sparker", "offset" : [3, 0.30] },
 		      { "particle" : "fireember", "offset" : [3, 0.30] },
@@ -46,7 +46,7 @@
       }
     }
   },
-  "baseOffset" : [1.10, 0.025],
+  "baseOffset" : [1.10, 0.02],
   "muzzleOffset" : [3, 0.30],
 
   "scripts" : ["/items/active/weapons/ranged/rs_gun.lua"],
@@ -57,10 +57,10 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.05,
-    "baseDps" : 7.5,
-    "energyUsage" : 15,
-    "projectileCount" : 1,
+    "fireTime" : 0.125,
+    "baseDps" : 15,
+    "energyUsage" : 35,
+    "projectileCount" : 2,
     "inaccuracy" : 0.025,
     "fireType" : "auto",
 

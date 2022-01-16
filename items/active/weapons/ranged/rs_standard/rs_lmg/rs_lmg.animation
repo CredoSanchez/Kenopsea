@@ -44,7 +44,7 @@
 		"middle": {
 			"properties": {
 				"centered": true,
-				"offset": [1.10, 0.025],
+				"offset": [1.10, 0.02],
 				"zLevel": 1,
 				"transformationGroups": ["weapon"]
 			},		
@@ -71,7 +71,7 @@
 		"middlefullbright": {
 			"properties": {
 				"centered": true,
-				"offset": [1.10, 0.025],
+				"offset": [1.10, 0.02],
 				"zLevel": 2,
 				"transformationGroups": ["weapon"],
 				"fullbright": true
