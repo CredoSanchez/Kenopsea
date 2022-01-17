@@ -6,7 +6,7 @@
   "rarity" : "Legendary",
   "description" : "All in equal measure.",
   "shortdescription" : "Alyeska",
-  "tooltipKind" : "gun",
+  "tooltipKind" : "rs_base",
   "category" : "uniqueWeapon",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","assaultrifle"],

@@ -10,6 +10,7 @@
   "category" : "chainsaw",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee"],
+  "cursor" : "/cursors/rs_reticle.cursor",
 
   "inventoryIcon" : "rs_chainsawicon.png",
 

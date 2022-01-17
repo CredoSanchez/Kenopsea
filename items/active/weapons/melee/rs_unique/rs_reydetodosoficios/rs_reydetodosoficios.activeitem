@@ -11,6 +11,7 @@
   "category" : "Javelin",
   "twoHanded" : true,
   "itemTags" : ["weapon", "ranged"],
+  "cursor" : "/cursors/rs_reticle.cursor",
 
   "inventoryIcon" : "rs_reydetodosoficios.png:idle",
 

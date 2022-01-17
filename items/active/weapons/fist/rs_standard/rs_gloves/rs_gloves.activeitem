@@ -10,6 +10,7 @@
   "category" : "fistWeapon",
   "twoHanded" : false,
   "itemTags" : ["weapon"],
+  "cursor" : "/cursors/rs_reticle.cursor",
 
   "inventoryIcon" : "rs_gloves.png:front",
   "animation" : "/items/active/weapons/fist/rs_fistweapon.animation",
