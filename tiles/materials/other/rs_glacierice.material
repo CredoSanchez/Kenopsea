@@ -1,23 +1,23 @@
 {
-  "materialId" : 12385,
-  "materialName" : "rs_ice",
+  "materialId" : 12394,
+  "materialName" : "rs_glacierice",
   "particleColor" : [145, 186, 233, 255],
-  "itemDrop" : "rs_ice", 
-  "shortdescription" : "Ice",
+  "itemDrop" : "rs_glacierice", 
+  "shortdescription" : "Kenopsea Glacier",
   
-  "description" : "Sharp crystals of ice.",
+  "description" : "Large chunks of ice, seems to have been frozen for eternity.",
 
   "footstepSound" : "/sfx/blocks/footstep_ice.ogg",
-  "health" : 8,
+  "health" : 10,
   "category" : "materials",
   
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "rs_ice.png",
-    "variants" : 5,
+    "texture" : "rs_glacierice.png",
+    "variants" : 10,
     "lightTransparent" : false,
     "occludesBelow" : false,
     "multiColored" : false,
-    "zLevel" : 200
+    "zLevel" : 201
   }
 }

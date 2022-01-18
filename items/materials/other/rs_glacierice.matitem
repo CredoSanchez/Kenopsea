@@ -1,0 +1,12 @@
+{
+  "itemName" : "rs_glacierice",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_glacierice.png",
+  "shortdescription" : "Kenopsea Glacier",
+  "description" : "Large chunks of ice, seems to have been frozen for eternity.",
+  "tooltipKind" : "rs_base",
+
+  "materialId" : 12394
+}

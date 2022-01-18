@@ -18,7 +18,7 @@
   ],
   "periodicActions" : [],
   "actionOnCollide" : [],
-  "statusEffects" : ["blurning"],
+  "statusEffects" : ["burning"],
   "damageType" : "Status",
   "damageKind" : "fire",
   "hydrophobic" : false,
