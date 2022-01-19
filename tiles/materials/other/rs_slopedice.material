@@ -1,23 +1,23 @@
 {
-  "materialId" : 12394,
-  "materialName" : "rs_glacierice",
+  "materialId" : 12395,
+  "materialName" : "rs_slopedice",
   "particleColor" : [145, 186, 233, 255],
-  "itemDrop" : "rs_glacierice", 
-  "shortdescription" : "Kenopsea Glacier",
-  
+  "itemDrop" : "rs_slopedice",
+
   "description" : "Large chunks of ice, seems to have been frozen for eternity.",
 
+  "shortdescription" : "Kenopsea Sloped Ice",
   "footstepSound" : "/sfx/blocks/footstep_ice.ogg",
   "health" : 5,
   "category" : "materials",
-  
-  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "rs_glacierice.png",
-    "variants" : 10,
+    "texture" : "rs_slopedice.png",
+    "variants" : 5,
     "lightTransparent" : false,
     "occludesBelow" : false,
     "multiColored" : false,
-    "zLevel" : 201
+    "zLevel" : 202
   }
 }

@@ -1,0 +1,12 @@
+{
+  "itemName" : "rs_slopedice",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rs_slopedice.png",
+  "shortdescription" : "Kenopsea Sloped Ice",
+  "description" : "Large chunks of ice, seems to have been frozen for eternity.",
+  "tooltipKind" : "rs_base",
+
+  "materialId" : 12395
+}
