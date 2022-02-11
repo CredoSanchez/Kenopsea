@@ -56,6 +56,27 @@
       "type" : "rs_shrapnel",
       "fuzzAngle" : 0,
       "angleAdjust" : 270
+    },
+    {
+      "action" : "projectile",
+      "inheritDamageFactor" : 1,
+      "type" : "rs_spark",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 60
+    },
+	{
+      "action" : "projectile",
+      "inheritDamageFactor" : 1,
+      "type" : "rs_spark",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 150
+    },
+	{
+      "action" : "projectile",
+      "inheritDamageFactor" : 1,
+      "type" : "rs_spark",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 240
     }
   ],
   "periodicActions" : [

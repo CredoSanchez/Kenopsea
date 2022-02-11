@@ -1,6 +1,6 @@
 {
-  "projectileName" : "rs_shrapnel",
-  "image" : "rs_shrapnel.png",
+  "projectileName" : "rs_spark",
+  "image" : "rs_spark.png",
   "physics" : "shrapnel",
   "bounces" : 0,
   "animationCycle" : 0.5,
@@ -19,13 +19,13 @@
         "layer" : "back",
         "fullbright" : false,
         "destructionAction" : "shrink",
-        "size" : 1.25,
+        "size" : 1,
 		"color" : [75, 75, 75, 75],
 		"collidesForeground" : false,
-		"length" : 20,
+		"length" : 25,
         "position" : [0, 0],
         "timeToLive" : 0.5,
-        "destructionTime" : 0.05,
+        "destructionTime" : 0.25,
 		"initialVelocity" : [0.5, 0],
 		"variance" : {
 		  "size" : 0.5,
@@ -36,7 +36,7 @@
     }
   ],
   "power" : 1,
-  "speed" : 60,
+  "speed" : 120,
   "fullbright" : true,
-  "damageKind" : "shotgunbullet"
+  "damageKind" : "default"
 }
