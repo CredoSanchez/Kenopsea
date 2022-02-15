@@ -14,8 +14,7 @@
   "animation" : "rs_soledad.animation",
   "animationParts" : {
     "middle" : "rs_soledad.png",
-	"middleFullbright" : "rs_soledadlit.png",
-    "muzzleFlash" : "/animations/muzzleflash/tempmuzzle/rs_tempmuzzle.png"
+    "muzzleFlash" : "/animations/muzzleflash/tintolormuzzle/rs_tintolormuzzle.png"
   },
   "animationCustom" : {
     "animatedParts" : {
@@ -49,14 +48,8 @@
 	    "transformationGroups" : ["weapon"],
 		"offsetRegion" : [1.25, 0, 1.25, 0],
         "particles" : [
-		      { "particle" : "rs_sparker", "offset" : [1.5, 0.25] },
-		      { "particle" : "rs_sparker", "offset" : [1.5, 0.25] },
-		      { "particle" : "fireember", "offset" : [1.5, 0.25] },
-		      { "particle" : "campfireflames", "offset" : [1.5, 0.25] },
-		      { "particle" : "burningdust", "offset" : [1.5, 0.25] },
-		      { "particle" : "firebackspark", "offset" : [1.5, 0.25] },
-		      { "particle" : "rocketbarrelpuff", "offset" : [1.5, 0.25] },
-          { "particle" : "rocketbarrelpuff", "offset" : [1.5, 0.25] }
+		      { "particle" : "rs_tintolorcrit", "offset" : [1.5, 0.25] },
+		      { "particle" : "rs_tintolorcrit", "offset" : [1.5, 0.25] }
         ]
       }
 	}
@@ -86,9 +79,9 @@
     "fireType" : "auto",
 	"shotIntervals" : [5],
 
-	"heavyDamageMultiplier" : 1.25,
-	"heavyProjectileType" : "rs_heavybullet",
-    "projectileType" : "rs_bullet",
+	"heavyDamageMultiplier" : 2,
+	"heavyProjectileType" : "rs_tintolorheavybullet",
+    "projectileType" : "rs_tintolorbullet",
     "projectileParameters" : {
       "knockback" : 12
     },

@@ -1,0 +1,63 @@
+{
+  "projectileName" : "rs_tintolorbullet",
+  "image" : "rs_tintolorbullet.png",
+  "physics" : "bullet",
+  "animationCycle" : 0.3,
+  "animationLoops" : false,
+  "windupFrames" : 2,
+  "timeToLive" : 10,
+  "frameNumber" : 3,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/tintolorbulletexplosion/rs_tintolorbulletexplosion.config"
+    }
+  ],
+  "periodicActions" : [
+    {
+      "time" : 0.01,
+      "repeat" : true,
+      "action" : "particle",
+      "rotate" : true,
+      "specification" : {
+        "type" : "animated",
+        "image" : "/projectiles/guns/rs_tintolorbullet/trail.animation",
+        "position" : [-1.75, 0],
+        "layer" : "front",
+        "timeToLive" : 0.3,
+        "destructionTime" : 0.2,
+        "destructionAction" : "fade",
+        "fullbright" : false
+      }
+    },
+    {
+      "time" : 0.01,
+      "action" : "particle",
+      "rotate" : true,
+      "repeat" : true,
+      "specification" : {
+        "type" : "streak",
+        "layer" : "back",
+        "fullbright" : false,
+        "destructionAction" : "shrink",
+        "size" : 1.5,
+		"color" : [75, 75, 75, 75],
+		"collidesForeground" : false,
+		"length" : 25,
+        "position" : [0, 0],
+        "timeToLive" : 0.5,
+        "destructionTime" : 0.05,
+		"initialVelocity" : [0.5, 0],
+		"variance" : {
+		  "size" : 0.5,
+          "destructionTime" : 0.5,
+		  "initialVelocity" : [0.5, -0]
+		    }
+      }
+    }
+  ],
+  "power" : 2.0,
+  "speed" : 125,
+  "fullbright" : false,
+  "damageKind" : "tintolor"
+}

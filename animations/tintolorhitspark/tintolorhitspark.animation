@@ -2,6 +2,7 @@
   "frames" : "tintolorhitspark.png",
   "variants" : 1,
   "frameNumber" : 7,
+  "flippable" : false,
   "animationCycle" : 0.3,
   "offset" : [0, 0]
 }

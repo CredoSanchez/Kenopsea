@@ -7,7 +7,6 @@
         "sounds" : [ "/sfx/projectiles/flame_burn.ogg" ],
         "particles" : [
           [
-
             {
               "type" : "animated",
               "animation" : "/animations/tintolorhitspark/tintolorhitspark.animation",

@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/tintolor",
+		"value": {
+			"resistanceStat" : "tintolorresistance",
+			"damageNumberParticles" : {
+				"hit" : "tintolordamagenumber",
+				"stronghit" : "tintolordamagenumberstrong",
+				"weakhit" : "tintolordamagenumberweak",
+				"shieldhit" : "tintolordamagenumber",
+				"kill" : "tintolordamagenumber"
+			}
+		}
+	}
+
+]

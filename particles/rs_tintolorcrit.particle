@@ -1,0 +1,21 @@
+{
+  "kind" : "rs_tintolorcrit",
+  "definition" : {
+    "type" : "animated",
+	"looping" : true,
+    "animation" : "/animations/tintolorcrit/tintolorcrit.animation",
+    "position" : [0, 0],
+    "finalVelocity" : [0, 7],
+    "approach" : [0, 3.5],
+    "destructionAction" : "shrink",
+    "destructionTime" : 0.5,
+    "fade" : 1,
+    "size" : 0.5,
+    "layer" : "middle",
+    "timeToLive" : 0.25,
+	"fullbright" : false,
+	"variance" : {
+      "initialVelocity" : [0.25, 0.25]
+    }
+  }
+}

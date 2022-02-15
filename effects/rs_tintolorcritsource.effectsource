@@ -1,0 +1,30 @@
+{
+  "kind" : "rs_tintolorcrit",
+  "location" : "mouth",
+  "definition" : {
+    "duration" : 0.01,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ "rs_tintolorcrit" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "rs_tintolorcrit", "rs_tintolorcrit" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ "rs_tintolorcrit" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}
