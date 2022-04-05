@@ -1,6 +1,7 @@
 {
   "itemName" : "rs_akr",
   "price" : 20000,
+  "inventoryIcon" : "rs_akr.png:idle",
   "level" : 6,
   "maxStack" : 1,
   "rarity" : "Essential",
@@ -9,24 +10,37 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged"],
   "cursor" : "/cursors/rs_reticle.cursor",
-  
-  "fixedLevel" : false,
-
-  "inventoryIcon" : [
-    { "image" : "rs_akricon.png" }
-  ],
 
   "animation" : "rs_akr.animation",
   "animationParts" : {
     "middle" : "rs_akr.png",
-	"middlefullbright" : "rs_akrlit.png",
-	"muzzleFlash" : "/animations/muzzleflash/tempmuzzle/rs_tempmuzzle.png"
+	  "middleFullbright" : "rs_akrlit.png",
+	  "muzzleFlash" : "/animations/muzzleflash/tempmuzzle/rs_tempmuzzle.png"
   },
   "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "middleFullbright" : {
+		  "properties" : {
+		    "offset" : [3.5, 0.35]
+		  }
+		}
+      }
+    },
     "sounds" : {
-      "fire" : [ "/sfx/gun/rs_akrshot.ogg" ]
+      "fire" : [ "/sfx/gun/rs_akrshot.ogg" ],
+      "fireHeavy" : [ "/sfx/gun/rs_akrshot.ogg" ],
+      "reloadLoop" : [  ],
+      "reload" : [ "/sfx/gun/reload/grenade_reload_clip2.ogg" ]
     },
 	"particleEmitters" : {
+    "reload" : {
+      "transformationGroups" : ["muzzle"],
+      "offsetRegion" : [-1.0, 0, -1.0, 0],
+      "particles" : [
+            { "particle" : "coldbreath" }
+          ]
+      },
       "muzzleFlash" : {
 	    "transformationGroups" : ["weapon"],
 		"offsetRegion" : [0.16, 0.30, 0.16, 0.30],
@@ -45,63 +59,88 @@
 	}
   },
 
-  "baseOffset" : [2.0, 0.3],
-  "muzzleOffset" : [3.8, 0.2],
+  "baseOffset" : [3.5, 0.35],
+  "muzzleOffset" : [2.2, 0.2],
 
   "scripts" : ["/items/active/weapons/ranged/rs_gun.lua"],
 
   "elementalType" : "physical",
 
   "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-    "class" : "GunFire",
+    "scripts" : ["/items/active/weapons/ranged/abilities/rs_ammofire/rs_ammofire.lua"],
+    "class" : "RSAmmoFire",
 
-    "fireTime" : 2.5,
-    "baseDps" : 16,
-    "energyUsage" : 75,
+    "fireTime" : 1,
+    "baseDps" : 12.5,
+    "inaccuracy" : 0.00,
+	
+	"readyTime" : 0.3,
+	"fireAnimation" : true,
+	
+	"maxAmmo" : 5,
+
     "projectileCount" : 1,
-    "inaccuracy" : 0,
     "fireType" : "auto",
+	"shotIntervals" : [5],
 
-    "projectileType" : [ "rs_heavybullet"],
+  "heavyDamageMultiplier" : 1.25,
+	"heavyProjectileType" : "rs_flarenail",
+    "projectileType" : "rs_heavybullet",
     "projectileParameters" : {
       "knockbackRange" : [10, 40]
     },
-    "muzzleFlashVariants" : 3,
 
-    "stances": {
-	 "idle": {
-		"armRotation": 0,
-		"weaponRotation": 0,
-		"twoHanded": true,
-		"allowRotate": true,
-		"allowFlip": true
-		},
-	 "fire": {
-		"duration": 0,
-		"armRotation": 1,
-		"weaponRotation": 1,
-		"twoHanded": true,
-		"allowRotate": false,
-		"allowFlip": true
-		},
-	 "cooldown": {
-		"duration" : 0.75,
-        "armRotation" : -40,
-        "weaponRotation" : 60,
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
         "twoHanded" : true,
-		"animationStates": {
-			"body": "reload"
-		},
-		"frontArmFrame" : "swim.4",
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 10,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+	    "cooldown" : {
+        "duration" : 0.5,
+        "armRotation" : 5,
+        "weaponRotation" : 10,
+        "twoHanded" : true,
+
+		    "frontArmFrame" : "swim.4",
         "backArmFrame" : "rotation",
         "allowRotate" : true,
         "allowFlip" : true
+      },
+      "reload" : {
+        "duration" : 1,
+        "armRotation" : -25,
+        "weaponRotation" : 55,
+		    "weaponOffset" : [-0.25, 0.0],
+        "twoHanded" : true,
+
+        "aimAngle" : 0,
+        "allowRotate" : false,
+        "allowFlip" : true,
+
+		"frontArmFrameSequence" : [
+      [0.0, "swim.4"],
+		  [0.25, "rotation"],
+		  [0.5, "walk.2"],
+		  [0.75, "run.3"],
+		  [1.0, "run.1"]
+		],
+        "backArmFrame" : "rotation"
       }
     }
   },
-
-  "altAbilityType" : "rs_flare",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

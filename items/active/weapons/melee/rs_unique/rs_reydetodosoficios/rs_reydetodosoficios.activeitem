@@ -75,10 +75,10 @@
     ],
 	
 	"chargedDamageConfig" : {
-      "statusEffects" : [ "burning" ],
+      "statusEffects" : [],
       "baseDamageFactor" : 1.65,
       "knockbackMode" : "aim",
-	  "damageSourceKind" : "firebroadsword",
+      "damageSourceKind" : "spear",
       "knockback" : 40,
       "timeout" : 0.25
     },
@@ -110,9 +110,9 @@
       },
       {
         "baseDamageFactor" : 1.45,
-		"damageSourceKind" : "firespear",
+        "damageSourceKind" : "spear",
         "knockback" : 25,
-        "statusEffects" : [ "burning" ]
+        "statusEffects" : []
       }
     ],
 	

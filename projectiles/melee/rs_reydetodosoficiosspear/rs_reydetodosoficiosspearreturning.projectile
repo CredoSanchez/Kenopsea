@@ -5,7 +5,7 @@
   "image" : "rs_reydetodosoficiosspearreturning.png",
   "animationCycle" : 0.65,
   "frameNumber" : 10,
-  "emitters" : [ ],
+  "emitters" : [],
   "power" : 20,
   "speed" : 0,
   "damagePoly" : [[-20, 5], [20, 5], [20, -5], [-20, -5]],
@@ -18,9 +18,9 @@
   ],
   "periodicActions" : [],
   "actionOnCollide" : [],
-  "statusEffects" : ["burning"],
+  "statusEffects" : [],
   "damageType" : "Status",
-  "damageKind" : "fire",
+  "damageKind" : "spear",
   "hydrophobic" : false,
   "fullbright" : false
 }
