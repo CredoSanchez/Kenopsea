@@ -102,7 +102,7 @@
       "fire" : {
         "duration" : 0,
         "armRotation" : 5,
-        "weaponRotation" : 10,
+        "weaponRotation" : 0,
         "twoHanded" : true,
 
         "allowRotate" : true,
@@ -111,7 +111,7 @@
 	    "cooldown" : {
         "duration" : 0.5,
         "armRotation" : 5,
-        "weaponRotation" : 10,
+        "weaponRotation" : 0,
         "twoHanded" : true,
 
 		    "frontArmFrame" : "swim.4",

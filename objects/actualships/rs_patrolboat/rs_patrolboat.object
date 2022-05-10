@@ -20,7 +20,7 @@
       "flipImages" : true,
       
       "imagePosition" : [-405, 0],
-      "frames" : 6,
+      "frames" : 1,
       "animationCycle" : 1,
 
       "spaces" : [ [0, 0], [0, 0], [0, 0], [0, 0], [0, 0] ],
@@ -32,7 +32,7 @@
       "direction" : "right",
       
       "imagePosition" : [-405, 0],
-      "frames" : 6,
+      "frames" : 1,
       "animationCycle" : 1,
 
       "spaces" : [ [0, 0], [0, 0], [0, 0], [0, 0], [0, 0] ],

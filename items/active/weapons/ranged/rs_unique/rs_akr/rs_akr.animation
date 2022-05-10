@@ -10,7 +10,7 @@
 		  "states" : {
 			"idle" : {},
 			"fire" : {
-			  "frames" : 5,
+			  "frames" : 9,
 			  "cycle" : 0.5,
 			  "mode" : "transition",
 			  "transition" : "idle"
@@ -149,9 +149,9 @@
   
 	"lights" : {
 	  "muzzleFlash" : {
-		"active" : false,
+		"active" : true,
 		"position" : [0, 0],
-		"color" : [0, 52, 90]
+		"color" : [100, 100, 100]
 	  }
 	},
   

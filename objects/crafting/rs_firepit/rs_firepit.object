@@ -9,7 +9,7 @@
     "config" : "/interface/windowconfig/craftingcampfire.config",
     "filter" : [ "campfire" ]
   },
-  "description" : "A fire pit for roasting smores.",
+  "description" : "Se quema.",
   "shortdescription" : "Kenopsea Fire Pit",
   "race" : "generic",
   "tooltipKind" : "rs_base",
@@ -58,8 +58,8 @@
       "flipImages" : true,
 
       "imagePosition" : [0, 0],
-      "frames" : 4,
-      "animationCycle" : 0.5,
+      "frames" : 12,
+      "animationCycle" : 1.5,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
@@ -69,8 +69,8 @@
       "direction" : "right",
 
       "imagePosition" : [0, 0],
-      "frames" : 4,
-      "animationCycle" : 0.5,
+      "frames" : 12,
+      "animationCycle" : 1.5,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]

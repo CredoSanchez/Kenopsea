@@ -52,7 +52,7 @@
         "op": "add",
         "path": "/visitableTypeDescription/rs_kenopseafields",
         "value" : [
-          "^#0055f1;Kenopsea^white; Fields occupited only by lonely mountains and... you now.",
+          "^#0055f1;Kenopsea^white; Fields occupied only by lonely mountains and... you now.",
           "^#0055f1;Kenopsea^white; Large fields divided by stoic mountain ranges."
           ]
       },
