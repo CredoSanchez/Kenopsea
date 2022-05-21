@@ -88,7 +88,7 @@
     "fadePercent" : 0.025
   },
   {
-    "kind" : "ocean6",
+    "kind" : "rs_ocean6",
     "offset" : [0, 288],
     "parallax" : [6, 1.17],
     "nohueshift" : true,
