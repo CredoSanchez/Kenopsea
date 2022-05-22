@@ -65,7 +65,35 @@
           }
         }
       },
-      
+      "middleFullbright" : {
+        "properties" : {
+          "centered" : true,
+          "fullbright" : true,
+          "image" : "",
+          "zLevel" : 2,
+          "offset" : [0, 0], // x offset is set dynamically
+          "transformationGroups" : ["weapon"]
+        },
+        "partStates" : {
+          "gun" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+			"fire" : {
+              "properties" : {
+                "image" : "<partImage>:cool.<frame>"
+              }
+            },
+			"reload" : {
+              "properties" : {
+                "image" : "<partImage>:reload.<frame>"
+              }
+            }
+          }
+        }
+      },
       "muzzleFlash" : {
         "properties" : {
           "zLevel" : -1,
@@ -114,7 +142,7 @@
 	  "offsetRegion" : [0.375, 0.0, 0.375, 0.0],
 	  "emissionRate" : 30,
 	  "particles" : [
-	    {"particle" : "rs_tintolorcrit"}
+	    {"particle" : "burningdust"}
 	  ]
     }
   },
@@ -123,7 +151,7 @@
     "muzzleFlash" : {
       "active" : false,
       "position" : [0, 0],
-      "color" : [0, 0, 0]
+      "color" : [0, 52, 90]
     }
   },
 

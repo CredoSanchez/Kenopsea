@@ -14,15 +14,14 @@
   "animation" : "rs_capitalvices.animation",
   "animationParts" : {
     "middle" : "rs_capitalvices.png",
-	  "middleFullbright" : "rs_capitalviceslit.png",
-    "muzzleFlash" : "/items/active/weapons/ranged/rs_animations/rs_muzzleflashes/rs_capitalvicesmuzzleflash.png"
+	  "middleFullbright" : "rs_capitalviceslit.png"
   },
   "animationCustom" : {
     "animatedParts" : {
       "parts" : {
         "middleFullbright" : {
 		  "properties" : {
-		    "offset" : [1.0, 0.0]
+		    "offset" : [2.25, 0.0]
 		  }
 		}
       }
@@ -58,7 +57,7 @@
 	}
   },
 
-  "baseOffset" : [1.0, 0.0],
+  "baseOffset" : [2.25, 0.0],
   "muzzleOffset" : [1.25, 0.5],
 
   "scripts" : ["/items/active/weapons/ranged/rs_gun.lua"],
@@ -101,7 +100,7 @@
       "fire" : {
         "duration" : 0,
         "armRotation" : 5,
-        "weaponRotation" : 10,
+        "weaponRotation" : 0,
         "twoHanded" : false,
 
         "allowRotate" : true,
@@ -110,7 +109,7 @@
       "cooldown" : {
         "duration" : 0.30,
         "armRotation" : 5,
-        "weaponRotation" : 10,
+        "weaponRotation" : 0,
         "twoHanded" : false,
 
         "allowRotate" : true,

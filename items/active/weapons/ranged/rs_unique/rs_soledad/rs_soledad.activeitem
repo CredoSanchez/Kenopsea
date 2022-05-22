@@ -14,48 +14,54 @@
   "animation" : "rs_soledad.animation",
   "animationParts" : {
     "middle" : "rs_soledad.png",
-    "muzzleFlash" : "/animations/muzzleflash/tintolormuzzle/rs_tintolormuzzle.png"
+    "middleFullbright" : "rs_soledadlit.png"
   },
   "animationCustom" : {
     "animatedParts" : {
       "parts" : {
         "middleFullbright" : {
 		  "properties" : {
-		    "offset" : [0.65, 0.0]
+		    "offset" : [1.5, 0.0]
 		  }
 		}
       }
     },
     "sounds" : {
       "fire" : [ "/sfx/gun/rs_standardshot.ogg" ],
-      "fireHeavy" : [ "/sfx/gun/rs_akrshot.ogg" ],
+      "fireHeavy" : [ "/sfx/gun/rs_standardshot.ogg" ],
 	  "reloadLoop" : [  ],
 	  "reload" : [ "/sfx/gun/reload/grenade_reload_clip2.ogg" ]
     },
 	"particleEmitters" : {
 	  "reload" : {
 		"transformationGroups" : ["muzzle"],
-		"offsetRegion" : [-1.0, 0, -1.0, 0],
+		"offsetRegion" : [-2.25, 0, -2.25, 0],
 		"particles" : [
           { "particle" : "rs_bulletcasing1" },
           { "particle" : "rs_bulletcasing1" },
           { "particle" : "rs_bulletcasing1" },
           { "particle" : "rs_bulletcasing1" },
-          { "particle" : "rs_bulletcasing2" }
+          { "particle" : "rs_bulletcasing1" }
         ]
 	  },
     "muzzleFlash" : {
 	    "transformationGroups" : ["weapon"],
 		"offsetRegion" : [1.25, 0, 1.25, 0],
         "particles" : [
-		      { "particle" : "rs_tintolorcrit", "offset" : [1.5, 0.25] },
-		      { "particle" : "rs_tintolorcrit", "offset" : [1.5, 0.25] }
+		      { "particle" : "rs_sparker", "offset" : [1.25, 0.5] },
+		      { "particle" : "rs_sparker", "offset" : [1.25, 0.5] },
+		      { "particle" : "fireember", "offset" : [1.25, 0.5] },
+		      { "particle" : "campfireflames", "offset" : [1.25, 0.5] },
+		      { "particle" : "burningdust", "offset" : [1.25, 0.5] },
+		      { "particle" : "firebackspark", "offset" : [1.25, 0.5] },
+		      { "particle" : "rocketbarrelpuff", "offset" : [1.25, 0.5] },
+          { "particle" : "rocketbarrelpuff", "offset" : [1.25, 0.5] }
         ]
       }
 	}
   },
 
-  "baseOffset" : [0.65, 0.0],
+  "baseOffset" : [1.5, 0.0],
   "muzzleOffset" : [1.5, 0.25],
 
   "scripts" : ["/items/active/weapons/ranged/rs_gun.lua"],
@@ -80,8 +86,8 @@
 	"shotIntervals" : [5],
 
 	"heavyDamageMultiplier" : 2,
-	"heavyProjectileType" : "rs_tintolorheavybullet",
-    "projectileType" : "rs_tintolorbullet",
+	"heavyProjectileType" : "rs_bullet",
+    "projectileType" : "rs_bullet",
     "projectileParameters" : {
       "knockback" : 12
     },
@@ -90,7 +96,7 @@
       "idle" : {
         "armRotation" : 0,
         "weaponRotation" : 0,
-        "twoHanded" : true,
+        "twoHanded" : false,
 
         "allowRotate" : true,
         "allowFlip" : true
@@ -98,8 +104,8 @@
       "fire" : {
         "duration" : 0,
         "armRotation" : 5,
-        "weaponRotation" : 10,
-        "twoHanded" : true,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
 
         "allowRotate" : true,
         "allowFlip" : true
@@ -107,8 +113,8 @@
       "cooldown" : {
         "duration" : 0.30,
         "armRotation" : 5,
-        "weaponRotation" : 10,
-        "twoHanded" : true,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
 
         "allowRotate" : true,
         "allowFlip" : true
@@ -117,7 +123,7 @@
         "duration" : 1,
         "armRotation" : -25,
         "weaponRotation" : 55,
-		"weaponOffset" : [-0.25, 0.0],
+		    "weaponOffset" : [-0.25, 0.0],
         "twoHanded" : true,
 
         "aimAngle" : 0,

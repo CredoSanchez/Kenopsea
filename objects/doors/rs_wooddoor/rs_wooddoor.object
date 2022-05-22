@@ -5,7 +5,7 @@
 
   "category" : "door",
   "price" : 95,
-  "description" : "A strong and secure door.",
+  "description" : "A strong sliding farm door.",
   "shortdescription" : "Kenopsea Door",
   "tooltipKind" : "rs_base",
   "race" : "generic",
@@ -19,15 +19,14 @@
   "novakidDescription" : "A solid, sturdy door.",
 
   "inventoryIcon" : "rs_wooddooricon.png",
-  "largeImage" : "rs_wooddoor.png:right",
-  
+
   "orientations" : [
     {
       "dualImage" : "rs_wooddoor.png:default",
-      "imagePosition" : [-16, 0],
+      "imagePosition" : [-1, 0],
       "renderLayer" : "Object+5",
 
-      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3], [0, 4] ],
+      "spaceScan" : 0.1,
       "anchors" : [ "bottom", "top" ]
     }
   ],
@@ -51,7 +50,7 @@
   "animationParts" : {
     "door" : "rs_wooddoor.png"
   },
-  "animationPosition" : [-16, 0],
+  "animationPosition" : [-1, 0],
 
   "inputNodes" : [ [0, 4] ],
   "outputNodes" : [ [0, 0] ]
