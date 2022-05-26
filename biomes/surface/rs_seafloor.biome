@@ -1,0 +1,46 @@
+{
+  "name" : "rs_seafloor",
+  "friendlyName" : "Kenopsea Floor",
+
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 6,
+        "pool" : [
+          [ 1, "smallFishOcean1" ],
+          [ 1, "smallFishOcean2" ],
+          [ 1, "passiveLargeFish" ],
+          [ 1, "aggroLargeFish" ],
+          [ 1, "squidcritter" ],
+          [ 1, "jellycritter" ]
+        ]
+      }
+    ]
+  },
+
+  "parallax" : "/parallax/surface/rs_seafloor.parallax",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/ocean_underwater.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/ocean_underwater.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : [ "/music/rs_vacio.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/music/rs_vacio.ogg" ]
+    }
+  },
+
+  "hueShiftOptions" : [0],
+
+  "mainBlock" : "rs_kenos",
+  "subBlocks" : [ "rs_peark" ],
+  "ores" : "surface"
+}

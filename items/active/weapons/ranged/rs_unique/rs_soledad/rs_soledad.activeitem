@@ -1,6 +1,6 @@
 {
   "itemName" : "rs_soledad",
-  "price" : 1500,
+  "price" : 12500,
   "inventoryIcon" : "rs_soledad.png:idle",
   "maxStack" : 1,
   "rarity" : "Essential",
@@ -20,7 +20,7 @@
     "animatedParts" : {
       "parts" : {
         "middleFullbright" : {
-		  "properties" : {
+		    "properties" : {
 		    "offset" : [1.5, 0.0]
 		  }
 		}
@@ -83,7 +83,7 @@
 
     "projectileCount" : 1,
     "fireType" : "auto",
-	"shotIntervals" : [5],
+	  "shotIntervals" : [5],
 
 	"heavyDamageMultiplier" : 2,
 	"heavyProjectileType" : "rs_bullet",

@@ -1,39 +1,53 @@
 {
   "itemName" : "rs_minutiae",
   "price" : 12500,
-  "level" : 6,
+  "inventoryIcon" : "rs_minutiae.png:idle",
   "maxStack" : 1,
   "rarity" : "Essential",
-  "description" : "When hunting, the little things count the most.",
-  "shortdescription" : "Minutiae",
+  "shortdescription" : "^orange;Minutiae",
+  "level" : 6,
   "tooltipKind" : "rs_minutiaett",
-  "category" : "uniqueWeapon",
+  "itemTags" : ["weapon", "ranged"],
   "twoHanded" : true,
-  "itemTags" : ["weapon","ranged"],
   "cursor" : "/cursors/rs_reticle.cursor",
-  
-  "fixedLevel" : false,
-
-  "inventoryIcon" : [
-    { "image" : "rs_minutiaeicon.png" }
-  ],
 
   "animation" : "rs_minutiae.animation",
   "animationParts" : {
     "middle" : "rs_minutiae.png",
-	"middlefullbright" : "rs_minutiaelit.png",
-	"muzzleFlash" : "/animations/muzzleflash/tempmuzzle/rs_tempmuzzle.png"
+	  "middleFullbright" : "rs_minutiaelit.png"
   },
   "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "middleFullbright" : {
+		    "properties" : {
+		    "offset" : [1.5, -0.05]
+		  }
+		}
+      }
+    },
     "sounds" : {
-      "fire" : [ "/sfx/gun/rs_standardshot.ogg" ]
+      "fire" : [ "/sfx/gun/rs_standardshot.ogg" ],
+      "fireHeavy" : [ "/sfx/gun/rs_standardshot.ogg" ],
+	  "reloadLoop" : [  ],
+	  "reload" : [ "/sfx/gun/reload/grenade_reload_clip2.ogg" ]
     },
 	"particleEmitters" : {
+	  "reload" : {
+		"transformationGroups" : ["muzzle"],
+		"offsetRegion" : [-3.75, -0.5, -3.75, -0.5],
+		"particles" : [
+          { "particle" : "rs_bulletcasing1" },
+          { "particle" : "rs_bulletcasing1" },
+          { "particle" : "rs_bulletcasing1" },
+          { "particle" : "rs_bulletcasing1" },
+          { "particle" : "rs_bulletcasing1" }
+        ]
+	  },
       "muzzleFlash" : {
 	    "transformationGroups" : ["weapon"],
 		"offsetRegion" : [0.16, 0.30, 0.16, 0.30],
         "particles" : [
-          { "particle" : "rs_bulletcasing1" },
 		      { "particle" : "rs_sparker", "offset" : [3.2, 0.25] },
 		      { "particle" : "rs_sparker", "offset" : [3.2, 0.25] },
 		      { "particle" : "fireember", "offset" : [3.2, 0.25] },
@@ -47,59 +61,84 @@
 	}
   },
 
-  "baseOffset" : [0.75, 0.10],
-  "muzzleOffset" : [3.2, 0.25],
+  "baseOffset" : [1.5, -0.05],
+  "muzzleOffset" : [2.2, 0.4],
 
   "scripts" : ["/items/active/weapons/ranged/rs_gun.lua"],
 
   "elementalType" : "physical",
 
   "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-    "class" : "GunFire",
+    "scripts" : ["/items/active/weapons/ranged/abilities/rs_ammofire/rs_ammofire.lua"],
+    "class" : "RSAmmoFire",
 
     "fireTime" : 0.5,
-    "baseDps" : 7.5,
-    "energyUsage" : 50,
-    "projectileCount" : 1,
-    "inaccuracy" : 0.015,
-    "fireType" : "auto",
+    "baseDps" : 20,
+    "inaccuracy" : 0,
+	
+	"readyTime" : 0.5,
+	"fireAnimation" : true,
+	
+	"maxAmmo" : 5,
 
-    "projectileType" : [ "rs_nail"],
+    "projectileCount" : 1,
+    "fireType" : "auto",
+	  "shotIntervals" : [5],
+
+	"heavyDamageMultiplier" : 2,
+	"heavyProjectileType" : "rs_nail",
+    "projectileType" : "rs_nail",
     "projectileParameters" : {
-      "knockbackRange" : [5, 0]
+      "knockback" : 12
     },
-    "muzzleFlashVariants" : 3,
 
     "stances": {
-	 "idle": {
-		"armRotation": 0,
-		"weaponRotation": 0,
-		"twoHanded": true,
-		"allowRotate": true,
-		"allowFlip": true
+	    "idle": {
+		    "armRotation": 0,
+		    "weaponRotation": 0,
+		    "twoHanded": true,
+		    "allowRotate": true,
+		    "allowFlip": true
 		},
-	 "fire": {
-		"duration": 0,
-		"armRotation": 1,
-		"weaponRotation": 1,
-		"twoHanded": true,
-		"allowRotate": false,
-		"allowFlip": true
+	    "fire": {
+		    "duration": 0,
+        "armRotation" : 5,
+        "weaponRotation" : 0,
+		    "twoHanded": true,
+		    "allowRotate": false,
+	    	"allowFlip": true
 		},
-	 "cooldown": {
-		"duration" : 0.35,
-        "armRotation" : -10,
-        "weaponRotation" : 20,
-        "weaponOffset" : [-0.75, -0.75],
+	    "cooldown" : {
+        "duration" : 0.30,
+        "armRotation" : 5,
+        "weaponRotation" : 15,
+        "weaponOffset" : [-0.25, 0.0],
         "twoHanded" : true,
-		"animationStates": {
-			"body": "reload"
-		},
-		"frontArmFrame" : "walk.1",
-        "backArmFrame" : "rotation",
+
         "allowRotate" : true,
-        "allowFlip" : true
+        "allowFlip" : true,
+
+        "frontArmFrame" : "walk.1",
+        "backArmFrame" : "rotation"
+  },
+      "reload" : {
+        "duration" : 1,
+        "armRotation" : -25,
+        "weaponRotation" : 55,
+        "weaponOffset" : [-0.25, 0.0],
+        "twoHanded" : true,
+
+        "aimAngle" : 0,
+        "allowRotate" : false,
+        "allowFlip" : true,
+
+        "frontArmFrameSequence" : [
+        [0.0, "rotation"],
+        [0.1, "walk.2"],
+        [0.3, "run.3"],
+        [0.55, "run.1"]
+        ],
+        "backArmFrame" : "rotation"
       }
     }
   },

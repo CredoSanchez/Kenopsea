@@ -84,7 +84,7 @@
   ],
 
   "mainBlock" : "rs_dirt",
-  "subBlocks" : [ "rs_kenos", "rs_kilop", "rs_peark" ],
+  "subBlocks" : [ "rs_kenos", "rs_peark" ],
   "ores" : "surface",
 
   "parallax" : "/parallax/surface/rs_fields.parallax",

@@ -1,20 +1,20 @@
 {
-  "itemName" : "rs_akr",
+  "itemName" : "rs_salvo",
   "price" : 20000,
-  "inventoryIcon" : "rs_akr.png:idle",
+  "inventoryIcon" : "rs_salvo.png:idle",
   "level" : 6,
   "maxStack" : 1,
   "rarity" : "Essential",
-  "shortdescription" : "^orange;AKR-7",
-  "tooltipKind" : "rs_akrtt",
+  "shortdescription" : "^orange;Salvo",
+  "tooltipKind" : "rs_salvott",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged"],
   "cursor" : "/cursors/rs_reticle.cursor",
 
-  "animation" : "rs_akr.animation",
+  "animation" : "rs_salvo.animation",
   "animationParts" : {
-    "middle" : "rs_akr.png",
-	  "middleFullbright" : "rs_akrlit.png",
+    "middle" : "rs_salvo.png",
+	  "middleFullbright" : "rs_salvolit.png",
 	  "muzzleFlash" : "/animations/muzzleflash/tempmuzzle/rs_tempmuzzle.png"
   },
   "animationCustom" : {
@@ -28,8 +28,8 @@
       }
     },
     "sounds" : {
-      "fire" : [ "/sfx/gun/rs_akrshot.ogg" ],
-      "fireHeavy" : [ "/sfx/gun/rs_akrshot.ogg" ],
+      "fire" : [ "/sfx/gun/rs_salvoshot.ogg" ],
+      "fireHeavy" : [ "/sfx/gun/rs_salvoshot.ogg" ],
       "reloadLoop" : [  ],
       "reload" : [ "/sfx/gun/reload/grenade_reload_clip2.ogg" ]
     },

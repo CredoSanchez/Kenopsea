@@ -59,7 +59,7 @@
   ],
 
   "mainBlock" : "rs_peark",
-  "subBlocks" : [ "rs_kenos", "rs_kilop", "rs_glacierice", "rs_ice", "snow" ],
+  "subBlocks" : [ "rs_kilop", "rs_glacierice", "rs_ice", "snow" ],
   "ores" : "surface",
 
   "parallax" : "/parallax/surface/rs_arktikos.parallax",

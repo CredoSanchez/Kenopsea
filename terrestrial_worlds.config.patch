@@ -14,7 +14,7 @@
               "layerLevel" : 1050
             },
               "subsurface" : {
-                "primaryRegion" : ["oceanfloor"],
+                "primaryRegion" : ["rs_seafloor"],
                 "dungeons" : [[1.0, "hylotloceancity"], [1.0, "hylotlruinedcity"]]
             },
               "dungeons": [
@@ -39,6 +39,20 @@
     }
   },
   {
+    "op" : "add",
+    "path" : "/regionTypes/rs_seafloor",
+    "value" : {
+      "oceanLiquid" : [ "water" ],
+      "oceanLevelOffset" : 1000,
+      "blockSelector" : [ "ledgesSurface" ],
+      "fgCaveSelector" : [ "emptier" ],
+      "bgCaveSelector" : [ "emptiest" ],
+      "biome" : [
+        [0, [ "rs_seafloor" ]]
+      ]
+    }
+  },
+  {
     "op": "add",
     "path": "/planetTypes/rs_kenopseablank",
     "value": {
@@ -53,7 +67,7 @@
               "layerLevel" : 1050
             },
               "subsurface" : {
-                "primaryRegion" : ["oceanfloor"],
+                "primaryRegion" : ["rs_seafloor"],
                 "dungeons" : [[1.0, "hylotloceancity"], [1.0, "hylotlruinedcity"]]
             },
               "dungeons": [

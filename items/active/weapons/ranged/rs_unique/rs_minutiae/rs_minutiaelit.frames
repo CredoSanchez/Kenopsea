@@ -1,10 +1,11 @@
 {
   "frameGrid" : {
-    "size" : [38, 10],
-    "dimensions" : [6, 2],
+    "size" : [48, 10],
+    "dimensions" : [8, 3],
     "names" : [
-      ["default.1", "null", "null", "null", "null", null],
-	  ["reload.1", "reload.2", "reload.3", "reload.4", "reload.5", "reload.6"]
+      [ "idle", null, null, null, null, null, null, null ],
+      [ "cool.1", "cool.2", "cool.3", "cool.4", "cool.5", "cool.6", null, null ],
+	    [ "reload.1", "reload.2", "reload.3", "reload.4", "reload.5", "reload.6", "reload.7", "reload.8" ]
     ]
   }
 }
