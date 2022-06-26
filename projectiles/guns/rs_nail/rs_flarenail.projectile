@@ -15,7 +15,7 @@
 	  {
       "action" : "projectile",
       "type" : "rs_flarenailsticking",
-      "inheritDamageFactor" : 0.0,
+      "inheritDamageFactor" : 10.0,
       "inheritSpeedFactor" : 0.6,
       "angleAdjust" : 0
     }
@@ -72,7 +72,7 @@
     }
   ],
   "statusEffects" : [ ],
-  "power" : 1,
+  "power" : 10,
   "speed" : 150,
   "knockback" : 0,
   "damageKind" : "default"
