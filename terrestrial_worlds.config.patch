@@ -30,7 +30,7 @@
     "op" : "add",
     "path" : "/regionTypes/rs_sea",
     "value" : {
-      "oceanLiquid" : ["water"],
+      "oceanLiquid" : ["rs_seawater"],
       "blockSelector" : ["remixedIslandsSurface"],
       "fgCaveSelector" : [ "empty" ],
       "bgOreSelector" : [ "empty" ],
@@ -42,7 +42,7 @@
     "op" : "add",
     "path" : "/regionTypes/rs_seafloor",
     "value" : {
-      "oceanLiquid" : [ "water" ],
+      "oceanLiquid" : [ "rs_seawater" ],
       "oceanLevelOffset" : 1000,
       "blockSelector" : [ "ledgesSurface" ],
       "fgCaveSelector" : [ "emptier" ],
@@ -83,7 +83,7 @@
     "op" : "add",
     "path" : "/regionTypes/rs_seablank",
     "value" : {
-      "oceanLiquid" : ["water"],
+      "oceanLiquid" : ["rs_seawater"],
       "blockSelector" : ["remixedIslandsSurface"],
       "fgCaveSelector" : [ "empty" ],
       "bgOreSelector" : [ "empty" ],
@@ -110,7 +110,7 @@
     "op" : "add",
     "path" : "/regionTypes/rs_fields",
     "value" : {
-      "caveLiquid" : ["water"],
+      "caveLiquid" : ["rs_seawater"],
       "blockSelector" : ["remixedMildSurface"],
       "fgCaveSelector" : [ "surfaceCaves" ],
       "bgOreSelector" : [ "empty" ],

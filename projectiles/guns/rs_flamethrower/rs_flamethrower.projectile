@@ -8,7 +8,7 @@
   "winddownFrames" : 3,
   "emitters" : [ "flames" ],
   "intangibleWinddown" : true,
-  "power" : 50,
+  "power" : 10,
   "speed" : 25,
   "timeToLive" : 1.0,
   "bounces" : -1,
