@@ -1,0 +1,40 @@
+{
+  "objectName" : "rs_conveyormiddlealt",
+  "colonyTags" : ["generic"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 75,
+  "description" : "A conveyor belt for moving anything needed.",
+  "shortdescription" : "Kenopsea Conveyor",
+  "race" : "generic",
+
+  "inventoryIcon" : "rs_conveyormiddlealticon.png",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "rs_conveyormiddlealt.png:<color>.<frame>" } ],
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "flipImages" : true,
+      "direction" : "left",
+      "anchors" : [ ],
+      "collision" : "platform"
+    },
+    {
+	  "imageLayers" : [ { "image" : "rs_conveyormiddlealt.png:<color>.<frame>" } ],
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "direction" : "right",
+      "anchors" : [ ],
+      "collision" : "platform"
+    }
+  ]
+}
