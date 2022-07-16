@@ -1,0 +1,55 @@
+{
+  "projectileName" : "rs_bishop",
+  "image" : "rs_bishop.png",
+  "physics" : "arrownosticky",
+  "animationCycle" : 0.3,
+  "animationLoops" : false,
+  "windupFrames" : 2,
+  "timeToLive" : 0.1,
+  "frameNumber" : 3,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/heatedbulletexplosion/rs_heatedbulletexplosion.config"
+    }
+  ],
+  "periodicActions" : [
+    {
+      "time" : 0.01,
+      "repeat" : false,
+      "action" : "projectile",
+      "type" : "rs_flamethrower",
+      "inheritDamageFactor" : 0.5,
+	    "angleAdjust" : 360
+    },
+    {
+      "time" : 0.01,
+      "repeat" : false,
+      "action" : "projectile",
+      "type" : "rs_rook",
+      "inheritDamageFactor" : 0.5,
+	    "angleAdjust" : 350
+    },
+    {
+      "time" : 0.01,
+      "repeat" : false,
+      "action" : "projectile",
+      "type" : "rs_rook",
+      "inheritDamageFactor" : 0.5,
+	    "angleAdjust" : 370
+    },
+    {
+      "time" : 0.01,
+      "repeat" : false,
+      "action" : "projectile",
+      "type" : "rs_spark",
+      "inheritDamageFactor" : 0.5,
+	    "angleAdjust" : 360
+    }
+  ],
+  "power" : 2.0,
+  "speed" : 125,
+  "lightColor" : [179, 149, 107],
+  "fullbright" : true,
+  "damageKind" : "default"
+}
