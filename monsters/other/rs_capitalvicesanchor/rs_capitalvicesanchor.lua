@@ -1,4 +1,5 @@
 require "/scripts/vec2.lua"
+require "/scripts/status.lua"
 
 -- neb here, hiiii againnn
 
@@ -6,16 +7,32 @@ function init()
   self.hostEntity = config.getParameter("hostEntity")
   self.searchRadius = config.getParameter("chainRadius", 10)
   self.chainStatusEffects = config.getParameter("chainStatusEffects", {})
+  self.damageTransferFactor = config.getParameter("damageTransferFactor", 0.1)
   
   animator.setAnimationState("body", "activate")
   
   self.chainTemplate = config.getParameter("chainConfig", {})
+  self.chainTargets = {}
+  
+  -- Listen to damage taken
+  self.damageTaken = damageListener("damageTaken", function(notifications)
+    for _, notification in pairs(notifications) do
+      if notification.healthLost > 0 then
+	    local newNotification = notification
+		newNotification.damage = notification.damageDealt * self.damageTransferFactor
+        for _, target in ipairs(self.chainTargets) do
+		  world.callScriptedEntity(target, "status.applySelfDamageRequest", newNotification)
+		end
+      end
+    end
+  end)
   
   monster.setAnimationParameter("chains", config.getParameter("chains"))
 end
 
 function update(dt)
   if animator.animationState("body") == "active" and mcontroller.onGround() then
+    self.damageTaken:update()
 	self.chainTargets = {}
 	local targets = world.entityQuery(mcontroller.position(), self.searchRadius + 2, {
       withoutEntityId = entity.id(),

@@ -20,6 +20,7 @@
 	
 	"chainRadius" : 10,
 	"chainStatusEffects" : ["burning"],
+	"damageTransferFactor" : 0.2,
 
     "animationScripts" : [
       "/items/active/effects/chain.lua"
