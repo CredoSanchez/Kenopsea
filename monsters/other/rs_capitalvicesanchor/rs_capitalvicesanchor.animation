@@ -1,0 +1,106 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "body" : {
+        "priority" : 0,
+        "default" : "active",
+        "states" : {
+          "active" : {
+            "frames" : 1
+          },
+          "activate" : {
+            "frames" : 5,
+            "cycle" : 0.5,
+            "mode" : "transition",
+            "transition" : "active"
+          }
+        }
+      },
+      "damage" : {
+        "priority" : 3,
+        "default" : "none",
+        "states" : {
+          "none" : {
+            "frames" : 1
+          },
+          "stunned" : {
+            "frames" : 1
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "body" : {
+        "properties" : {
+          "transformationGroups" : [ "body" ],
+          "offset" : [0.0, 2.0],
+          "zLevel" : 1
+        },
+        "partStates" : {
+          "body" : {
+            "active" : {
+              "properties" : {
+                "image" : "<partImage>:active.<frame>"
+              }
+            },
+            "activate" : {
+              "properties" : {
+                "image" : "<partImage>:activate.<frame>"
+              }
+            }
+          }
+		}
+	  },
+      "bodyfullbright" : {
+        "properties" : {
+          "transformationGroups" : [ "body" ],
+          "offset" : [0.0, 2.0],
+          "zLevel" : 2,
+          "fullbright" : true
+        },
+        "partStates" : {
+          "body" : {
+            "active" : {
+              "properties" : {
+                "image" : "<partImage>:active.<frame>"
+              }
+            },
+            "activate" : {
+              "properties" : {
+                "image" : "<partImage>:activate.<frame>"
+              }
+            }
+          }
+		}
+	  }
+    }
+  },
+  "globalTagDefaults" : {},
+
+  "transformationGroups" : {
+    "body" : { "interpolated" : true },
+    "facing" : { "interpolated" : false },
+    "beam" : { "interpolated" : true }
+  },
+
+  "effects" : {
+    "blink" : {
+      "type" : "flash",
+      "time" : 0,
+      "directives" : "fade=ffffff;0.5"
+    }
+  },
+
+  "particleEmitters" : {
+    "deathPoof" : {
+      "particles" : [
+      ]
+    }
+  },
+
+  "sounds" : {
+    "aggroHop" : [ ],
+    "deathPuff" : [ ]
+  }
+}

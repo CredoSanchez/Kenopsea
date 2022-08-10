@@ -16,6 +16,14 @@
     {
       "action" : "config",
       "file" : "/projectiles/explosions/heatedbulletexplosion/rs_heatedbulletexplosion.config"
+    },
+	{
+      "action" : "projectile",
+      "type" : "rs_capitalvicesanchorspawner",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.0,
+      "inheritSpeedFactor" : 0.0,
+      "angleAdjust" : 0
     }
   ],
   "periodicActions" : [

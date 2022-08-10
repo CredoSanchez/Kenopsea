@@ -17,8 +17,8 @@
 
   "animation" : "rs_reydetodosoficios.animation",
   "animationParts" : {
-    "weapon" : "rs_reydetodosoficios.png"
-    //"weaponFullbright" : "rs_reydetodosoficiosfullbright.png"
+    "weapon" : "rs_reydetodosoficios.png",
+    "weaponFullbright" : ""
   },
   "animationCustom" : {
     "sounds" : {

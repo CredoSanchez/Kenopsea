@@ -14,7 +14,7 @@
   "bounces" : -1,
   "piercing" : true,
   "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
-  "actionOnCollide" : [
+  "actionOnReap" : [
 	{
       "action" : "projectile",
       "type" : "rs_napalm",
