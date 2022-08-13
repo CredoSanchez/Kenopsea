@@ -40,7 +40,7 @@ function update(dt)
       order = "nearest"
     })
 	for _, target in ipairs(targets) do
-	  if world.entityCanDamage(self.hostEntity, target) then
+	  if world.entityCanDamage(self.hostEntity, target) and world.entityName(target) ~= "rs_capitalvicesanchor" then
 		table.insert(self.chainTargets, target)
 	  end
 	end
