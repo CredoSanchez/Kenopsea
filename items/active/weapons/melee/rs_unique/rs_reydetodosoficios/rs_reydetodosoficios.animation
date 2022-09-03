@@ -195,6 +195,13 @@
 	  "offsetRegion" : [3.5, -1.0, 7.5, 1.0],
       "burstCount" : 4,
       "particles" : []
+    },
+    "tintolorswoosh" : {
+      "active" : false,
+      "transformationGroups" : ["swoosh"],
+	  "offsetRegion" : [3.5, -1.0, 7.5, 1.0],
+      "burstCount" : 4,
+      "particles" : []
     }
   },
 
