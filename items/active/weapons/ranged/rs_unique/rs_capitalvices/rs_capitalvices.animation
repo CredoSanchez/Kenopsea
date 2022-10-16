@@ -139,10 +139,11 @@
     },
     "heavyReady" : {
 	  "transformationGroups" : ["muzzle"],
-	  "offsetRegion" : [0.375, 0.0, 0.375, 0.0],
-	  "emissionRate" : 30,
+	  "offsetRegion" : [-0.625, 0.0, -0.625, 0.0],
+	  "emissionRate" : 15,
 	  "particles" : [
-	    {"particle" : "burningdust"}
+	    { "particle" : "rs_sparker" },
+		{ "particle" : "rocketbarrelpuff" }
 	  ]
     }
   },

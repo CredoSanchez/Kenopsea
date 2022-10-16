@@ -35,22 +35,22 @@
 	"particleEmitters" : {
 	  "reload" : {
 		"transformationGroups" : ["muzzle"],
-		"offsetRegion" : [-1.0, 0, -1.0, 0],
+		"offsetRegion" : [-2.0, -1, -2.0, -1],
 		"particles" : [
           { "particle" : "coldbreath" }
         ]
 	  },
-    "muzzleFlash" : {
+      "muzzleFlash" : {
 	    "transformationGroups" : ["weapon"],
 		"offsetRegion" : [1.25, 0, 1.25, 0],
         "particles" : [
-		      { "particle" : "rs_sparker", "offset" : [1.25, 0.5] },
-		      { "particle" : "rs_sparker", "offset" : [1.25, 0.5] },
-		      { "particle" : "fireember", "offset" : [1.25, 0.5] },
-		      { "particle" : "campfireflames", "offset" : [1.25, 0.5] },
-		      { "particle" : "burningdust", "offset" : [1.25, 0.5] },
-		      { "particle" : "firebackspark", "offset" : [1.25, 0.5] },
-		      { "particle" : "rocketbarrelpuff", "offset" : [1.25, 0.5] },
+		  { "particle" : "rs_sparker", "offset" : [1.25, 0.5] },
+		  { "particle" : "rs_sparker", "offset" : [1.25, 0.5] },
+		  { "particle" : "fireember", "offset" : [1.25, 0.5] },
+		  { "particle" : "campfireflames", "offset" : [1.25, 0.5] },
+		  { "particle" : "burningdust", "offset" : [1.25, 0.5] },
+		  { "particle" : "firebackspark", "offset" : [1.25, 0.5] },
+		  { "particle" : "rocketbarrelpuff", "offset" : [1.25, 0.5] },
           { "particle" : "rocketbarrelpuff", "offset" : [1.25, 0.5] }
         ]
       }
@@ -62,13 +62,13 @@
 
   "scripts" : ["/items/active/weapons/ranged/rs_gun.lua"],
 
-  "elementalType" : "physical",
+  "elementalType" : "fire",
   
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/abilities/rs_ammofire/rs_ammofire.lua"],
     "class" : "RSAmmoFire",
 
-    "fireTime" : 0.435,
+    "fireTime" : 0.5,
     "baseDps" : 12.5,
     "inaccuracy" : 0.03,
 	
@@ -119,7 +119,7 @@
         "duration" : 1,
         "armRotation" : -25,
         "weaponRotation" : 55,
-		    "weaponOffset" : [-0.25, 0.0],
+		"weaponOffset" : [-0.25, 0.0],
         "twoHanded" : true,
 
         "aimAngle" : 0,

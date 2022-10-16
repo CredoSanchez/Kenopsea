@@ -10,20 +10,22 @@ function init()
 
   activeItem.setCursor(config.getParameter("cursor", "/cursors/pointer.cursor"))
   animator.setGlobalTag("paletteSwaps", config.getParameter("paletteSwaps", ""))
- 
+  animator.setGlobalTag("directives", "")
+  animator.setGlobalTag("bladeDirectives", "")
+
   self.weapon = Weapon:new()
 
-  self.weapon:addTransformationGroup("weapon", {0,0}, 0)
-  self.weapon:addTransformationGroup("muzzle", self.weapon.muzzleOffset, 0)
+  self.weapon:addTransformationGroup("weapon", {0,0}, util.toRadians(config.getParameter("baseWeaponRotation", 0)))
+  self.weapon:addTransformationGroup("swoosh", {0,0}, math.pi/2)
 
   local primaryAbility = getPrimaryAbility()
   self.weapon:addAbility(primaryAbility)
-  
-  local secondaryAttack = getAltAbility(self.weapon.elementalType)
+
+  local secondaryAttack = getAltAbility()
   if secondaryAttack then
     self.weapon:addAbility(secondaryAttack)
   end
- 
+
   self.weapon:init()
 end
 

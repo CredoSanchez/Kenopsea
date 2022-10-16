@@ -39,9 +39,9 @@
     }
   },
 
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "scripts" : ["/items/active/weapons/melee/rs_meleeweapon.lua"],
 
-  "elementalType" : "physical",
+  "elementalType" : "tintolor",
 
   "aimOffset" : -1.0,
 
@@ -78,7 +78,7 @@
       "statusEffects" : [],
       "baseDamageFactor" : 1.65,
       "knockbackMode" : "aim",
-      "damageSourceKind" : "spear",
+      "damageSourceKind" : "tintolor",
       "knockback" : 40,
       "timeout" : 0.25
     },
@@ -110,7 +110,7 @@
       },
       {
         "baseDamageFactor" : 1.45,
-        "damageSourceKind" : "spear",
+        "damageSourceKind" : "tintolor",
         "knockback" : 25,
         "statusEffects" : []
       }
