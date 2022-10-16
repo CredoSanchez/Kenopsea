@@ -1,12 +1,12 @@
 {
-  "type" : "neb-pinenemycompainion",
+  "type" : "neb-pinenemycompanion",
   "shortdescription" : ".",
   "clientEntityMode": "ClientMasterAllowed",
 
   "categories" : [ "projectilepinenemycompanion" ],
   "parts" : [],
 
-  "animation" : "neb-pinenemycompainion.animation",
+  "animation" : "neb-pinenemycompanion.animation",
 
   "dropPools" : [ ],
 
@@ -14,7 +14,7 @@
     "monsterClass" : "boss",
 
     "scripts" : [
-      "/monsters/other/pinenemycompainion/neb-pinenemycompainion.lua"
+      "/monsters/other/neb-pinenemycompanion/neb-pinenemycompanion.lua"
     ],
     "renderLayer" : "Projectile-1",
 

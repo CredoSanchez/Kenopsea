@@ -1,0 +1,8 @@
+{
+  "projectileName" : "rs_capitalvicesanchorspawner",
+  "image" : "/assetmissing.png",
+  "physics" : "illusion",
+  
+  "scripts" : ["/projectiles/scripts/neb-monsterspawner.lua"],
+  "monsterToSpawn" : "rs_capitalvicesanchor"
+}

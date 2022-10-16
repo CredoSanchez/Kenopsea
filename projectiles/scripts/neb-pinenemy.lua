@@ -42,7 +42,7 @@ function hit(entityId)
     if not self.pinEnemyCompanion then
       self.pinEnemyCompanion = true
 	  world.spawnMonster(
-	    "neb-pinenemycompainion",
+	    "neb-pinenemycompanion",
 	    mcontroller.position(),
 	    params
 	  )

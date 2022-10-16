@@ -14,7 +14,7 @@
   "renderParameters" : {
     "texture" : "rs_rail.png",
     "variants" : 1,
-    "multiColored" : false,
+    "multiColored" : true,
     "lightTransparent" : true,
     "occludesBelow" : false,
     "zLevel" : 0

@@ -1,0 +1,10 @@
+{
+  "name" : "capitalvicesanchor",
+  "category" : "capitalvicesanchor",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png",
+    "bodyfullbright" : "bodyfullbright.png"
+  }
+}

@@ -17,7 +17,7 @@
     "variants" : 10,
     "lightTransparent" : false,
     "occludesBelow" : false,
-    "multiColored" : false,
+    "multiColored" : true,
     "zLevel" : 201
   }
 }
