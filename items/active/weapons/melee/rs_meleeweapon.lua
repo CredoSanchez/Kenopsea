@@ -7,8 +7,14 @@ function init()
     self.tagGroup = ("rs_" .. config.getParameter("itemName") .. activeItem.hand())
     status.addPersistentEffects(self.tagGroup, config.getParameter("passiveStatusEffects"))
   end
-
-  activeItem.setCursor(config.getParameter("cursor", "/cursors/pointer.cursor"))
+  
+  if config.getParameter("cursorStates") then
+	require("/items/active/weapons/rs_cursoranimationsystem.lua")
+	cursor.init(config.getParameter("cursorStates"))
+  else
+    activeItem.setCursor(config.getParameter("cursor", "/cursors/pointer.cursor"))
+  end
+  
   animator.setGlobalTag("paletteSwaps", config.getParameter("paletteSwaps", ""))
   animator.setGlobalTag("directives", "")
   animator.setGlobalTag("bladeDirectives", "")

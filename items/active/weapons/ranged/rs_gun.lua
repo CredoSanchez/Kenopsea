@@ -7,10 +7,16 @@ function init()
     self.tagGroup = ("rs_" .. config.getParameter("itemName") .. activeItem.hand())
     status.addPersistentEffects(self.tagGroup, config.getParameter("passiveStatusEffects"))
   end
-
-  activeItem.setCursor(config.getParameter("cursor", "/cursors/pointer.cursor"))
+  
+  if config.getParameter("cursorStates") then
+	require("/items/active/weapons/rs_cursoranimationsystem.lua")
+	cursor.init(config.getParameter("cursorStates"))
+  else
+    activeItem.setCursor(config.getParameter("cursor", "/cursors/pointer.cursor"))
+  end
+  
   animator.setGlobalTag("paletteSwaps", config.getParameter("paletteSwaps", ""))
- 
+
   self.weapon = Weapon:new()
 
   self.weapon:addTransformationGroup("weapon", {0,0}, 0)
@@ -18,17 +24,20 @@ function init()
 
   local primaryAbility = getPrimaryAbility()
   self.weapon:addAbility(primaryAbility)
-  
-  local secondaryAttack = getAltAbility(self.weapon.elementalType)
-  if secondaryAttack then
-    self.weapon:addAbility(secondaryAttack)
+
+  local secondaryAbility = getAltAbility(self.weapon.elementalType)
+  if secondaryAbility then
+    self.weapon:addAbility(secondaryAbility)
   end
- 
+
   self.weapon:init()
 end
 
 function update(dt, fireMode, shiftHeld)
   self.weapon:update(dt, fireMode, shiftHeld)
+  if cursor then cursor.update(dt) end
+  
+  world.debugPoint(vec2.add(mcontroller.position(), activeItem.handPosition(self.weapon.muzzleOffset)), "red")
 end
 
 function uninit()

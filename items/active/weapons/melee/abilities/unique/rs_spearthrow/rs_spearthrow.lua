@@ -296,8 +296,5 @@ function RSSpearThrow:reset(forceCooldown)
 end
 
 function RSSpearThrow:uninit()
-  if self.thrownProjectile then
-	world.sendEntityMessage(self.thrownProjectile, "kill")
-  end
   self:reset(false)
 end
