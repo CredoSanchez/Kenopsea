@@ -2,6 +2,7 @@
   "frames" : "stacksmoke.png",
   "variants" : 1,
   "frameNumber" : 8,
+  "fullbright" : true,
   "animationCycle" : 5.4,
   "offset" : [0, 0]
 }

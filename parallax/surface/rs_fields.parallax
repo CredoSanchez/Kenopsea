@@ -122,143 +122,147 @@
       "parallax" : [8.01, 4.2]
     },
 
-  {
-    "kind" : "rs_clouds",
-    "baseCount" : 1,
-    "offset" : [0, -200],
-    "parallax" : [5.6, 2.85],
-    "minSpeed" : 9000,
-    "maxSpeed" : 10000
-  },
-  {
-    "kind" : "rs_clouds2",
-    "baseCount" : 1,
-    "offset" : [0, -185],
-    "parallax" : [5.6, 2.85],
-    "minSpeed" : 9000,
-    "maxSpeed" : 10000
-  },
-  {
-    "kind" : "rs_clouds",
-    "baseCount" : 1,
-    "offset" : [0, -175],
-    "parallax" : [6.6, 2.9],
-    "minSpeed" : 8500,
-    "maxSpeed" : 9500,
-  "directives" : "?brightness=-2"
-  },
-  {
-    "kind" : "rs_clouds2",
-    "baseCount" : 1,
-    "offset" : [0, -160],
-    "parallax" : [6.6, 2.9],
-    "minSpeed" : 8500,
-    "maxSpeed" : 9500,
-  "directives" : "?brightness=-2"
-  },
-  {
-    "kind" : "rs_clouds",
-    "baseCount" : 1,
-    "offset" : [0, -150],
-    "parallax" : [7.6, 2.95],
-    "minSpeed" : 8000,
-    "maxSpeed" : 9000,
-  "directives" : "?brightness=-4"
-  },
-  {
-    "kind" : "rs_clouds2",
-    "baseCount" : 1,
-    "offset" : [0, -135],
-    "parallax" : [7.6, 2.95],
-    "minSpeed" : 8000,
-    "maxSpeed" : 9000,
-  "directives" : "?brightness=-4"
-  },
-  {
-    "kind" : "rs_clouds",
-    "baseCount" : 1,
-    "offset" : [0, -125],
-    "parallax" : [8.6, 3],
-    "minSpeed" : 7500,
-    "maxSpeed" : 8500,
-  "directives" : "?brightness=-6"
-  },
-  {
-    "kind" : "rs_clouds2",
-    "baseCount" : 1,
-    "offset" : [0, -110],
-    "parallax" : [8.6, 3],
-    "minSpeed" : 7500,
-    "maxSpeed" : 8500,
-  "directives" : "?brightness=-6"
-  },
-  {
-    "kind" : "rs_clouds",
-    "baseCount" : 1,
-    "offset" : [0, -100],
-    "parallax" : [9.6, 3.05],
-    "minSpeed" : 7000,
-    "maxSpeed" : 8000,
-  "directives" : "?brightness=-8"
-  },
-  {
-    "kind" : "rs_clouds2",
-    "baseCount" : 1,
-    "offset" : [0, -85],
-    "parallax" : [9.6, 3.05],
-    "minSpeed" : 7000,
-    "maxSpeed" : 8000,
-  "directives" : "?brightness=-8"
-  },
-  {
-    "kind" : "rs_clouds",
-    "baseCount" : 1,
-    "offset" : [0, -75],
-    "parallax" : [10.6, 3.1],
-    "minSpeed" : 6500,
-    "maxSpeed" : 7500,
-  "directives" : "?brightness=-10"
-  },
-  {
-    "kind" : "rs_clouds2",
-    "baseCount" : 1,
-    "offset" : [0, -60],
-    "parallax" : [10.6, 3.1],
-    "minSpeed" : 6500,
-    "maxSpeed" : 7500,
-  "directives" : "?brightness=-10"
-  },
-  {
-    "kind" : "rs_clouds",
-    "baseCount" : 1,
-    "offset" : [0, -50],
-    "parallax" : [11.6, 3.15],
-    "minSpeed" : 6000,
-    "maxSpeed" : 7000,
-  "directives" : "?brightness=-12"
-  },
-  {
-    "kind" : "rs_clouds2",
-    "baseCount" : 1,
-    "offset" : [0, -35],
-    "parallax" : [11.6, 3.15],
-    "minSpeed" : 6000,
-    "maxSpeed" : 7000,
-  "directives" : "?brightness=-12"
-  },
-  {
-    "kind" : "rs_clouds",
-    "baseCount" : 1,
-    "offset" : [0, 75],
-    "parallax" : [12.6, 3.2],
-  "directives" : "?brightness=-14"
-  },
-  {
-    "kind" : "rs_clouds",
-    "baseCount" : 1,
-    "offset" : [0, 150],
-    "parallax" : [12.6, 3.2],
-  "directives" : "?brightness=-16"
-  }
-]
+    {
+      "kind" : "rs_clouds",
+      "baseCount" : 1,
+      "offset" : [0, -300],
+      "parallax" : [5.6, 1.85],
+      "minSpeed" : 9000,
+      "maxSpeed" : 10000
+    },
+    {
+      "kind" : "rs_clouds2",
+      "baseCount" : 1,
+      "offset" : [0, -285],
+      "parallax" : [5.6, 1.85],
+      "minSpeed" : 9000,
+      "maxSpeed" : 10000
+    },
+    {
+      "kind" : "rs_clouds",
+      "baseCount" : 1,
+      "offset" : [0, -275],
+      "parallax" : [6.6, 1.9],
+      "minSpeed" : 8500,
+      "maxSpeed" : 9500,
+	  "directives" : "?brightness=-2"
+    },
+    {
+      "kind" : "rs_clouds2",
+      "baseCount" : 1,
+      "offset" : [0, -260],
+      "parallax" : [6.6, 1.9],
+      "minSpeed" : 8500,
+      "maxSpeed" : 9500,
+	  "directives" : "?brightness=-2"
+    },
+    {
+      "kind" : "rs_clouds",
+      "baseCount" : 1,
+      "offset" : [0, -250],
+      "parallax" : [7.6, 1.95],
+      "minSpeed" : 8000,
+      "maxSpeed" : 9000,
+	  "directives" : "?brightness=-4"
+    },
+    {
+      "kind" : "rs_clouds2",
+      "baseCount" : 1,
+      "offset" : [0, -235],
+      "parallax" : [7.6, 1.95],
+      "minSpeed" : 8000,
+      "maxSpeed" : 9000,
+	  "directives" : "?brightness=-4"
+    },
+    {
+      "kind" : "rs_clouds",
+      "baseCount" : 1,
+      "offset" : [0, -225],
+      "parallax" : [8.6, 2],
+      "minSpeed" : 7500,
+      "maxSpeed" : 8500,
+	  "directives" : "?brightness=-6"
+    },
+    {
+      "kind" : "rs_clouds2",
+      "baseCount" : 1,
+      "offset" : [0, -210],
+      "parallax" : [8.6, 2],
+      "minSpeed" : 7500,
+      "maxSpeed" : 8500,
+	  "directives" : "?brightness=-6"
+    },
+    {
+      "kind" : "rs_clouds",
+      "baseCount" : 1,
+      "offset" : [0, -200],
+      "parallax" : [9.6, 2.05],
+      "minSpeed" : 7000,
+      "maxSpeed" : 8000,
+	  "directives" : "?brightness=-8"
+    },
+    {
+      "kind" : "rs_clouds2",
+      "baseCount" : 1,
+      "offset" : [0, -185],
+      "parallax" : [9.6, 2.05],
+      "minSpeed" : 7000,
+      "maxSpeed" : 8000,
+	  "directives" : "?brightness=-8"
+    },
+	  {
+      "kind" : "rs_clouds",
+      "baseCount" : 1,
+      "offset" : [0, -175],
+      "parallax" : [10.6, 2.1],
+      "minSpeed" : 6500,
+      "maxSpeed" : 7500,
+	  "directives" : "?brightness=-10"
+    },
+    {
+      "kind" : "rs_clouds2",
+      "baseCount" : 1,
+      "offset" : [0, -160],
+      "parallax" : [10.6, 2.1],
+      "minSpeed" : 6500,
+      "maxSpeed" : 7500,
+	  "directives" : "?brightness=-10"
+    },
+	  {
+      "kind" : "rs_clouds",
+      "baseCount" : 1,
+      "offset" : [0, -150],
+      "parallax" : [11.6, 2.15],
+      "minSpeed" : 6000,
+      "maxSpeed" : 7000,
+	  "directives" : "?brightness=-12"
+    },
+    {
+      "kind" : "rs_clouds2",
+      "baseCount" : 1,
+      "offset" : [0, -135],
+      "parallax" : [11.6, 2.15],
+      "minSpeed" : 6000,
+      "maxSpeed" : 7000,
+	  "directives" : "?brightness=-12"
+    },
+	  {
+      "kind" : "rs_clouds",
+      "baseCount" : 1,
+      "offset" : [0, 0],
+      "parallax" : [12.6, 2.2],
+      "minSpeed" : 2000,
+      "maxSpeed" : 3000,
+	  "directives" : "?brightness=-14"
+    },
+	  {
+      "kind" : "rs_clouds",
+      "baseCount" : 1,
+      "offset" : [0, 75],
+      "parallax" : [12.6, 2.2],
+      "minSpeed" : 2000,
+      "maxSpeed" : 3000,
+	  "directives" : "?brightness=-16"
+    }
+  ]
 }
