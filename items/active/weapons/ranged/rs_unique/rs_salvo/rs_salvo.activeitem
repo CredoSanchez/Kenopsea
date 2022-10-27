@@ -7,9 +7,26 @@
   "rarity" : "Essential",
   "shortdescription" : "^orange;Salvo",
   "tooltipKind" : "rs_salvott",
-  "twoHanded" : true,
   "itemTags" : ["weapon","ranged"],
-  "cursor" : "/cursors/rs_reticle.cursor",
+  //"cursor" : "/cursors/rs_salvoreticle.cursor",
+  "twoHanded" : true,
+  
+  "cursorStates" : {
+    "idle" : {
+	  "cursor" : "/cursors/rs_salvoreticle/idle.cursor"
+	},
+	"cooldown" : {
+	  "cursor" : "/cursors/rs_salvoreticle/cooldown<frame>.cursor",
+	  "frames" : 3,
+	  "animationValue" : "primaryAbility.cooldownTime",
+	  "transition" : "idle"
+	},
+	"reload" : {
+	  "cursor" : "/cursors/rs_salvoreticle/cooldown3.cursor",
+	  "animationValue" : "primaryAbility.stances.reload.duration",
+	  "transition" : "idle"
+	}
+  },
 
   "animation" : "rs_salvo.animation",
   "animationParts" : {

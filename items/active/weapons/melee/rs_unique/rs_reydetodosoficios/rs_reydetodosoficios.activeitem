@@ -5,7 +5,7 @@
   "fixedLevel" : false,
   "maxStack" : 1,
   "rarity" : "essential",
-  "description" : "A weapon fit for a king.",
+  "description" : "No lies, no scams, no losses.",
   "shortdescription" : "Rey de todos Oficios",
   "tooltipKind" : "rs_rdto",
   "category" : "Javelin",
@@ -122,7 +122,7 @@
         "aimAngle" : 0,
         "armRotation" : -100,
         "weaponRotation" : -5,
-        "weaponOffset" : [0, -1.5],
+        "weaponOffset" : [0, -1],
         "allowRotate" : false,
         "allowFlip" : true
       },
